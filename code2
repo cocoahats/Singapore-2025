@@ -514,7 +514,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6050,
         "fields": {
             "question": 1213,
-            "description": "That probably gives us Marsiling-Yew Tee and could tilt the balance in Sembawang West and Bukit Panjang. Let’s keep quiet about it."
+            "description": "That could tilt the balance in Sembawang West SMC and Bukit Panjang SMC. Let’s keep quiet about it."
         }
     },
     {
@@ -522,7 +522,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6051,
         "fields": {
             "question": 1213,
-            "description": "That probably gives us Marsiling-Yew Tee and could tilt the balance in Sembawang West and Bukit Panjang. Let’s pounce on it to criticize the SDP for their hypocrisy regarding race issues."
+            "description": "That could tilt the balance in Sembawang West SMC and Bukit Panjang SMC. Let’s pounce on it to criticize the SDP for their hypocrisy regarding race issues."
         }
     },
     {
@@ -807,14 +807,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 50390,
-        "fields": {
-            "question": 12192,
-            "description": "Oh no. The map has just been expanded."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 50396,
         "fields": {
             "question": 12212,
@@ -826,7 +818,7 @@ campaignTrail_temp.answers_json = [
         "pk": 50397,
         "fields": {
             "question": 12212,
-            "description": "Let’s send a show of force to Marine Parade. The WP hasn’t announced enough candidates to run in every GRC they appear to be contesting. \n\n"
+            "description": "Let’s send a show of force to Marine Parade-Braddell Heights GRC. The WP hasn’t announced enough candidates to run in every GRC they appear to be contesting. \n\n"
         }
     },
     {
@@ -9509,28 +9501,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 50641,
-        "fields": {
-            "answer": 50390,
-            "state": 42451,
-            "candidate": 300,
-            "affected_candidate": 301,
-            "state_multiplier": 0.9
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50642,
-        "fields": {
-            "answer": 50390,
-            "state": 42451,
-            "candidate": 300,
-            "affected_candidate": 50003,
-            "state_multiplier": -1.55
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 50647,
         "fields": {
             "answer": 50397,
@@ -10440,15 +10410,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 50392,
-        "fields": {
-            "answer": 50390,
-            "candidate": 300,
-            "answer_feedback": "The WP enters the race, with Andre Low as their candidate, but RDU stays for the three corner fight. Doesn’t matter regardless - it looks like a battle between the PAP and the WP."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 50393,
         "fields": {
             "answer": 6068,
@@ -10480,7 +10441,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 50397,
             "candidate": 300,
-            "answer_feedback": "At the time of closing, no WP candidates arrived at Kong Hwa School, which leaves Marine Parade as a walkover! That puts 5 seats in the bag for us!\n\n"
+            "answer_feedback": "At the time of closing, no WP candidates arrived at Kong Hwa School, which leaves Marine Parade-Braddell Heights as a walkover! That puts 5 seats in the bag for us!\n\n"
         }
     },
     {
@@ -10561,7 +10522,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6062,
             "candidate": 300,
-            "answer_feedback": "“Well, you’re the boss, aren’t you?” Lee has approved your decision and you get to prevent any surprises in Jalan Kayu.\n\n"
+            "answer_feedback": "You get a cold thumbs up reaction on your WhatsApp message to Lee, and Ng Chee Meng won’t be your candidate in Jalan Kayu."
         }
     },
     {
@@ -12346,18 +12307,18 @@ let observerRunning = false;
   singleObserver.observe(document.documentElement, { childList: true, subtree: true });
 
 HistHexcolour=[
-  "#0000d4",
-  "#FF0000",
-  "#ff8080",
-  "#00003d",
-  "#800000",
-  "#4e3010",
-  "#00ff10",
-  "#9700ff",
-  "#616161",
-  "#bb40f2",
-  "#808080",
-  "#ff8300",
+  "#D7445A",
+  "#499DD5",
+  "#A83A31",
+  "#CC5D3A",
+  "#C769A6",
+  "#96AAF1",
+  "#97A3AD",
+  "#96C082",
+  "#A57A42",
+  "#75C1C7",
+  "#5D6464",
+  "#F58240",
 ];
 HistName = [" People's Action Party", " Workers' Party", " Progress Singapore Party", " Red Dot United", " Singapore Democratic Party", " People's Alliance for Reform", " Singapore Democratic Alliance", " Singapore People's Party", " Singapore United Party", " People's Power Party", " Independents", " National Solidarity Party"];
 
