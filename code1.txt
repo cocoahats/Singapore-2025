@@ -8,11 +8,7 @@ campaignTrail_temp.election_json = [
             "image_url": "https://file.garden/aftBfT23iVucvcGE/pritamandlaw.png",
             "winning_electoral_vote_number": 49,
             "advisor_url": "https://file.garden/aftBfT23iVucvcGE/advisor.png",
-            "recommended_reading": "<ul><li><a href=https://www.channelnewsasia.com/commentary/singapore-election-ge2025-ips-survey-voter-pattern-5330156>What were voters really saying in GE2025?</a></li><li><a href=https://www.ricemedia.co/did-we-hope-for-too-much/>Did we hope for too much?</a></li><li><a href=https://www.theonlinecitizen.com/2025/05/04/why-fringe-parties-dont-need-to-be-excluded-the-voters-are-doing-it-themselves/>Why fringe parties don’t need to be excluded — the voters are doing it themselves\n</a></li><li><a href=https://www.blackbox.com.sg/perspectives/ge2025-how-the-pap-clinched-a-convincing-win-and-what-the-data-tells-us>How the PAP clinched a convincing win and what the data tells us</a></li><li><a href=https://www.jom.media/ge-2025/lawrences-stunning-success/>Lawrence's Stunning Success</a></li></ul>",
-            "has_visits": 0,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
-            "display_year": "2025",
+            "recommended_reading": "<div style='overflow-y:scroll;height:300px;'><ul><li><a href=https://www.channelnewsasia.com/commentary/singapore-election-ge2025-ips-survey-voter-pattern-5330156>What were voters really saying in GE2025?</a></li><li><a href=https://www.ricemedia.co/did-we-hope-for-too-much/>Did we hope for too much?</a></li><li><a href=https://www.theonlinecitizen.com/2025/05/04/why-fringe-parties-dont-need-to-be-excluded-the-voters-are-doing-it-themselves/>Why fringe parties don’t need to be excluded — the voters are doing it themselves\n</a></li><li><a href=https://www.blackbox.com.sg/perspectives/ge2025-how-the-pap-clinched-a-convincing-win-and-what-the-data-tells-us>How the PAP clinched a convincing win and what the data tells us</a></li><li><a href=https://www.jom.media/ge-2025/lawrences-stunning-success/>Lawrence's Stunning Success</a></li></ul><br><b>Mod Notes &amp; Real-Life Variations:</b><ul><li><b>No NCMP Seats:</b> This mod does not allocate Non-Constituency Member of Parliament (NCMP) seats for the opposition should they fall below 12 seats in total. Coding this process would be incredibly complex and tedious without significantly altering gameplay.</li><li><b>Campaign Polling:</b> In reality, election polling—especially during the campaign period—is restricted in Singapore. It has been included here purely for entertainment and gameplay tracking.</li><li><b>Electoral Maps:</b> Real-world boundary maps are typically unreleased until roughly 2 months before the election, but keeping a static map is necessary for practical game design.</li><li><b>Streamlined Opposition:</b> This mod excludes certain minor opposition parties or independent candidates who initially announced intentions to contest specific constituencies but ultimately did not run.</li></ul></div>",            "display_year": "2025",
             "recommended_reading_enabled": true
         }
     }
@@ -67,9 +63,9 @@ campaignTrail_temp.candidate_json = [
             "party": "The People's Action Party",
             "state": "The Government",
             "priority": 1,
-            "description": "Established in 1954 as a centre-left party. The PAP has shifted to the right over the years to be the governing political party of Singapore in the decades since. The party of founding father Lee Kuan Yew and his team, most Singaporeans do not know a world where the PAP is in charge of their home.</p><p>  The party seeks to continue their work and their rule of the nation. No one expects them to lose their majority but they must be careful not to lose further GRCs and SMCs, and maintain their crucial 2/3 supermajority. They must address the rising cost of living as the government which will be the main concern this election.</p>",
-            "color_hex": "#0000d4",
-            "secondary_color_hex": "#90C0FF",
+            "description": "<span id=\"screen7\"><p><p>Established in 1954 as a centre-left party, the PAP has shifted to the right over the years to be the governing political party of Singapore in the decades since. The party of founding father Lee Kuan Yew and his team, most Singaporeans do not know a world where the PAP is in charge of their home. Since Lee Kuan Yew’s death in 2015, the party’s main leader behind the scenes appears to be Lee Hsien Loong, who stepped down in 2024 as Prime Minister.</p><p>Over the last 5 years, much has changed. The younger Lee is no longer the leader of the party and Prime Minister, succeeded by Lawrence Wong in both roles. While the 2023 presidential election showed an affirmation of support for the PAP, that was arguably due to the popularity of PAP-affiliated independent Tharman Shanmugaratnam. Cost-of-living has become the main issue for many Singaporeans and is not a winning issue for the PAP. Can the PAP retain their supermajority, keep their ministers and extend their grip on power?</p> <br><br><button onclick=\"next6()\">Election Strategy Briefing</button><br></span><span id=\"screen8\" style=\"display: none;\"><p><div style='overflow-y:scroll;height:200px;'><p>The PAP enters the election with a loyal voter base, largely filled with older and middle-aged voters born before 1980. New citizens into Singapore also form a heavy component of the PAP's support and are critical in certain battlegrounds. However, it seems likely for the PAP's overall vote share to decrease from the already relatively low 61% in 2020, with an increased proportion of younger voters and voters unhappy with the cost-of-living crisis.</p><p>The PAP is contesting, as usual, in every constituency in Singapore and has the benefit of being the party in government, which will allow the party to decide new policy up until the dissolution of parliament. Furthermore, voters generally have confidence that the PAP will win the election easily, likely with a 2/3 supermajority. The opposition has only focused their efforts on a handful of constituencies, and most PAP ministers should survive this election.</p><p>There is one wild card, though. Lawrence Wong's takeover of the PAP from Lee Hsien Loong means that this new leadership could be untrusted by the Singaporean population. In 1991 and 2006, both elections with new PAP leaders, the PAP's vote share decreased dramatically. Tread carefully, and consider your options.</p></div><br><button onclick=\"back1()\">Back</button></p></span>",
+            "color_hex": "#D7445B",
+            "secondary_color_hex": "#ff5a75",
             "is_active": 1,
             "image_url": "https://file.garden/aftBfT23iVucvcGE/papcode1.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>Things may have been closer and more contested than you hoped for, but the final result remains. Can you help bring the country back together after a tumultuous few years? Or will you be seen as a lame duck from the first day -- unable to keep the two wings of your party coordinated? Time will tell.</p>",
@@ -90,9 +86,9 @@ campaignTrail_temp.candidate_json = [
             "party": "Workers Party",
             "state": "The Opposition",
             "priority": 2,
-            "description": "<p>Founded in 1957, the Workers Party is the only opposition party who has won a GRC in Singaporean history, and the only opposition party currently in parliament with 10 elected MPs. A social democratic party, critics have argued the WP is the \"PAP-Lite\", with Foreign Affairs Minsiter Vivian Balakrishnan saying they \"take the PAP's position and take a half-step to the left\" </p><p>The party hopes to secure more GRCs and SMCs and to strengthen their political role, focusing on the eastern and northeastern regions of Singapore. With a rising cost of living and strong enthusiasm in their base, it may be possible. </p>",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "description": "<span id=\"screen1\"><p>Established in 1957, the WP is the only opposition party that has won a GRC in Singaporean history, and the only opposition party currently in parliament with elected MPs. The party first won a seat in a 1981 by-election with party leader J.B. Jeyaretnam elected in Anson. Following Jeyaretnam’s conviction in 1986, the party lost parliamentary representation again before Low Thia Khiang was elected in 1991 as an MP for Hougang. In 2011, the WP won a GRC, giving them a total of 6 seats before expanding again in 2020 to 10 seats.</p><p>In the last 5 years, the party has been constantly embroiled in scandal over 2 of its elected MPs. Other than scandal, the party has been constantly on-and-off the news for its participation in vibrant debates in parliament over every issue imaginable, and the party has also been successful in avoiding controversy in its town council management. With more young voters this election who are open to voting for WP, this is the WP’s chance to increase their representation in parliament. Can the WP win more seats, knock out some PAP ministers and finally become real opposition?</p><br><br><button onclick=\"back0()\">Election Strategy Briefing</button><br></span><span id=\"screen0\" style=\"display: none;\"><p><div style='overflow-y:scroll;height:200px;'> <p> The WP enters the election with 10 seats in the Northeast of Singapore, largely fuelled by young voters. It will be the WP's own decision regarding how many seats to contest - while it contested 21 seats in 2020, it seems likely to contest around 30 or more seats this time. However, the party has been rocked by scandal, first with freshly elected MP Raessah Khan lying about a constituent's sexual assault and then with MP Leon Perera's extramarital affair. This has culminated in a new line of attack against the WP.</p> <p> The WP is certainly contesting in Aljunied, Hougang and Sengkang, the 3 constituencies and 10 seats they currently hold. Beyond that, East Coast and Marine Parade are areas they contested in the previous election, while the party considers expanding into Tampines, Punggol and Pasir Ris. There are many permutations of seats to contest but limited resources and candidates. Many swing voters increasingly view voting WP in selected constituencies to strengthen checks-and-balances while keeping the PAP in charge, which means the party cannot alienate them either.</p>  <p> The WP must manage to balance its position on a few issues while other opposition parties openly take aggressive, anti-PAP positions: the WP must balance its immigration stance to win both nationalist and new citizen votes, the WP must balance its social policy stances to win both older conservative and younger liberal votes, and the WP must manage to figure out how to effectively exploit the cost-of-living crisis to maximize votes.</div></p><br><button onclick=\"next0()\">Back</button></p></span>",             
+            "color_hex": "#459ED6",
+            "secondary_color_hex": "#499ED5",
             "is_active": 1,
             "image_url": "https://file.garden/aftBfT23iVucvcGE/wphammers.png",
             "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
@@ -113,15 +109,15 @@ campaignTrail_temp.candidate_json = [
             "party": "Singapore Democratic Party",
             "state": "The Opposition",
             "priority": 3,
-            "description": "'",
-            "color_hex": "#800000",
+            "description": "<span id=\"screen9\"><p><p>Established in 1980 by Chiam See Tong, the social-liberal SDP is the perhaps most ideologically clear party in Singapore. Following Chiam’s election to parliament in 1984 as an SDP candidate, the party tripled its seats in 1991 before internal tensions drove Chiam out of his own party. The party’s new leader, Chee Soon Juan, who took over in 1993, lost all the party’s seats in 1997 and the party has not entered parliament since. However, from losing by landslide margins in the 2000s, the party has progressed rapidly to go within striking distance of winning two seats in 2020.</p><p>Over the last 5 years, one of the seats the party was close to winning, Bukit Batok (contested by Chee) was dissolved, forcing Chee elsewhere on the map. The other candidate who has a good chance of winning, Paul Tambyah in Bukit Panjang, has remained on the ground for the last 5 years. Other than these two candidates, the party has had remarkable success in recruitment over the past 5 years, bringing in a variety of candidates and many young volunteers. This likely seems like the last chance for the aging Chee and Tambyah duo to get elected into parliament. Can the SDP finally enter parliament and make change happen?</p></p><br><br><button onclick=\"next7()\">Election Strategy Briefing</button><br></span><span id=\"screen10\" style=\"display: none;\"><p><div style='overflow-y:scroll;height:200px;'><p>The SDP enters the election with its efforts having largely been concentrated in two areas - Bukit Batok and Bukit Panjang. However, with the dissolution of Bukit Batok into Jurong East-Bukit Batok GRC, the party faces a tough decision: whether to contest the new, much more pro-PAP seat and where to field party leader Chee Soon Juan. Bukit Batok is where many resources of the SDP have been spent, and the party even moved their headquarters into the vicinity. But whether it’s advisable to field an SDP team at all in Jurong East-Bukit Batok will be up to Chee himself.</p><p>In Bukit Panjang, the SDP has been working the ground, with medical expert and candidate Paul Tambyah being out and about in the constituency. Tambyah is less aggressive than Chee and appears to be a more academic figure in the party. While narrowly favored to win, Tambyah does face a formidable opponent in PAP incumbent MP Liang Eng Hwa, who despite a cancer prognosis has still worked extremely hard in the constituency. The PAP-run town council has also spent a lot of funds on building infrastructure such as sheltered walkways in Bukit Panjang, which will affect the seat.</p><p>Outside of these two constituencies, much of the North and West of the Singaporean map appears to be in the hands of the SDP to contest - even smaller opposition parties are expected to back down should the SDP contest anywhere from Sembawang, Sembawang West, Marsiling-Yew Tee, Holland-Bukit Timah or Kebun Baru. But the party is controversial, and Chee’s personality is still unpopular among many older voters who remember the younger and more aggressive Chee. The SDP must figure out how to improve its overall brand and tread carefully if it wants to win anything in what appears to be its last chance.</p></div><br><button onclick=\"back2()()\">Back</button></p></span>",
+            "color_hex": "#C768A6",
             "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
+            "is_active": 1,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/sdpflag1.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
+            "description_as_running_mate": "",
             "candidate_score": 1,
             "running_mate": false
         }
@@ -136,15 +132,15 @@ campaignTrail_temp.candidate_json = [
             "party": "Progress Singapore Party",
             "state": "The Opposition",
             "priority": 4,
-            "description": "'",
-            "color_hex": "#ff8080",
+            "description": "<span id=\"screen13\"><p>Established in 2019 by former PAP MP Tan Cheng Bock, the PSP is the newest major opposition party (along with the WP and SDP). Following its establishment, the party rapidly expanded and considered contesting almost 40 seats, however this eventually was decreased to 24 candidates in the 2020 election. The party won 0 seats but received 2 “best-loser” non-constituency MP seats, allowing it parliamentary presence with Leong Mun Wai and Hazel Poa taking those two seats. Tan Cheng Bock, for his part, took a backseat after the election.</p><p>Since the 2020 election, the PSP NCMPs have been everywhere in parliament, attacking PAP policies passionately. Leong Mun Wai, especially, has earned his fair share of controversy over his anti-immigration stance, which the PSP has shifted to. It is true to a great extent that Leong and Poa have had a power struggle of sorts, rotating power. Can the PSP enter parliament after agonizingly missing out on elected parliamentary representation in the last election?</p><br><br><button onclick=\"next9()\">Election Strategy Briefing</button><br></span><span id=\"screen14\" style=\"display: none;\"><p><div style='overflow-y:scroll;height:200px;'><p>The PSP’s election strategy is largely based on one constituency: West Coast-Jurong West. While this constituency has become significantly more pro-PAP compared to the previous West Coast, it is still ripe territory for the PSP especially with one of the West Coast MPs and Minister Iswaran’s illegal gift conviction. The PSP is thus likely, as it has for the last 5 years, to focus its efforts here and in the small constituency of Pioneer which West Coast-Jurong West surrounds.</p><p>Aside from the key territory in the southwest, the PSP is also expected to contest Chua Chu Kang and Bukit Gombak, as well as potentially fielding a few candidates in central Singapore. The party contested 3 small SMCs in central Singapore in 2020 (Kebun Baru, Yio Chu Kang and Marymount) which could conflict with the plans of minor opposition parties. It is also important to note that the party has lost quite a few of its candidates since the last election, and the new crop of potential candidates is probably a downgrade from 2020.</p><p>Policy-wise, the party’s 5 years in parliament with its 2 NCMPs have led it to be the clearly anti-immigration voice in Singaporean politics. The party’s stances on this issue could make-or-break its electoral chances, with views on this issue varied throughout Singapore. The party must utilize the current cost-of-living situation, frustrations over housing, frustrations over job security and other similar issues to rocket itself into parliament. The PSP must tread carefully if it wants to have a parliamentary delegation after Polling Day.</p></div><br><button onclick=\"back4()()\">Back</button></p></span>",
+            "color_hex": "#A73932",
             "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
+            "is_active": 1,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/psptruck.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>For the second time in a row, many analysts saw a victory for you as practically impossible. But whatever they say, it is clear that your Make America Great Again agenda has been vindicated. Where do you take things from here?</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2020 election.</h3><p>After an election in which many of your supporters claimed democracy itself was at stake, what happens now? Many analysts believe the party will need to go in a completely different direction next time. As for yourself, will you take these results sitting down, or will you prepare yourself for an epic political comeback in 2024?</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have won the 2020 election.</h3><p>In spite of the 269-269 tie in the electoral college, Republicans control a majority of state delegations in the House of Representatives. A lot of liberals are absolutely distraught and outraged that the election came down to such a technicality, but hey, those are the rules!</p>",
+            "description_as_running_mate": "",
             "candidate_score": 1,
             "running_mate": false
         }
@@ -167,8 +163,51 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p><b>Lawrence Wong Shyun Tsai</b> was certainly a surprising pick to become Prime Minister. Back in 2020, Heng Swee Keat was lined up to be the successor to Prime Minister Lee Hsien Loong. However, with a poor electoral showing in 2020 as well as poor health, Heng was soon replaced by Lawrence Wong in April 2022 to be Lee's successor.</p></p> Everyone expects him and the PAP to win the election. It's practically a given. However, this is still a test of the public's confidence of him.  If the PAP lose multiple GRCs, as well as their all too crucial supermajority, Wong could go down as one of the worst leaders in the PAP's history. Wong must prove he is the right choice, and secure the natural governing party their role.",
-            "candidate_score": 0,
+            "description_as_running_mate": "<p><b>Lawrence Wong Shyun Tsai</b> is certainly a surprising Prime Minister. First elected to parliament in 2011 after years as a civil servant, Wong quickly entered the cabinet by 2012 and took over various ministerial portfolios such as National Development, Education, and Finance. While Heng Swee Keat was initially lined up to be the successor to Prime Minister Lee Hsien Loong, Wong took this role from him in 2022 before taking over in 2024 as party leader and Prime Minister.</p><p>Freshly taking the office, Wong must now choose what path to chart for the PAP, and Singapore at-large. Will Wong move Singapore into a new direction and change course? Or will Wong maintain the same PAP positions that have existed for decades? Either way, this election is crucial to show the population’s confidence in Lawrence Wong.</p>",            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 305,
+        "fields": {
+            "first_name": "Chee",
+            "last_name": "Soon Juan",
+            "election": 21,
+            "party": "Singapore Democratic Party",
+            "state": "Sembawang West",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/csjmainscreen.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p><b>Chee Soon Juan</b> is a longtime opposition politician and perennial candidate. In 1993, he joined the other two SDP MPs, Ling How Doong and Cheo Chai Chen, in ousting party leader Chiam See Tong (who then formed his own SPP party). Since then, Chee has ruled the SDP, which has often been criticized as a cult-of-personality around him. In 1997 and 2001, Chee lost elections by large margins, before his bankruptcy following defamation lawsuits disqualified him from the 2006 and 2011 elections. In 2015, Chee made his political return, but age is catching up and 2025 may be his last chance.</p><p>Chee is incredibly controversial especially for his actions earlier in his career, such as using a megaphone to shout at PAP leader and Prime Minister Goh Chok Tong in 2001, and repeated cases of defamation against PAP leaders. Will Chee be able to change voters’ minds about him? Or will voters still treat him like the 2000s Chee?</p>",            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 306,
+        "fields": {
+            "first_name": "Leong",
+            "last_name": "Mun Wai",
+            "election": 21,
+            "party": "Progress Singapore Party",
+            "state": "West Coast-Jurong West",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/lmwmainscreen.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p><b>Leong Mun Wai</b> is a business executive who first entered politics in the 2020 election. Leong has had a lot of experience in investment banks since the 1980s and has taken senior positions in similar companies. In 2020, Leong joined the team of Tan Cheng Bock and Hazel Poa, as well as two other candidates, to contest in West Coast. The PSP team received 49% of the vote and failed to enter, but Leong and Poa were elected as non-constituency MPs. Leong is a very fiery speaker, criticizing, among other things, Singapore’s immigration policy, housing costs and the secrecy of Singapore’s reserves.</p><p>Leong is a divisive figure in some parts of Singaporean society, especially with his strongly anti-immigration and anti-CECA stance. Can Leong bring his PSP team and pull a win in West Coast-Jurong West off? Or will the PSP be relegated to the annals of Singaporean history under his leadership?</p>",            "candidate_score": 0,
             "running_mate": true
         }
     },
@@ -190,7 +229,29 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p><b>Pritam Singh</b> is the first official Leader of the Opposition in Singapore, beating the odds in 2011 and joining  a team that defeated the PAP in the first GRC victory for the opposition in history. Since then, he has become a juggernaut in Singapore politics, succeeding Low Thia Khiang as the Secretary-General in 2018, leading to a second GRC victory in 2020.</p><p>Pritam is popular, however the party has been hit by multiple scandals. In 2021, MP Raeesah Khan was caught lying in parliament, leading to her resignation and causing Pritam legal troubles with his involvement,  having known about the lies the week after her speech and seemingly trying to cover it up. In 2023, prominent members Nicole Seah and Leon Perera were caught having an affair with each other, leading to their resignations from the party. With heightened enthusiasm from his base, this is a prime opportunity for Pritam to firmly entrench the Workers' Party into the Singaporean political scene. </p>",
+            "description_as_running_mate": "<p><b>Pritam Singh</b> is the first official Leader of the Opposition in Singapore, beating the odds in 2011 and joining a team that defeated the PAP in the first GRC victory for the opposition in history. Since then, he has become an increasingly influential figure in Singapore politics, succeeding Low Thia Khiang as party leader in 2018. Under his leadership, the WP captured a second GRC in 2020 and grew to 10 elected MPs. In 2024, Singh was charged with two counts of lying under oath to a parliamentary committee, which complicates his path going forward.</p><p>Pritam is personally relatively popular due to his generally respectful yet committed personality. Singh must now decide how to move the Workers’ Party. Will Singh move the party towards a more liberal, youth-oriented politics? Or will he maintain the current broad political coalition that keeps the party relatively popular?</p>",            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 304213,
+        "fields": {
+            "first_name": "Bitcoin",
+            "last_name": "Movement",
+            "election": 21,
+            "party": "Independent",
+            "state": "Mountbatten",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/bitcoingrass.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "Jeremy Tan’s campaign is largely fueled by his views on cryptocurrency, specifically Bitcoin, and there is general support for him among the small percentage of “crypto bros” in Singapore. How important of a role Bitcoin plays in Mountbatten will be seen in the election.",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -206,7 +267,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 8,
             "description": "<p>Put description here</p>",
-            "color_hex": "#9700ff",
+            "color_hex": "#96C083",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -229,7 +290,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 13,
             "description": "<p>Put description here</p>",
-            "color_hex": "#ff8300",
+            "color_hex": "#F58340",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -252,7 +313,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 9,
             "description": "<p>Put description here</p>",
-            "color_hex": "#616161",
+            "color_hex": "#A57A42",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -275,7 +336,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 5,
             "description": "<p>Put description here</p>",
-            "color_hex": "#00003d",
+            "color_hex": "#CC5D3A",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -298,7 +359,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 10,
             "description": "<p>Put description here</p>",
-            "color_hex": "#bb40f2",
+            "color_hex": "#74C1C8",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -321,7 +382,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 7,
             "description": "<p>Put description here</p>",
-            "color_hex": "#00ff10",
+            "color_hex": "#98A3AD",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -344,7 +405,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 6,
             "description": "<p>Put description here</p>",
-            "color_hex": "#4e3010",
+            "color_hex": "#96AAF2",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -366,11 +427,11 @@ campaignTrail_temp.candidate_json = [
             "party": "Independent",
             "state": "The Opposition",
             "priority": 11,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#5d5d7b",
+            "description": "<span id=\"screen11\"><p>Jeremy Tan is an independent candidate considering running in Mountbatten. A successful entrepreneur, Tan made money off both Bitcoin and selling Paula’s Choice to Unilever in 2021. Tan claims to be “retired” at the age of 34 and wants to integrate Bitcoin into government policy, while tailoring a message that can work in the affluent constituency of Mountbatten. Whether Tan decides to run as an independent, will be up to him to decide.</p><br><br><button onclick=\"next8()\">Election Strategy Briefing</button><br></span><span id=\"screen12\" style=\"display: none;\"><p><p>Should Jeremy Tan run as an independent candidate in Mountbatten, the odds will be stacked against him. The PAP has historically won with large margins in Mountbatten and it is practically a safe seat. However, as an independent, Tan will have the opportunity to fit policies that are as popular in Mountbatten as possible. Furthermore, longtime PAP MP in Mountbatten Lim Biow Chuan is retiring, and his likely replacement, Gho Sze Kee, seems subpar at best. This is the best chance for an independent to win in over 50 years - Tan just needs to tread carefully, and a win may be on the cards.</p><br><button onclick=\"back3()()\">Back</button></p></span>",
+            "color_hex": "#5D6364",
             "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "is_active": 1,
+            "image_url": "https://file.garden/aftBfT23iVucvcGE/jtanmain.png",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
@@ -390,7 +451,7 @@ campaignTrail_temp.candidate_json = [
             "state": "The Opposition",
             "priority": 12,
             "description": "<p>Put description here</p>",
-            "color_hex": "#2c2f3f",
+            "color_hex": "#383838",
             "secondary_color_hex": null,
             "is_active": 0,
             "image_url": "https://www.jetsimon.com/public/candidateexample.png",
@@ -420,7 +481,31 @@ campaignTrail_temp.running_mate_json = [
             "candidate": 301,
             "running_mate": 309
         }
-    }
+    },
+        {
+        "model": "campaign_trail.running_mate",
+        "pk": 201,
+        "fields": {
+            "candidate": 302,
+            "running_mate": 305
+        }
+    },
+        {
+        "model": "campaign_trail.running_mate",
+        "pk": 202,
+        "fields": {
+            "candidate": 303,
+            "running_mate": 306
+        }
+    },
+        {
+        "model": "campaign_trail.running_mate",
+        "pk": 203,
+        "fields": {
+            "candidate": 50007,
+            "running_mate": 304213
+        }
+    },
 ];
 
 campaignTrail_temp.opponents_default_json = [
@@ -470,7 +555,7 @@ jet_data = {
     "windowColor": "#ffffff",
     "containerColor": "#ff8080",
     "innerWindowColor": "#fee9ee",
-    "bannerImageUrl": "https://file.garden/aftBfT23iVucvcGE/kIqptVZ.png",
+    "bannerImageUrl": "https://file.garden/aftBfT23iVucvcGE/4lang.png",
     "backgroundImageUrl": "https://file.garden/aftBfT23iVucvcGE/merli.png",
     "gameTitle": "THE SINGAPORE TRAIL",
     "customQuote": "\"Whoever governs Singapore must have that iron in him\" ",
@@ -551,7 +636,7 @@ const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 theme.coloring_title     = "#700016";
 theme.coloring_window    = "#ffffff";
 theme.coloring_container = "#ff8080";
-theme.header_image = "https://file.garden/aftBfT23iVucvcGE/kIqptVZ.png";
+theme.header_image = "https://file.garden/aftBfT23iVucvcGE/4lang.png";
 theme.body_background = "https://file.garden/aftBfT23iVucvcGE/merli.png";
 
 applyTheme(theme);
@@ -568,18 +653,24 @@ var changeGameDisp = (hide) => {
 
 e.creditsPage = () => {
   credits_html = `
-    <h3>Coding</h3>
-    
+    <h3>Coding and Co-Creator</h3>
     <p><img src="https://i.imgur.com/UDRmsvT.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:5px;"><font color='#800080'>CoconutHats<img src="https://i.imgur.com/UDRmsvT.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:5px;"></font></p>
-    <h3>Writing</h3>
-    <p><font color='#b665bc'>aidanpolitics</font></p>
+    <h3>Head Writer and Co-Creator</h3>
+    <p><font color='#299941'>aidanpolitics</font></p>
+    <h3>Writers</h3>
+    <p><font color='#afbbff'>skartchian</font></p>
+    <p><font color='#ec1414'>hychael2020 </font></p>
+    <p><font color='#14ec43'>joshausolvesbadly </font></p>   
+
 
     <h3>Code Credits</h3>
     <p><font color='#b665bc'>Map By UnpledgedElector</font></p>
     <p><font color='#264294'>Music Player from 2028 AOC</font></p>
     <p><font color='#FF0000'>Credits Code by DecstarG</font></p>
-    <p><font color='#812123'>Scrollbar from Thomahawk2k</font></p>
-    <p><font color='#D12329'>SM's fork of Jet's Code Maker and Resources</font></p>
+    <p><font color='#f5a700'>Scrollbar from Thomahawk2k</font></p>
+    <p><font color='#5d9934'>SM's fork of Jet's Code Maker and Resources</font></p>
+    <p><font color='#FDB913'>Election Briefing </font><font color='#006A44'>from </font><font color='#C1272D'>2024 Lithuania</font></p>
+    <p><font color='#061a58'>Some Code from 1976 Good For Me</font></p>
    
 
     <h1><font color='gold'>Final Note</font></h1>
@@ -697,6 +788,7 @@ campaignTrail_temp.modBoxTheme = {
 
 addDynamicCSS();
 
+
 tooltipList = [
     {searchString: "Lee Kuan Yew", explanationText: "<img src=https://media.theindependent.sg/wp-content/uploads/2014/02/LKY.jpg> The Founder. Prime Minister of Singapore from 1959 to 1990."},
     {searchString: "Goh Chok Tong", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/12/18/af_esm_181220.jpg?VersionId=_2psEIquYv8j6C8FmMsQHeC5bW.xQmDM> 2nd Prime Minister of Singapore from 1990 to 2004."},
@@ -712,9 +804,9 @@ tooltipList = [
     {searchString: "Syed Harun Alhabsyi", explanationText: "<img src=https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format=%27jpg%27&Quality=85&ImageId=%2714120267%27&EntityType=%27Item%27&EntityId=%27794960%27&Width=720&Height=405&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27> Nominated Member of Parliament and psychiatrist. Appointed as an NMP in 2023."},
     {searchString: "HDB", explanationText: "<img src=https://vulcanpost.com/wp-content/uploads/2019/09/HDB-mockup.jpg> The board responsible for building Singapore’s public housing estates. These housing units are heavily subsidized by the government and over 80% of Singaporeans live in them."},
     {searchString: "BTO", explanationText: "Build-to-order HDB flats. Essentially, construction on these flats will only begin if at least 65-70% of these flats are booked. Now more of a ballot system to try and get public housing."},
-    {searchString: "Gan Kim Yong", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/1772430435-image.avif> Task Force Man. PAP MP first elected in 2001 and senior PAP figure. Deputy Prime Minister of Lawrence Wong since 2024, and one of his most trusted appointees."},
+    {searchString: "Gan Kim Yong", explanationText: "<img src=https://cdn.connectedtoindia.com/wp-content/uploads/2024/05/Gan-DPM-jpg.webp> Task Force Man. PAP MP first elected in 2001 and senior PAP figure. Deputy Prime Minister of Lawrence Wong since 2024, and one of his most trusted appointees."},
     {searchString: "Ng Chee Meng", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--oaKLUOMz--/c_fill,g_auto,h_468,w_830/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2025/04/19/Image%20from%20iOS%20(6).jpg?itok=Cnx4gbm3> Military man turned PAP elite. Unpopular among many Singaporeans due to his involvement in the NTUC-Allianz saga and many other personal issues."},
-    {searchString: "Tan See Leng", explanationText: "<https://alep-p-001.sitecorecontenthub.cloud/api/public/content/fbb7f100d90a4aeea1e40cc483a2004c?v=51b4decb> PAP Minister and former medical practician. Went viral for using Cantonese to retort to PSP NCMP Leong Mun Wai."},
+    {searchString: "Tan See Leng", explanationText: "<img src=https://alep-p-001.sitecorecontenthub.cloud/api/public/content/fbb7f100d90a4aeea1e40cc483a2004c?v=51b4decb> PAP Minister and former medical practician. Went viral for using Cantonese to retort to PSP NCMP Leong Mun Wai."},
     {searchString: "Jalan Kayu SMC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/d/d9/Jalan_Kayu_Single_Member_Constituency%2C_2025.svg> A stronghold of the PAP which was just carved out of Ang Mo Kio GRC."},
     {searchString: "WP", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/3/34/Workers%27_Party_of_Singapore_logo.png> A centre-left, social democratic opposition party and the main opposition to the PAP in Singapore. Especially strong in the Northeast."},
     {searchString: "SDP", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Logo_of_the_SDP.svg/1280px-Logo_of_the_SDP.svg.png> An opposition party led by its longtime leader Chee Soon Juan. Quite left-wing socially and anti-PAP."},
@@ -748,8 +840,13 @@ tooltipList = [
     {searchString: "Chee Soon Juan", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--uYwBVEWb--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/tdy/image/2024/02/23/20190804_raj_chee_soon_juan7.jpg?itok=9MQYjp5G> The longtime leader of the SDP and opposition stalwart. Really doesn’t like anyone from the PAP. Western liberal."},
     {searchString: "Paul Tambyah", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/06/17/yq-paultambyah-17062021.jpg?VersionId=82NME4867n508_kgUyaRIFIddkM60EJH> Infectious diseases expert and a key asset to the opposition. President of the International Society of Infectious Diseases Executive Committee from 2022 to 2025."},
     {searchString: "Jeremy Tan", explanationText: "<img src=https://jeremytan.sg/_nuxt/jeremy-tan-crop.0fd34n8_.jpg> Bitcoin entrepreneur and tech libertarian. Very casual and a force to be reckoned with in the opposition."},
-    {searchString: "Voucher Wong", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/budget-2025-v0-8ngwg4ics1ke1.webp>"},
+    {searchString: "Voucher Wong", explanationText: "<img src=https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fbudget-2025-v0-8ngwg4ics1ke1.jpeg%3Fauto%3Dwebp%26s%3D01ff6773b605fa6496d7185943751608c3356b5b>"},
     {searchString: "leaked Telegram messages", explanationText: "<img src=https://mustsharenews.com/wp-content/uploads/2025/04/msg-1-2.jpg> Days before the election, WP candidate Andre Low’s Telegram messages in a private group chat were leaked. Aside from the repeated use of expletives, Low also complained about a constituent who called his personal number repeatedly."},   
+    {searchString: "Lying under oath to a parliamentary committee", explanationText: "<img src=https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20250222_ASP001.jpg> While defending his part in the Raessah Khan scandal that enveloped the WP, party leader Pritam Singh was ruled to have lied under oath to a parliamentary committee."},   
+    {searchString: "Raessah Khan", explanationText: "<img src=https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2024/10/15/11285f5d-f53a-4ce2-a322-eb32fc656ca6_5042625c.jpg?itok=x6V4VvIs&v=1728976501> Young former WP MP elected in 2020. Resigned in 2021 over lying about a constituent’s sexual assault case. Caused major headaches for WP leadership for the next few years."},   
+    {searchString: "Leon Perera", explanationText: "<img src=https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2023/07/19/bb2c309c-0724-4369-9c7a-3696418af1b7_7ca491f8.jpg> WP MP elected in 2020 after years as a WP candidate and NCMP. Resigned in 2023 over an extramarital affair with fellow WP candidate Nicole Seah."},   
+    {searchString: "Yaw Shin Leong", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2021/12/06/hzyaw061221a.jpg?VersionId=SCyH0HysOt3GIG7nu8tFDp.vsu9iDAyX> WP MP elected in 2011 to replace former WP leader Low Thia Khiang in Hougang. Had an extramarital affair and resigned in 2012, causing a by-election which the WP managed to hold."},   
+
 
 ]; 
 
@@ -856,4 +953,70 @@ tooltipList = [
   };
 })();
 
+//Code from 2024 Lithuania
+next0 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen1").style.display = "initial"
+}
+next1 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen2").style.display = "initial" 
+}
+next2 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen3").style.display = "initial" 
+}
+next3 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen4").style.display = "initial" 
+}
+next4 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen5").style.display = "initial" 
+}
+next5 = function() {
+    document.getElementById("screen0").style.display = "none"
+    document.getElementById("screen6").style.display = "initial" 
+}
+next6 = function() {
+    document.getElementById("screen7").style.display = "none"
+    document.getElementById("screen8").style.display = "initial" 
+}
+next7 = function() {
+    document.getElementById("screen9").style.display = "none"
+    document.getElementById("screen10").style.display = "initial" 
+}
+next8 = function() {
+    document.getElementById("screen11").style.display = "none"
+    document.getElementById("screen12").style.display = "initial" 
+}
+next9 = function() {
+    document.getElementById("screen13").style.display = "none"
+    document.getElementById("screen14").style.display = "initial" 
+}
+back0 = function() {
+    document.getElementById("screen0").style.display = "initial"
+    document.getElementById("screen1").style.display = "none" 
+	document.getElementById("screen2").style.display = "none" 
+	document.getElementById("screen3").style.display = "none" 
+	document.getElementById("screen4").style.display = "none" 
+	document.getElementById("screen5").style.display = "none" 
+	document.getElementById("screen6").style.display = "none" 
+}
+back1 = function() {
+    document.getElementById("screen7").style.display = "initial"
+    document.getElementById("screen8").style.display = "none" 
+}
+back2 = function() {
+    document.getElementById("screen9").style.display = "initial"
+    document.getElementById("screen10").style.display = "none" 
+}
+back3 = function() {
+    document.getElementById("screen11").style.display = "initial"
+    document.getElementById("screen12").style.display = "none" 
+}
+back4 = function() {
+    document.getElementById("screen13").style.display = "initial"
+    document.getElementById("screen14").style.display = "none" 
+}
 //#endcode
