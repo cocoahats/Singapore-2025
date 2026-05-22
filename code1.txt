@@ -660,7 +660,7 @@ e.creditsPage = () => {
     <h3>Writers</h3>
     <p><font color='#afbbff'>skartchian</font></p>
     <p><font color='#ec1414'>hychael2020 </font></p>
-    <p><font color='#14ec43'>joshausolvesbadly </font></p>   
+    <p><font color='#14ec43'>sleepysbighead </font></p>   
 
 
     <h3>Code Credits</h3>
