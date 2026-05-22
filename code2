@@ -12185,7 +12185,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-    else if (quickstats[0] > 87 && quickstats[0] < 92) // Win Sengkang (by right)
+    else if (quickstats[0] >= 88 && quickstats[0] <= 91) // Win Sengkang (by right)
   { 
     e.header = "<h2>Triumphant</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air of the STAR Theatre as the PAP under Lawrence Wong’s leadership saw landslides in most constituencies as the night went on.</p>
@@ -12222,7 +12222,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-      else if (quickstats[0] > 91) // PAP Wins Aljunied
+      else if (quickstats[0] >= 92) // PAP Wins Aljunied
   { 
     e.header = "<h2>Jubilance</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw record voting numbers as the night went on.</p>
@@ -12262,7 +12262,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-        else if (quickstats[0] <87 && quickstats[0] > 75) // lose a few seats
+        else if (quickstats[0] >= 76 && quickstats[0] <= 86) // lose a few seats
   { 
     e.header = "<h2>placeholder</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
@@ -12282,7 +12282,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-          else if (quickstats[0] <76 && quickstats[0] > 64) // lose 2/3
+          else if (quickstats[0] >= 65 && quickstats[0] <= 75) // lose 2/3
   { 
     e.header = "<h2>Anxiety</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw many districts go to the opposition as the night went on.</p>
@@ -12321,7 +12321,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-      else if (quickstats[0] < 65 && quickstats[0] > 48) // bad keep maj
+      else if (quickstats[0] >= 49 && quickstats[0] <= 64) // bad keep maj
   { 
     e.header = "<h2>Shock</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
@@ -12361,7 +12361,7 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
-       else if (quickstats[0] < 49 && quickstats[0] > 0) // lose majority
+       else if (quickstats[0] < 49) // lose majority
   { 
     e.header = "<h2>Crisis</h2>"
     e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
@@ -12382,8 +12382,6 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
 
-  return construct(0);
-  }
   else //Failsafe ending 
   { 
     e.header = "<h2>something broke</h2>"
