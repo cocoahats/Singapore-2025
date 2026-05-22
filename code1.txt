@@ -960,6 +960,28 @@ tooltipList = [
   };
 })();
 
+HistHexcolour=[
+  "#D7445A",
+  "#499DD5",
+  "#A83A31",
+  "#CC5D3A",
+  "#C769A6",
+  "#96AAF1",
+  "#97A3AD",
+  "#96C082",
+  "#A57A42",
+  "#75C1C7",
+  "#5D6464",
+  "#F58240",
+];
+HistName = [" People's Action Party", " Workers' Party", " Progress Singapore Party", " Red Dot United", " Singapore Democratic Party", " People's Alliance for Reform", " Singapore Democratic Alliance", " Singapore People's Party", " Singapore United Party", " People's Power Party", " Independents", " National Solidarity Party"];
+
+HistEV = ["87", "10 + 2 NCMP", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0"];
+
+HistPV = ["1,570,803", "359,161", "117,005", "94,955", "89,053", "60,207", "29,213", "28,205", "15,874", "15,525", "12,537", "3,127"];
+
+HistPVP = ["65.57%", "14.99%", "4.88%", "3.96%", "3.72%", "2.51%", "1.22%", "1.18%", "0.66%", "0.65%", "0.52%", "0.13%"];
+
 //Code from 2024 Lithuania
 next0 = function() {
     document.getElementById("screen0").style.display = "none"
