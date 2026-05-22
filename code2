@@ -10802,6 +10802,11 @@ cyoAdventure = function (a) {
     if ([6060, 6061].includes(ans)) {
         JalanKayu += 1;
     }
+
+    // -1 JalanKayu
+    if (ans == 6062) {
+        JalanKayu -= 1;
+    }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
 
     // question swap CYOA here
@@ -11833,6 +11838,538 @@ e.ElectionPopup = "Election night is here. Good luck, Lawrence."
 e.WinPopup = "As expected."
 e.LosePopup = "What the fuck."
 e.SelAnsContText = "Um Lawrence? You need to pick an answer...."
+
+e.multiple_endings = true;
+var used = false;
+
+endingPicker = (out, totv, aa, quickstats) => {
+
+construct = (a = 1) => {
+  e.page = e.page + a < e.pages.length ? e.page + a : 0
+  let html = e.header;
+  html += e.pages[e.page] + "<br>";
+  if (e.page > 0) {
+    html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+  }
+  if (e.page < e.pages.length - 1) {
+    html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+  }
+
+  if (e.image == true)
+    setTimeout(()=>{
+      candImg = $(".person_image")[0]
+      if (candImg) {
+        candImg.remove()
+        $("#final_results_description")[0].style = `
+          text-align:left;
+          width: 70%;
+          text-overflow: ellipsis;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        `
+      }
+    }, 10)
+  else if (e.image)
+  setTimeout(()=>{
+      candImg = $(".person_image")[0];
+      if (candImg)
+        candImg.src = e.image;
+    }, 10)
+
+  return html;
+}
+
+endingConstructor = (a = 1) => {
+  $("#final_results_description")[0].innerHTML = construct(a);
+}
+  if (quickstats[0] == 87)
+  {
+    e.header = "<h2>Relief</h2>"
+    e.pages = [`<p><div style='overflow-y:scroll;height:200px;'>That was the feeling in the air of the Star Theatre as the PAP under Lawrence Wong’s leadership achieved the expected vote share as the night went on.</p>
+
+<p>The first indicators that nothing was out of the ordinary were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which while the PAP has extended their lead in, were well within the internal polling that Lawrence has been reading non-stop before polling day.</p>
+
+<p>Then the mood in the Star Theatre erupted as sample counts showed the PAP consistently beating the opposition in almost every competitive constituency. Suddenly for the Prime Minister, it was as if the world gave him a moment of clarity. Perhaps now, his leadership within the party would be cemented, much like his predecessors before him.</p>
+
+<p>As Channel News Asia announced the results, much to the expectations to him, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how he was able to successfully manage to keep the party steady amid a passing of the torch to the new generation of leadership within the PAP.</p>
+
+<p>Though Aljunied and Sengkang remained lost for now, these results weren’t unexpected. At least with the skeletons coming out of Pritam’s closet now, it theoretically shouldn't be that challenging to maintain and even extend the PAP’s lead in the next election</p>
+
+<p>As the respective elected MPs make their way to the STAR Theatre stage, all ensuring to sing praises about the next generation of PAP leadership under Lawrence, Lee Hsien Loong pulls him aside.</p>
+
+<p>‘Lawrence,’ he begins</p>
+
+<p>‘I’m impressed, It seems I have made the right choice’</p></div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Music For A Sushi Restaurant",
+            "Harry Styles",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F655c6d50af205c6a383a7cae473c8bd3.675x675x1.png",
+"https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+     else if (quickstats[1] > 95.0) // Tharman UMA!
+  {
+    e.header = `
+  <div style="text-align: left;">
+    <h2 style="margin-bottom: 2px;">Tharman Shanmugaratnam's New Obsession With An Anime Horse Game</h2>
+    <p style="font-size: 0.9em; color: black; margin-top: 0;">Straits Times, May 12 2026</p>
+  </div>
+`
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>
+
+<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>
+
+<p>When asked for comments, Tharman himself appeared in a press conference.</p>
+
+<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>
+
+<p>After the PAP’s Popular Vote dominance, with almost everyone voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>
+
+<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run.”</p>
+
+<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>
+
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Umapyoi Legend",
+            "Cast of Umamusume",
+            "https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest/scale-to-width-down/268?cb=20220415204908",
+"https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[1] < 5.0) // Iron Man
+  {
+    e.header = "<h2>Despair.</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'>
+    <p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?</p>
+
+<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.</p>
+
+<p>He used to play the guitar. That was his passion. Music. Not this.</p>
+
+<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. </p>
+
+<p>Well, whatever's left of it.</p>
+
+<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls</p>
+
+<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”</p>
+
+<b><p>Lee Kuan Yew.</p></b>
+
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Like Him",
+            "Tyler, The Creator",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F206f16145c6ad42142656b0a53a0638f.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+    else if (quickstats[0] > 87 && quickstats[0] < 92)
+  {
+    e.header = "<h2>Triumphant</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air of the STAR Theatre as the PAP under Lawrence Wong’s leadership saw landslides in most constituencies as the night went on.</p>
+
+<p>The first indications were in the usual suspects. Radin Mas, Marymount, Jurong Central. All constituencies which have comfortably voted for the continuation of the status quo. One that is under Lawrence’s leadership that was inherited from the giants before him</p>
+
+<p>Then, the mood in the Theatre erupted as Liang Eng Hwa was elected with a much larger than expected percentage vote as in 2020. Suddenly, for the Prime Minister, it was as if the world had become much less complicated. Perhaps now he can confidently secure his leadership in the PAP, like his predecessors before him had.</p>
+
+<p>As Channel News Asia continued to announce the landslides in every constituency, both expected and unexpected, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory </p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all you could think about was how you did what your predecessor failed to do in 2020. And of course, how you would ensure that the rest of them gets voted out by the next election.</p>
+
+<p>The Worker’s Party and the opposition in general has lost in much larger margins compared to 2020 and has even lost seats. </p>
+
+<p>As the respective elected MPs make their way to the stage of the Star Theatre, all of them singing praises of Lawrence’s leadership during their speeches, Lee Hsien Loong pulls him aside.</p>
+
+<p>‘Lawrence,’ he begins</p>
+
+<p>‘I’m impressed, It seems I have made the right choice’</p></div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Golden",
+            "HUNTR/X",
+            "https://upload.wikimedia.org/wikipedia/en/6/6f/Huntr-x_-_Golden.png",
+"https://audio.jukehost.co.uk/019e0372-8963-73cc-bafd-be5c2236bc12"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[0] > 91)
+  {
+    e.header = "<h2>Jubilance</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw record voting numbers as the night went on.</p>
+
+<p>At first it was the expected landslides. Radin Mas, Marymount, Jurong Central. All constituencies which comfortably wanted to continue the status quo and the legacy that you had inherited from the giants before.</p>
+
+<p>Then the mood in the stadium erupted as Liang Eng Hwa was elected in an unexpected landslide against Paul Tambayah in Bukit Panjang. Suddenly, for the Prime Minister, it was as though a light was shining on him and the party as a whole. Perhaps tonight was the night that history would be made.</p>
+
+<p>As Channel News Asia continued to announce the landslides in almost every constituency,  Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, Lawrence couldn’t believe it at first. There was no way they did THIS poorly right? Then as the final result was announced by Han Kok Juan, the vote would immediately become headline news, and spread like a wildfire online.</p>
+
+<p>Aljunied was white again.</p>
+
+<p>Immediately he felt as though the world had brought him and Singapore justice for the past few years. Finally, Pritam Singh as a threat to PAP rule was no more and now, more than ever, can the PAP bring Singapore to heights never seen before. Some part of Lawrence’s heart aches as Pritam distraughtly announces his loss to the grieving crowd at Serangoon Stadium </p>
+
+<p>As the PAP Aljunied team goes onto the stage, even as Lee Hsien Loong all he could think about was what future history books will call him for this moment.</p>
+
+<p>Amongst the names of Stamford Raffles, David Marshal, Yusof Ishak and Lee Kuan Yew.</p>
+
+<p>There would be you.</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Rich Flex",
+            "Drake and 21 Savage",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+        else if (quickstats[0] <87 && quickstats[0] > 75)
+  {
+    e.header = "<h2>placeholder</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Mr Perfectly Fine",
+            "Taylor Swift",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
+"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+          else if (quickstats[0] <76 && quickstats[0] > 64)
+  {
+    e.header = "<h2>Anxiety</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw many districts go to the opposition as the night went on.</p>
+
+<p>The first signs of trouble were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which saw the PAP’s lead decrease notably. If these ‘safe’ regions saw an increasing number of voters rejecting the party and Lawrence’s leadership, then what else could happen?</p>
+
+<p>The mood in the stadium soured as more and more constituencies chose the opposition over the PAP. Suddenly for Prime Minister at least, it was as if the floodgates that were once holding his opponents back, began to show cracks that were leaking to the rest of the country</p>
+
+<p>As Channel News Asia announced the results, much to the dismay of him and his supporters in Yio Chu Kang, Bukit Gombak and Bedok,  Lawrence anxiously awaited for further results, even after he had declared victory, though much later than what he expected.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how much he failed himself, his colleagues, the party and most importantly of all, Singapore.</p>
+
+<p>In a nightmarish version of the 2011 election, multiple incumbent ministers were booted out in an instant. But the most impactful casualty of the opposition landslides was none other than the very person he installed to ensure such a possibility would never become reality.</p>
+
+<p>Deputy Prime Minister Gan Kim Yong.</p>
+
+<p>As clips of celebrations at Serangoon Stadium contrasted with those of grief in the PAP assembly sites, all Lawrence could think of was the future. Like it or not, even though the ⅔ majority has (thankfully) been kept, the PAP will have to thread carefully as an opposition sweep preventing the ⅔ threashold to be reached is looking like a major concern at the next elections.</p>
+
+<p>For now, as Lawrence looked around him for a way out, he caught a glimpse of Lee Hsien Loong, looking dejectedly at the unfolding tragedy. With a sigh he turned away from the Prime Minister leaving him alone with his thoughts</p>
+</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "number one girl",
+            "Rosé",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[0] <65 && quickstats[0] > 48)
+  {
+    e.header = "<h2>Shock</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Sour Grapes",
+            "LE SSERAFIM",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F7e689fff3801bce5fc185bbd7dc353f4.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+        else if (aa[0].candidate === 303)
+  {
+    e.header = "<h2>test</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "PSP WIN SONG",
+            "Taylor Swift",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
+"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+       else if (quickstats[0] <49)
+  {
+    e.header = "<h2>Crisis</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "evermore",
+            "Taylor Swift",
+            "https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png",
+"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+
+  return construct(0);
+  }
+  else
+  {
+    e.header = "<h2>something broke</h2>"
+    e.pages = [`<p>what the shucks</p>`]
+    e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Loony%20Win.png";
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Gnarly",
+            "KATSEYE",
+            "https://upload.wikimedia.org/wikipedia/en/c/ce/Katseye_-_Gnarly.jpg",
+            "https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+}
+e.multiple_endings = true;
+
+// [JETS_CYOA_CAMPAIGN_DATA_START]
+;(() => {
+    const styleEl = document.createElement("style");
+        styleEl.textContent = `
+        #gameStatsPopup {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 320px;
+            background-color: #222449;
+            border: 2px solid #727C96;
+            border-radius: 2px;
+            padding: 10px 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            z-index: 10000;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #fff;
+            cursor: move;
+        }
+        #gameStatsContent { pointer-events: none; }
+        #gameStatsPopup h3 {
+            margin: 0 0 8px;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+            font-size: 16px;
+        }
+        .stats-list { line-height: 1.5; }
+        #btn_game_stats { margin-left: 1.5em; }
+    `;
+    document.head.appendChild(styleEl);
+
+    const bold = (text, color) =>
+        `<span style="color: ${color}; font-weight: bold">${text}</span>`;
+
+    function matchTier(value, tiers) {
+        for (const [max, text, color] of tiers) {
+            if (value <= max) return [text, color];
+        }
+        const fallback = tiers.at(-1);
+        return [fallback?.[1] || "", fallback?.[2] || "#e6e6e6"];
+    }
+
+    const STATS = [
+    {
+            getValue: () => mParade,
+            label: `The chance of the WP contesting Marine Parade is`,
+            tiers: [
+                [-1, `Very high`, "#850d0d"],
+                [0, `High`, "#ff4d4d"],
+                [1, `Above 50%`, "#ffffff"],
+                [2, `Below 50%`, "#83e73c"],
+                [Infinity, `Low.`, "#61c561"],
+            ],
+        },
+    {
+            getValue: () => JalanKayu,
+            label: `Candidate for Jalan Kayu`,
+            tiers: [
+                [-1, `Ng Ling Ling`, "#63e247"],
+                [0, `Undecided`, "#e6e6e6"],
+                [Infinity, `Ng Chee Meng`, "#e52424"],
+            ],
+        }
+    ];
+
+    function updateGameStatsPopup() {
+        const content = document.getElementById("gameStatsContent");
+        if (!content) return;
+
+        const lines = STATS.map(({ getValue, tiers, label }) => {
+            const value = Number(getValue?.());
+            const score = Number.isFinite(value) ? value : 0;
+            const [text, color] = matchTier(score, tiers);
+            return `• ${label}: ${bold(text, color)} (${score})`;
+        });
+
+        content.innerHTML = `
+            <h3>Campaign Data</h3>
+            <div class="stats-list">${lines.join("<br>")}</div>
+        `;
+    }
+
+    function createGameStatsPopup() {
+        if (document.getElementById("gameStatsPopup")) return;
+
+        const popup = document.createElement("div");
+        popup.id = "gameStatsPopup";
+        popup.style.display = "none";
+        popup.innerHTML = '<div id="gameStatsContent"></div>';
+        document.body.appendChild(popup);
+
+        makePopupDraggable(popup);
+        updateGameStatsPopup();
+    }
+
+    function makePopupDraggable(el) {
+        let offsetX, offsetY;
+
+        function onMouseMove(e) {
+            const maxX = window.innerWidth - el.offsetWidth;
+            const maxY = window.innerHeight - el.offsetHeight;
+            el.style.left   = `${Math.max(0, Math.min(e.clientX - offsetX, maxX))}px`;
+            el.style.top    = `${Math.max(0, Math.min(e.clientY - offsetY, maxY))}px`;
+            el.style.bottom = "auto";
+            el.style.right  = "auto";
+        }
+
+        function onMouseUp() {
+            document.removeEventListener("mousemove", onMouseMove);
+            document.removeEventListener("mouseup", onMouseUp);
+        }
+
+        el.addEventListener("mousedown", (e) => {
+            const rect = el.getBoundingClientRect();
+            offsetX = e.clientX - rect.left;
+            offsetY = e.clientY - rect.top;
+            document.addEventListener("mousemove", onMouseMove);
+            document.addEventListener("mouseup", onMouseUp);
+        });
+    }
+
+    function toggleGameStatsPopup() {
+        const popup = document.getElementById("gameStatsPopup");
+        if (!popup) return;
+        const showing = popup.style.display === "none";
+        popup.style.display = showing ? "block" : "none";
+        if (showing) updateGameStatsPopup();
+    }
+
+    function injectGameStatsButton() {
+        if (document.getElementById("btn_game_stats")) return;
+        const anchor = document.getElementById("view_electoral_map");
+        if (!anchor) return;
+
+        const btn = document.createElement("button");
+        btn.id = "btn_game_stats";
+        btn.textContent = "Campaign Data";
+        btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            toggleGameStatsPopup();
+        });
+        anchor.insertAdjacentElement("afterend", btn);
+    }
+
+    createGameStatsPopup();
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow) {
+        new MutationObserver(() => {
+            injectGameStatsButton();
+            updateGameStatsPopup();
+        }).observe(gameWindow, { childList: true, subtree: true });
+    }
+})();
+// [JETS_CYOA_CAMPAIGN_DATA_END]
 //#endcode
 
 campaignTrail_temp.jet_data = [{
@@ -11954,6 +12491,13 @@ campaignTrail_temp.jet_data = [{
             "variable": "mParade",
             "operation": "add",
             "amount": 1
+        },
+        "50714": {
+            "id": 50714,
+            "answer": 6062,
+            "variable": "JalanKayu",
+            "operation": "subtract",
+            "amount": 1
         }
     },
     "cyoa_question_swaps": {
@@ -11999,410 +12543,30 @@ campaignTrail_temp.jet_data = [{
         }
     },
     "cyoa_answer_swaps": {},
-    "cyoa_campaign_data_enabled": false,
+    "cyoa_campaign_data_enabled": true,
     "cyoa_campaign_data_stats": {
         "1778939181918": {
             "id": 1778939181918,
             "variable": "mParade",
-            "label": "",
+            "label": "The chance of the WP contesting Marine Parade is",
             "lowMax": 0,
             "midMax": 2,
-            "lowText": "mParade is struggling.",
+            "lowText": "High",
             "midText": "mParade is steady.",
             "highText": "mParade is surging."
+        },
+        "1779414612484": {
+            "id": 1779414612484,
+            "variable": "JalanKayu",
+            "label": "Candidate for Jalan Kayu",
+            "lowMax": 0,
+            "midMax": 0,
+            "lowText": "Ng Ling Ling",
+            "midText": "Undecided",
+            "highText": "Ng Chee Meng"
         }
     },
     "player_candidate": 300
 }
 ]
-
-// ENDINGS -- this is slightly more reliable than the ending code method
-// figuring this out was such a pain lmao
-
-e.multiple_endings = true;
-var used = false;
-
-endingPicker = (out, totv, aa, quickstats) => {
-  //out = "win", "loss", or "tie" for your candidate
-  //totv = total votes in entire election
-  //aa = all final overall results data
-  //quickstat = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
-
-  /*
-  e.header = "<h2></h2>"
-  e.pages = ["<p></p>",
-             "<p></p>"]
-  */
-
-construct = (a = 1) => {
-  e.page = e.page + a < e.pages.length ? e.page + a : 0
-  let html = e.header;
-  html += e.pages[e.page] + "<br>";
-  if (e.page > 0) {
-    html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
-  }
-  if (e.page < e.pages.length - 1) {
-    html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
-  }
-
-  if (e.image == true)
-    setTimeout(()=>{
-      candImg = $(".person_image")[0]
-      if (candImg) {
-        candImg.remove()
-        $("#final_results_description")[0].style = `
-          text-align:left;
-          width: 70%;
-          text-overflow: ellipsis;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        `
-      }
-    }, 10)
-  else if (e.image)
-  setTimeout(()=>{
-      candImg = $(".person_image")[0];
-      if (candImg)
-        candImg.src = e.image;
-    }, 10)
-
-  return html;
-}
-
-endingConstructor = (a = 1) => {
-  $("#final_results_description")[0].innerHTML = construct(a);
-}
-  if (quickstats[0] == 87) // Nothing Ever Happens
-  { 
-    e.header = "<h2>Relief</h2>"
-    e.pages = [`<p><div style='overflow-y:scroll;height:200px;'>That was the feeling in the air of the Star Theatre as the PAP under Lawrence Wong’s leadership achieved the expected vote share as the night went on.</p>
-
-<p>The first indicators that nothing was out of the ordinary were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which while the PAP has extended their lead in, were well within the internal polling that Lawrence has been reading non-stop before polling day.</p>
-
-<p>Then the mood in the Star Theatre erupted as sample counts showed the PAP consistently beating the opposition in almost every competitive constituency. Suddenly for the Prime Minister, it was as if the world gave him a moment of clarity. Perhaps now, his leadership within the party would be cemented, much like his predecessors before him.</p>
-
-<p>As Channel News Asia announced the results, much to the expectations to him, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
-
-<p>And then it happened.</p>
-
-<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how he was able to successfully manage to keep the party steady amid a passing of the torch to the new generation of leadership within the PAP.</p>
-
-<p>Though Aljunied and Sengkang remained lost for now, these results weren’t unexpected. At least with the skeletons coming out of Pritam’s closet now, it theoretically shouldn't be that challenging to maintain and even extend the PAP’s lead in the next election</p>
-
-<p>As the respective elected MPs make their way to the STAR Theatre stage, all ensuring to sing praises about the next generation of PAP leadership under Lawrence, Lee Hsien Loong pulls him aside.</p>
-
-<p>‘Lawrence,’ he begins</p>
-
-<p>‘I’m impressed, It seems I have made the right choice’</p></div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Music For A Sushi Restaurant",
-            "Harry Styles",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F655c6d50af205c6a383a7cae473c8bd3.675x675x1.png",
-"https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-     else if (quickstats[1] > 95.0) // Tharman UMA!
-  { 
-    e.header = `
-  <div style="text-align: left;">
-    <h2 style="margin-bottom: 2px;">Tharman Shanmugaratnam's New Obsession With An Anime Horse Game</h2>
-    <p style="font-size: 0.9em; color: black; margin-top: 0;">Straits Times, May 12 2026</p>
-  </div>
-`
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>
-
-<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>
-
-<p>When asked for comments, Tharman himself appeared in a press conference.</p>
-
-<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>
-
-<p>After the PAP’s Popular Vote dominance, with almost everyone voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>
-
-<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run.”</p>
-
-<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>
-
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Umapyoi Legend",
-            "Cast of Umamusume",
-            "https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest/scale-to-width-down/268?cb=20220415204908",
-"https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-      else if (quickstats[1] < 5.0) // Iron Man
-  { 
-    e.header = "<h2>Despair.</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'>
-    <p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?</p>
-
-<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.</p>
-
-<p>He used to play the guitar. That was his passion. Music. Not this.</p>
-
-<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. </p>
-
-<p>Well, whatever's left of it.</p>
-
-<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls</p>
-
-<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”</p>
-
-<b><p>Lee Kuan Yew.</p></b>
-
-
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Like Him",
-            "Tyler, The Creator",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F206f16145c6ad42142656b0a53a0638f.1000x1000x1.png",
-"https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-    else if (quickstats[0] >= 88 && quickstats[0] <= 91) // Win Sengkang (by right)
-  { 
-    e.header = "<h2>Triumphant</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air of the STAR Theatre as the PAP under Lawrence Wong’s leadership saw landslides in most constituencies as the night went on.</p>
-
-<p>The first indications were in the usual suspects. Radin Mas, Marymount, Jurong Central. All constituencies which have comfortably voted for the continuation of the status quo. One that is under Lawrence’s leadership that was inherited from the giants before him</p>
-
-<p>Then, the mood in the Theatre erupted as Liang Eng Hwa was elected with a much larger than expected percentage vote as in 2020. Suddenly, for the Prime Minister, it was as if the world had become much less complicated. Perhaps now he can confidently secure his leadership in the PAP, like his predecessors before him had.</p>
-
-<p>As Channel News Asia continued to announce the landslides in every constituency, both expected and unexpected, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory </p>
-
-<p>And then it happened.</p>
-
-<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all you could think about was how you did what your predecessor failed to do in 2020. And of course, how you would ensure that the rest of them gets voted out by the next election.</p>
-
-<p>The Worker’s Party and the opposition in general has lost in much larger margins compared to 2020 and has even lost seats. </p>
-
-<p>As the respective elected MPs make their way to the stage of the Star Theatre, all of them singing praises of Lawrence’s leadership during their speeches, Lee Hsien Loong pulls him aside.</p>
-
-<p>‘Lawrence,’ he begins</p>
-
-<p>‘I’m impressed, It seems I have made the right choice’</p></div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Golden",
-            "HUNTR/X",
-            "https://upload.wikimedia.org/wikipedia/en/6/6f/Huntr-x_-_Golden.png",
-"https://audio.jukehost.co.uk/019e0372-8963-73cc-bafd-be5c2236bc12"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-      else if (quickstats[0] >= 92) // PAP Wins Aljunied
-  { 
-    e.header = "<h2>Jubilance</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw record voting numbers as the night went on.</p>
-
-<p>At first it was the expected landslides. Radin Mas, Marymount, Jurong Central. All constituencies which comfortably wanted to continue the status quo and the legacy that you had inherited from the giants before.</p>
-
-<p>Then the mood in the stadium erupted as Liang Eng Hwa was elected in an unexpected landslide against Paul Tambayah in Bukit Panjang. Suddenly, for the Prime Minister, it was as though a light was shining on him and the party as a whole. Perhaps tonight was the night that history would be made.</p>
-
-<p>As Channel News Asia continued to announce the landslides in almost every constituency,  Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
-
-<p>And then it happened.</p>
-
-<p>When the sample counts first appeared, Lawrence couldn’t believe it at first. There was no way they did THIS poorly right? Then as the final result was announced by Han Kok Juan, the vote would immediately become headline news, and spread like a wildfire online.</p>
-
-<p>Aljunied was white again.</p>
-
-<p>Immediately he felt as though the world had brought him and Singapore justice for the past few years. Finally, Pritam Singh as a threat to PAP rule was no more and now, more than ever, can the PAP bring Singapore to heights never seen before. Some part of Lawrence’s heart aches as Pritam distraughtly announces his loss to the grieving crowd at Serangoon Stadium </p>
-
-<p>As the PAP Aljunied team goes onto the stage, even as Lee Hsien Loong all he could think about was what future history books will call him for this moment.</p>
-
-<p>Amongst the names of Stamford Raffles, David Marshal, Yusof Ishak and Lee Kuan Yew.</p>
-
-<p>There would be you.</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Rich Flex",
-            "Drake and 21 Savage",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png",
-"https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-        else if (quickstats[0] >= 76 && quickstats[0] <= 86) // lose a few seats
-  { 
-    e.header = "<h2>placeholder</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Mr Perfectly Fine",
-            "Taylor Swift",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
-"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-          else if (quickstats[0] >= 65 && quickstats[0] <= 75) // lose 2/3
-  { 
-    e.header = "<h2>Anxiety</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw many districts go to the opposition as the night went on.</p>
-
-<p>The first signs of trouble were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which saw the PAP’s lead decrease notably. If these ‘safe’ regions saw an increasing number of voters rejecting the party and Lawrence’s leadership, then what else could happen?</p>
-
-<p>The mood in the stadium soured as more and more constituencies chose the opposition over the PAP. Suddenly for Prime Minister at least, it was as if the floodgates that were once holding his opponents back, began to show cracks that were leaking to the rest of the country</p>
-
-<p>As Channel News Asia announced the results, much to the dismay of him and his supporters in Yio Chu Kang, Bukit Gombak and Bedok,  Lawrence anxiously awaited for further results, even after he had declared victory, though much later than what he expected.</p>
-
-<p>And then it happened.</p>
-
-<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how much he failed himself, his colleagues, the party and most importantly of all, Singapore.</p>
-
-<p>In a nightmarish version of the 2011 election, multiple incumbent ministers were booted out in an instant. But the most impactful casualty of the opposition landslides was none other than the very person he installed to ensure such a possibility would never become reality.</p>
-
-<p>Deputy Prime Minister Gan Kim Yong.</p>
-
-<p>As clips of celebrations at Serangoon Stadium contrasted with those of grief in the PAP assembly sites, all Lawrence could think of was the future. Like it or not, even though the ⅔ majority has (thankfully) been kept, the PAP will have to thread carefully as an opposition sweep preventing the ⅔ threashold to be reached is looking like a major concern at the next elections.</p>
-
-<p>For now, as Lawrence looked around him for a way out, he caught a glimpse of Lee Hsien Loong, looking dejectedly at the unfolding tragedy. With a sigh he turned away from the Prime Minister leaving him alone with his thoughts</p>
-</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "number one girl",
-            "Rosé",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png",
-"https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-      else if (quickstats[0] >= 49 && quickstats[0] <= 64) // bad keep maj
-  { 
-    e.header = "<h2>Shock</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Sour Grapes",
-            "LE SSERAFIM",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F7e689fff3801bce5fc185bbd7dc353f4.1000x1000x1.png",
-"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-        else if (aa[0].candidate === 303) // lose a few seats
-  { 
-    e.header = "<h2>test</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "PSP WIN SONG",
-            "Taylor Swift",
-            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
-"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-       else if (quickstats[0] < 49) // lose majority
-  { 
-    e.header = "<h2>Crisis</h2>"
-    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
-</div>
-`]
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "evermore",
-            "Taylor Swift",
-            "https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png",
-"https://audio.jukehost.co.uk/019e4d4d-c116-72d1-b001-c97e60975581"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-
-  else //Failsafe ending 
-  { 
-    e.header = "<h2>something broke</h2>"
-    e.pages = [`<p>what the shucks</p>`]
-    e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Loony%20Win.png";
-        if (used != true) {
-    const playlist = new Playlist();
-    const song = new Song(
-            "Gnarly",
-            "KATSEYE",
-            "https://upload.wikimedia.org/wikipedia/en/c/ce/Katseye_-_Gnarly.jpg",
-            "https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93"
-        );
-        playlist.addSong(song);
-        changePlaylist(playlist);
-        used = true;
-  }
-  return construct(0);
-  }
-}
-e.multiple_endings = true;
-
-
 
