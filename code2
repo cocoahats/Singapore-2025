@@ -12359,6 +12359,8 @@ endingConstructor = (a = 1) => {
         changePlaylist(playlist);
         used = true;
   }
+  return construct(0);
+  }
        else if (quickstats[0] < 49 && quickstats[0] > 0) // lose majority
   { 
     e.header = "<h2>Crisis</h2>"
