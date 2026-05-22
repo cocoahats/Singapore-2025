@@ -147,7 +147,7 @@ campaignTrail_temp.questions_json = [
         "model": "campaign_trail.question",
         "pk": 1211,
         "fields": {
-            "description": "30 Apr: WhatsApp messages from a Taman Jurong PAP chat group suggested that several grassroots volunteers planned to disrupt a PSP walkabout in West Coast-Jurong West GRC. How will you handle the fallout?"
+            "description": "30 Apr: Telegram messages from Punggol GRC WP candidate Andre Low have emerged, with Low using vulgar language to describe, among others, a constituent at Meet-the-People’s sessions and bank CEOs. What’s your reaction to this?\n\n"
         }
     },
     {
@@ -200,6 +200,13 @@ campaignTrail_temp.questions_json = [
         "pk": 12222,
         "fields": {
             "description": "1 May: It’s time for your annual May Day speech to NTUC, yet this also appears to be the flashpoint of the campaign. Running Ng Chee Meng seems like a bad idea now, given the fallout over not just his NTUC-Allianz deal involvement but also his comments when he was in the Ministry of Education.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 12112,
+        "fields": {
+            "description": "30 Apr: Telegram messages from Jalan Kayu SMC WP candidate Andre Low have emerged, with Low using vulgar language to describe, among others, a constituent at Meet-the-People’s sessions and bank CEOs. What’s your reaction to this?"
         }
     }
 ];
@@ -466,7 +473,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6042,
         "fields": {
             "question": 1211,
-            "description": "I won’t comment on it. Doubt much attention will be brought to the story, either way."
+            "description": "I won’t comment on it. Let’s watch the WP try to figure it out on their own.\n\n"
         }
     },
     {
@@ -474,7 +481,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6043,
         "fields": {
             "question": 1211,
-            "description": "I won’t comment on it, but let’s get Shawn Huang to do some damage control and handle the situation."
+            "description": "I won’t speak on it. Let’s watch the WP try to figure it out on their own.\n\n"
         }
     },
     {
@@ -482,7 +489,7 @@ campaignTrail_temp.answers_json = [
         "pk": 6044,
         "fields": {
             "question": 1211,
-            "description": "The PAP does not advocate for negative politics, and it is a shame that this happened. The central PAP leadership does not condone this whatsoever."
+            "description": "This language shows why WP has a lack of vetting standards and does not run high quality candidates. Would you trust someone who swears and complains as your MP, Punggol residents?\n\n"
         }
     },
     {
@@ -851,6 +858,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1204,
             "description": "This all boils down to the WP’s own problem in candidate selection, when they chose Raessah Khan. And this isn’t the only time: they’ve chosen Leon Perera, they’ve chosen Yaw Shin Leong, they don’t have a proper vetting process for their candidates."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 50702,
+        "fields": {
+            "question": 12112,
+            "description": "I won’t comment on it. Let’s watch the WP try to figure it out on their own."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 50703,
+        "fields": {
+            "question": 12112,
+            "description": "I won’t comment on it. Let’s see the WP try to figure it out on their own."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 50704,
+        "fields": {
+            "question": 12112,
+            "description": "This language shows why WP has a lack of vetting standards and does not run high quality candidates. Would you trust someone who is so disrespectful, Jalan Kayu residents?"
         }
     }
 ];
@@ -8204,6 +8235,26 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 301,
             "global_multiplier": -0.1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 50707,
+        "fields": {
+            "answer": 50702,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "global_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 50712,
+        "fields": {
+            "answer": 6042,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "global_multiplier": -0.05
+        }
     }
 ];
 
@@ -8995,50 +9046,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 50577,
-        "fields": {
-            "answer": 6043,
-            "state": 42581,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50578,
-        "fields": {
-            "answer": 6044,
-            "state": 42581,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50579,
-        "fields": {
-            "answer": 6044,
-            "state": 42591,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50580,
-        "fields": {
-            "answer": 6044,
-            "state": 42691,
-            "candidate": 300,
-            "affected_candidate": 300,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 50581,
         "fields": {
             "answer": 6054,
@@ -9122,7 +9129,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42451,
             "candidate": 300,
             "affected_candidate": 300,
-            "state_multiplier": -0.05
+            "state_multiplier": -0.07
         }
     },
     {
@@ -9828,6 +9835,50 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 50002,
             "state_multiplier": 0.3
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50706,
+        "fields": {
+            "answer": 50702,
+            "state": 42451,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "state_multiplier": -0.085
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50709,
+        "fields": {
+            "answer": 50703,
+            "state": 42451,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50711,
+        "fields": {
+            "answer": 6042,
+            "state": 42491,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "state_multiplier": -0.075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50713,
+        "fields": {
+            "answer": 6043,
+            "state": 42491,
+            "candidate": 300,
+            "affected_candidate": 301,
+            "state_multiplier": -0.05
+        }
     }
 ];
 
@@ -10063,7 +10114,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6042,
             "candidate": 300,
-            "answer_feedback": "In the final days of the campaign, the issue doesn’t garner much attention."
+            "answer_feedback": "This looks quite bad for the WP, which is rushing to try to dissociate themselves from the comments. Let’s see how this plays out over the coming days.\n\n"
         }
     },
     {
@@ -10252,7 +10303,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6043,
             "candidate": 300,
-            "answer_feedback": "In the final days of the campaign, the issue doesn’t garner much attention."
+            "answer_feedback": "This looks quite bad for the WP, which is rushing to try to dissociate themselves from the comments. Let’s see how this plays out over the coming days.\n\n"
         }
     },
     {
@@ -10261,7 +10312,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6044,
             "candidate": 300,
-            "answer_feedback": "While you have made that clear, the PSP now pounces on it and criticizes you for not controlling your party branches better."
+            "answer_feedback": "Ivan Lim is calling…\n\n"
         }
     },
     {
@@ -10560,6 +10611,33 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 300,
             "answer_feedback": "The WP claims that they now brought in a vetting service to check through their candidates, and visibly are frustrated by your comments."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 50705,
+        "fields": {
+            "answer": 50702,
+            "candidate": 300,
+            "answer_feedback": "This looks quite bad for the WP, which is rushing to try to dissociate themselves from the comments. Let’s see how this plays out over the coming days."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 50708,
+        "fields": {
+            "answer": 50703,
+            "candidate": 300,
+            "answer_feedback": "This looks quite bad for the WP, which is rushing to try to dissociate themselves from the comments. Let’s see how this plays out over the coming days.\n\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 50710,
+        "fields": {
+            "answer": 50704,
+            "candidate": 300,
+            "answer_feedback": "An Instagram user posts a scathing criticism of your own candidate in Jalan Kayu, Ng Chee Meng. In it, he claims Ng spoke to MOE staff rudely and even said, “When Minister is talking to you, you better stand up.” Not going to play well.\n\n"
+        }
     }
 ];
 
@@ -10567,586 +10645,6 @@ campaignTrail_temp.candidate_image_url = "https://file.garden/aftBfT23iVucvcGE/l
 campaignTrail_temp.running_mate_image_url = "https://file.garden/aftBfT23iVucvcGE/pappole.png";
 campaignTrail_temp.candidate_last_name = "Lawrence ";
 campaignTrail_temp.running_mate_last_name = "Wong";
-
-// [JETS_ENDINGS_START]
-campaignTrail_temp.multiple_endings = true;
-
-const _tctEndingDefs = [
-    {
-        "id": 1777658984834,
-        "variable": 1,
-        "operator": ">",
-        "amount": 90,
-        "endingTitle": "Tharman Shanmugaratnam's New Obsession With An Anime Horse Game",
-        "endingSubtitle": "Straits Times, May 12 2026",
-        "endingText": "<p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>\n\n<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>\n\n<p>When asked for comments, Tharman himself appeared in a press conference.</p>\n\n<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>\n\n<p>After the PAP’s Popular Vote dominance, with almost every citizen voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>\n\n<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run in the race.”</p>\n\n<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>\n",
-        "endingImage": "https://file.garden/aftBfT23iVucvcGE/tharmanwithumas.png",
-        "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 1,\n    \"operator\": \">\",\n    \"amount\": 90,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Tharman Shanmugaratnam's New Obsession With An Anime Horse Game\",\n    \"subtitle\": \"Straits Times, May 12 2026\",\n    \"content\": \"<p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>\\n\\n<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>\\n\\n<p>When asked for comments, Tharman himself appeared in a press conference.</p>\\n\\n<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>\\n\\n<p>After the PAP’s Popular Vote dominance, with almost every citizen voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>\\n\\n<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run in the race.”</p>\\n\\n<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/tharmanwithumas.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Umapyoi Legend\",\n      \"artist\": \"Cast of Umamusume\",\n      \"cover\": \"https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest?cb=20220415204908\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569\"\n    }\n  }\n]",
-        "audioTitle": "Umapyoi Legend",
-        "audioArtist": "Cast of Umamusume",
-        "audioCover": "https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest?cb=20220415204908",
-        "audioUrl": "https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569",
-        "endingAccentColor": "#000000",
-        "endingBackgroundColor": "#ffffff",
-        "endingTextColor": "#000000",
-        "variableConditions": [],
-        "variableConditionOperator": "AND",
-        "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
-    },
-    {
-        "id": 1778168484186,
-        "variable": 1,
-        "operator": "<=",
-        "amount": 5,
-        "endingTitle": "Sorrow",
-        "endingSubtitle": "",
-        "endingText": "<p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?<p/>\n\n<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.<p/>\n\n<p>He used to play the guitar. That was his passion. Music. Not this.<p/>\n\n<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. <p/>\n\n<p>Well, whatever's left of it.<p/>\n\n<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls.<p/>\n\n<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”<p/>\n\n<p>Lee Kuan Yew.<p/>\n",
-        "endingImage": "https://file.garden/aftBfT23iVucvcGE/younglwong.png",
-        "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 1,\n    \"operator\": \"<=\",\n    \"amount\": 5,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Sorrow\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?<p/>\\n\\n<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.<p/>\\n\\n<p>He used to play the guitar. That was his passion. Music. Not this.<p/>\\n\\n<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. <p/>\\n\\n<p>Well, whatever's left of it.<p/>\\n\\n<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls.<p/>\\n\\n<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”<p/>\\n\\n<p>Lee Kuan Yew.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/younglwong.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Like Him\",\n      \"artist\": \"Tyler, The Creator\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Chromakopia_CD_cover.jpg/250px-Chromakopia_CD_cover.jpg\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3\"\n    }\n  }\n]",
-        "audioTitle": "Like Him",
-        "audioArtist": "Tyler, The Creator",
-        "audioCover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Chromakopia_CD_cover.jpg/250px-Chromakopia_CD_cover.jpg",
-        "audioUrl": "https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3",
-        "endingAccentColor": "#ffffff",
-        "endingBackgroundColor": "#ffffff",
-        "endingTextColor": "#000000",
-        "variableConditions": [],
-        "variableConditionOperator": "AND",
-        "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
-    },
-    {
-        "id": 1778174392582,
-        "variable": 0,
-        "operator": "==",
-        "amount": 87,
-        "endingTitle": "The Line is Held",
-        "endingSubtitle": "",
-        "endingText": "<p>The meme “nothing ever happens” can be best used to describe this situation. Nothing ever does happen in Singaporean politics, does it? The WP have held on to their seats and the PAP have held on to theirs. A surprisingly good result for you, you can celebrate the result as a significant mandate for your leadership of Singapore. The vote of confidence means that most opposition parties other than the Workers’ Party are weakened significantly, while Singapore becomes effectively between two parties (albeit, one much stronger than the other).<p/>\n\n<p>As for you, you and your ministers can celebrate holding onto your seats, of course to the disgruntlement of many opposition figures who had hoped to take their seats. The PAP, under you, can govern as you wish, and you can decide the next 5 years of Singaporean policy without any hesitation.<p/>\n",
-        "endingImage": "https://file.garden/aftBfT23iVucvcGE/pap87.png",
-        "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \"==\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"The Line is Held\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The meme “nothing ever happens” can be best used to describe this situation. Nothing ever does happen in Singaporean politics, does it? The WP have held on to their seats and the PAP have held on to theirs. A surprisingly good result for you, you can celebrate the result as a significant mandate for your leadership of Singapore. The vote of confidence means that most opposition parties other than the Workers’ Party are weakened significantly, while Singapore becomes effectively between two parties (albeit, one much stronger than the other).<p/>\\n\\n<p>As for you, you and your ministers can celebrate holding onto your seats, of course to the disgruntlement of many opposition figures who had hoped to take their seats. The PAP, under you, can govern as you wish, and you can decide the next 5 years of Singaporean policy without any hesitation.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Music for a Sushi Restaurant\",\n      \"artist\": \"Harry Styles\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/4/4e/Harry_Styles_-_Music_for_a_Sushi_Restaurant.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a\"\n    }\n  }\n]",
-        "audioTitle": "Music for a Sushi Restaurant",
-        "audioArtist": "Harry Styles",
-        "audioCover": "https://upload.wikimedia.org/wikipedia/en/4/4e/Harry_Styles_-_Music_for_a_Sushi_Restaurant.png",
-        "audioUrl": "https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a",
-        "endingAccentColor": "#ffffff",
-        "endingBackgroundColor": "#ffffff",
-        "endingTextColor": "#000000",
-        "variableConditions": [],
-        "variableConditionOperator": "AND",
-        "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
-    },
-    {
-        "id": 1778174553743,
-        "variable": 0,
-        "operator": ">",
-        "amount": 91,
-        "endingTitle": "Opposition Crushed!",
-        "endingSubtitle": "",
-        "endingText": "<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP likely over 2015 levels in the vote share and seat count. Pritam Singh has lost his seat, and perhaps along with Dennis Tan. The opposition has been relegated to either 1 seat or nothing. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\n",
-        "endingImage": "https://file.garden/aftBfT23iVucvcGE/pap87.png",
-        "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 91,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Opposition Crushed!\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP likely over 2015 levels in the vote share and seat count. Pritam Singh has lost his seat, and perhaps along with Dennis Tan. The opposition has been relegated to either 1 seat or nothing. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Rich Flex\",\n      \"artist\": \"Drake, 21 Savage\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Opposition Wrecked!\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP to 2015 levels in the vote share and seat count. The opposition is weakened and confused about how this result happened. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\\n\\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\\n\\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Golden\",\n      \"artist\": \"HUNTR/X\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/6/6f/Huntr-x_-_Golden.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8963-73cc-bafd-be5c2236bc12\"\n    }\n  }\n]",
-        "audioTitle": "Rich Flex",
-        "audioArtist": "Drake, 21 Savage",
-        "audioCover": "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png",
-        "audioUrl": "https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2",
-        "endingAccentColor": "#ffffff",
-        "endingBackgroundColor": "#ffffff",
-        "endingTextColor": "#000000",
-        "variableConditions": [],
-        "variableConditionOperator": "AND",
-        "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
-    },
-    {
-        "id": 1778257319579,
-        "variable": 0,
-        "operator": "<",
-        "amount": 49,
-        "endingTitle": "Grand Opposition Coalition incoming…",
-        "endingSubtitle": "",
-        "endingText": "<p>After decades of PAP rule, it has all somehow ended with you! Since 1959, Singapore has been governed by one party and you somehow failed to even maintain this. With seats everywhere in the country lost to random opposition candidates you never even recognized, the scene at the PAP headquarters is shock, then horror. Whether you choose to resign or not, it is certain that people behind the scenes will remove you from your role.<p/>\n\n<p>At 10am in the morning following the election, Pritam Singh, Leong Mun Wai and Chee Soon Juan sit down at a press conference, announcing a coalition government. With Pritam Singh set to be the next Prime Minister, and many opposition politicians you consider antithetical to your views in the next cabinet, Singapore is set to move in a completely different direction. A WP-SDP-PSP cabinet means Singapore is set to move to the left and change much policy.<p/>\n",
-        "endingImage": "https://file.garden/aftBfT23iVucvcGE/lawtear.png",
-        "endingHideImage": false,
-        "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 49,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Grand Opposition Coalition incoming…\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>After decades of PAP rule, it has all somehow ended with you! Since 1959, Singapore has been governed by one party and you somehow failed to even maintain this. With seats everywhere in the country lost to random opposition candidates you never even recognized, the scene at the PAP headquarters is shock, then horror. Whether you choose to resign or not, it is certain that people behind the scenes will remove you from your role.<p/>\\n\\n<p>At 10am in the morning following the election, Pritam Singh, Leong Mun Wai and Chee Soon Juan sit down at a press conference, announcing a coalition government. With Pritam Singh set to be the next Prime Minister, and many opposition politicians you consider antithetical to your views in the next cabinet, Singapore is set to move in a completely different direction. A WP-SDP-PSP cabinet means Singapore is set to move to the left and change much policy.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawtear.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Gnarly\",\n      \"artist\": \"KATSEYE\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fd6f747e5db2b162f04ae7962e91b96a1.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 65,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Shock and Horror\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>As the first sample counts come in, the results are clearly disappointing. First Potong Pasir seems in the mix, which is reasonable considering its history. Then Bukit Panjang looks worse, but perhaps this was expected of a good opposition candidate there. Then the GRCs start coming in. While it is clear the PAP has retained a majority, the opposition has managed to break the ⅔ supermajority for the first time in Singapore’s history. Pritam’s broad smile is broadcasted on CNA.<p/>\\n\\n<p>As for you, you will likely remain as Prime Minister of Singapore, albeit with a significantly weaker parliamentary delegation. Of course, similarly poor results (though not as bad as this one) did happen in 1991, and a few opposition missteps gave half their seats back to the PAP. You will need to tread carefully and deal with an inability to amend the constitution.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawtear.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Sour Grapes\",\n      \"artist\": \"LE SSERAFIM\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F7e689fff3801bce5fc185bbd7dc353f4.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 75,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Improved Result for Opposition\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The opposition flipping a few seats here and there means decent gains for them, and that’s nothing unexpected. Going into this election, many expected the enthusiasm among opposition voters and the cost-of-living crisis to take a few seats out of the PAP’s column, and that has certainly happened here. Of course, you didn’t think you would lose so many seats, but based on the issues Singaporeans faced, it could never have been ruled out.<p/>\\n\\n<p>The PAP, of course, retains its ⅔ supermajority and will be able to push through your agenda, despite a noisy opposition bench. You can hope for opposition infighting and poor opposition town council management, but the truth is that losing a few ministers and potential ministers is a harsh hit to your government. There are of course, grumblings among several ministers you sent out to competitive GRCs and lost their seats.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pritcinema.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"number one girl\",\n      \"artist\": \"ROSÉ\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"As Expected\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The opposition flipping a few seats here and there means decent gains for them, and that’s nothing unexpected. Going into this election, many expected the enthusiasm among opposition voters and the cost-of-living crisis to take a few seats out of the PAP’s column, and that has certainly happened here. While not an entirely horrific result, one or two ministers gone will decrease your options.<p/>\\n\\n<p>The PAP, of course, retains its ⅔ supermajority and will be able to push through your agenda, despite a noisy opposition bench. You can hope for opposition infighting and disagreements, but not much change has occurred. The WP has probably captured one more GRC, or maybe the PSP, or maybe the SDP has taken an SMC or two. But nothing much ever happens in Singapore, does it?<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawprit.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Mr Perfectly Fine\",\n      \"artist\": \"Taylor Swift\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5\"\n    }\n  }\n]",
-        "audioTitle": "Gnarly",
-        "audioArtist": "KATSEYE",
-        "audioCover": "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fd6f747e5db2b162f04ae7962e91b96a1.1000x1000x1.png",
-        "audioUrl": "https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93",
-        "endingAccentColor": "#ffffff",
-        "endingBackgroundColor": "#ffffff",
-        "endingTextColor": "#000000",
-        "variableConditions": [],
-        "variableConditionOperator": "AND",
-        "outcomeCondition": "ignore",
-        "answerConditionType": "ignore",
-        "answerConditionAnswer": "",
-        "answerConditionAnswers": ""
-    }
-];
-
-const _tctOpMap = {
-    ">": (a, b) => a > b,
-    ">=": (a, b) => a >= b,
-    "==": (a, b) => a == b,
-    "<=": (a, b) => a <= b,
-    "<": (a, b) => a < b,
-    "!=": (a, b) => a != b
-};
-
-const _tctGetEndingImageEl = () => {
-    const imageContainer = document.querySelector(".person_image");
-    if (!imageContainer) return null;
-    if (imageContainer.tagName && imageContainer.tagName.toLowerCase() === "img") {
-        return imageContainer;
-    }
-    return imageContainer.querySelector("img");
-};
-
-const _tctReadVariable = (name) => {
-    if (!name || typeof name !== "string") return undefined;
-    if (!/^[A-Za-z_$][A-Za-z0-9_$]*$/.test(name)) return undefined;
-    try {
-        return eval("(typeof " + name + " !== 'undefined') ? " + name + " : undefined;");
-    } catch (_err) {
-        return undefined;
-    }
-};
-
-const _tctParseConditionValue = (value) => {
-    if (value == null || value === "") return "";
-    const n = Number(value);
-    if (!Number.isNaN(n)) return n;
-    return value;
-};
-
-const _tctCheckOutcomeCondition = (entry, finalOutcome) => {
-    const cond = String(entry?.outcomeCondition || "ignore");
-    if (cond === "ignore") return true;
-    return cond === String(finalOutcome || "");
-};
-
-const _tctMatchesPrimaryCondition = (entry, quickstats, finalOutcome) => {
-    if (!_tctCheckOutcomeCondition(entry, finalOutcome)) return false;
-
-    const cond = String(entry?.outcomeCondition || "ignore");
-    if (cond !== "ignore") {
-        // explicit outcome match bypasses stat threshold checks
-        return true;
-    }
-
-    const opFn = _tctOpMap[entry?.operator] || _tctOpMap[">"];
-    const left = quickstats?.[Number(entry?.variable) || 0];
-    const right = Number(entry?.amount) || 0;
-    return opFn(left, right);
-};
-
-const _tctCheckExtraConditions = (entry, playerAnswers) => {
-    // check variable conditions
-    if (Array.isArray(entry.variableConditions) && entry.variableConditions.length > 0) {
-        const operator = entry.variableConditionOperator || "AND";
-        const results = entry.variableConditions.map((cond) => {
-            const left = _tctReadVariable(cond.variable);
-            const right = _tctParseConditionValue(cond.value);
-            const opFn = _tctOpMap[cond.comparator] || _tctOpMap["=="];
-            return opFn(left, right);
-        });
-
-        if (operator === "AND") {
-            if (!results.every((r) => r)) return false;
-        } else if (operator === "OR") {
-            if (!results.some((r) => r)) return false;
-        }
-    }
-
-    const answerType = entry.answerConditionType || "ignore";
-    if (answerType !== "ignore") {
-        const rawAnswers = String(entry.answerConditionAnswers || entry.answerConditionAnswer || "").trim();
-        const answerIds = rawAnswers
-            .split(/[\s,]+/)
-            .filter((v) => v.length > 0)
-            .map((v) => Number(v))
-            .filter((v) => Number.isFinite(v));
-
-        if (answerIds.length === 0) return false;
-
-        const hasAny = Array.isArray(playerAnswers) && answerIds.some((id) => playerAnswers.includes(id));
-        if (answerType === "has" && !hasAny) return false;
-        if (answerType === "not_has" && hasAny) return false;
-    }
-
-    return true;
-};
-
-const playEndingSong = (title, artist, cover, url) => {
-    if (!url) return;
-    const PlaylistCtor = (typeof window !== "undefined" && window.Playlist)
-        || (typeof Playlist !== "undefined" ? Playlist : null);
-    const SongCtor = (typeof window !== "undefined" && window.Song)
-        || (typeof Song !== "undefined" ? Song : null);
-    const changePlaylistFn = (typeof window !== "undefined" && window.changePlaylist)
-        || (typeof changePlaylist === "function" ? changePlaylist : null);
-
-    if (PlaylistCtor && SongCtor && typeof changePlaylistFn === "function") {
-        try {
-            const playlist = new PlaylistCtor();
-            const song = new SongCtor(title || "", artist || "", cover || "", url);
-            if (typeof playlist.addSong === "function") {
-                playlist.addSong(song);
-                changePlaylistFn(playlist);
-                return;
-            }
-        } catch (err) {
-            console.warn("Failed to route ending song:", err);
-        }
-    }
-
-    // fallback for custom players: drive the shared audio element directly
-    const audioEl = document.getElementById("audio") || document.querySelector("audio#audio, audio");
-    if (!audioEl) return;
-
-    if (audioEl.src !== url) {
-        audioEl.src = url;
-    }
-
-    const player = document.getElementById("player");
-    if (player) {
-        const titleEl = player.querySelector("#title");
-        const artistEl = player.querySelector("#artist");
-        const coverEl = player.querySelector("#cover");
-        if (titleEl) titleEl.textContent = title || "";
-        if (artistEl) artistEl.textContent = artist || "";
-        if (coverEl && cover) coverEl.src = cover;
-    }
-
-    const playPromise = audioEl.play?.();
-    if (playPromise && typeof playPromise.catch === "function") {
-        playPromise.catch(() => {});
-    }
-};
-
-const styleEndingDescription = () => {
-    const desc = document.querySelector("#final_results_description");
-    if (!desc) return;
-
-    const e = campaignTrail_temp;
-    const theme = e._endingTheme || {};
-    const bg = theme.backgroundColor || "#ffffff";
-    const fg = theme.textColor || "#000000";
-    const border = theme.accentColor || "#11299e";
-
-    Object.assign(desc.style, {
-        textAlign: "left",
-        width: "72%",
-        maxHeight: "20em",
-        minHeight: "8em",
-        height: "auto",
-        display: "block",
-        margin: "0 auto",
-        overflowY: "auto",
-        overflowX: "hidden",
-        whiteSpace: "normal",
-        overflowWrap: "anywhere",
-        wordBreak: "break-word",
-        transform: "translateZ(0)",
-        backgroundColor: bg,
-        color: fg,
-        border: "2px solid " + border,
-        borderRadius: "4px",
-        padding: "10px"
-    });
-
-    desc.dataset.endingStyled = "1";
-};
-
-const applyEndingImage = (slide) => {
-    const imageEl = _tctGetEndingImageEl();
-    if (!imageEl || !slide) return;
-
-    if (slide.image === false) {
-        imageEl.style.display = "none";
-        imageEl.removeAttribute("src");
-        return;
-    }
-
-    if (!imageEl.dataset.endingStyled) {
-        const e = campaignTrail_temp;
-        const theme = e._endingTheme || {};
-        const border = theme.accentColor || "#11299e";
-        Object.assign(imageEl.style, {
-            border: "3px solid " + border,
-            display: "block",
-            width: "210px",
-            height: "250px",
-            objectFit: "cover"
-        });
-        imageEl.dataset.endingStyled = "1";
-    } else {
-        imageEl.style.display = "block";
-        const e = campaignTrail_temp;
-        const theme = e._endingTheme || {};
-        imageEl.style.border = "3px solid " + (theme.accentColor || "#11299e");
-    }
-
-    if (slide.image && imageEl.getAttribute("src") !== slide.image) {
-        imageEl.src = slide.image;
-    }
-};
-
-const applyEndingButtons = () => {
-    const e = campaignTrail_temp;
-    const theme = e._endingTheme || {};
-    const imageEl = _tctGetEndingImageEl();
-    if (!imageEl || !imageEl.parentNode) return;
-
-    let btnContainer = document.getElementById("ending_slide_buttons");
-    if (!btnContainer) {
-        btnContainer = document.createElement("div");
-        btnContainer.id = "ending_slide_buttons";
-        Object.assign(btnContainer.style, {
-            display: "flex",
-            gap: "20px",
-            left: "13px",
-            top: "280px",
-            position: "absolute"
-        });
-        imageEl.parentNode.insertBefore(btnContainer, imageEl.nextSibling);
-    }
-
-    let buttonsHtml = "";
-    if (e.page > 0) {
-        buttonsHtml += '<button onclick="endingConstructor(-1)">Back</button>';
-    }
-    if (e.page < e.endingSlides.length - 1) {
-        buttonsHtml += '<button onclick="endingConstructor(1)">Next</button>';
-    }
-
-    if (btnContainer.innerHTML !== buttonsHtml) {
-        btnContainer.innerHTML = buttonsHtml;
-    }
-
-    const buttonBg = theme.accentColor || "#11299e";
-    const buttonText = "#ffffff";
-    btnContainer.querySelectorAll("button").forEach((btn) => {
-        Object.assign(btn.style, {
-            backgroundColor: buttonBg,
-            border: "1px solid " + buttonBg,
-            color: buttonText,
-            padding: "4px 10px",
-            cursor: "pointer"
-        });
-    });
-};
-
-const syncEndingSlideDom = () => {
-    const e = campaignTrail_temp;
-    const slide = e.endingSlides?.[e.page];
-    if (!slide) return;
-
-    styleEndingDescription();
-    applyEndingImage(slide);
-    applyEndingButtons();
-
-    if (slide.audio && slide.audio.url) {
-        const key = [slide.audio.title || "", slide.audio.artist || "", slide.audio.url || ""].join("|");
-        const globalKey = (typeof window !== "undefined" && window.__tctLastEndingAudioKey) || "";
-
-        const currentAudioEl = document.getElementById("audio") || document.querySelector("audio#audio, audio");
-        const currentSrc = currentAudioEl ? (currentAudioEl.currentSrc || currentAudioEl.src || "") : "";
-        const sameSrcLoaded = !!currentSrc && currentSrc.includes(slide.audio.url);
-
-        if (e._endingAudioPlayedKey !== key && globalKey !== key && !sameSrcLoaded) {
-            playEndingSong(slide.audio.title, slide.audio.artist, slide.audio.cover, slide.audio.url);
-        }
-
-        e._endingAudioPlayedKey = key;
-        if (typeof window !== "undefined") {
-            window.__tctLastEndingAudioKey = key;
-        }
-    }
-};
-
-const syncEndingSlideDomDeferred = () => {
-    requestAnimationFrame(() => {
-        syncEndingSlideDom();
-    });
-};
-
-const _tctBuildSlides = (entry, quickstats, finalOutcome) => {
-    if (entry && entry.endingSlidesJson) {
-        try {
-            const parsed = JSON.parse(entry.endingSlidesJson);
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                const normalizeSlide = (slide) => ({
-                    variable: Number(slide?.variable ?? 0),
-                    operator: slide?.operator || ">",
-                    amount: Number(slide?.amount ?? 0),
-                    outcomeCondition: slide?.outcomeCondition || "ignore",
-                    title: slide?.title || "",
-                    subtitle: slide?.subtitle || "",
-                    content: slide?.content || "",
-                    image: slide?.image,
-                    audio: slide?.audio && slide.audio.url ? {
-                        title: slide.audio.title || "",
-                        artist: slide.audio.artist || "",
-                        cover: slide.audio.cover || "",
-                        url: slide.audio.url || ""
-                    } : undefined
-                });
-
-                const hasGroups = parsed.some((slide) => slide && slide.slideGroup);
-                if (!hasGroups) {
-                    return parsed.map((slide) => normalizeSlide(slide));
-                }
-
-                const groupMap = new Map();
-                const groupOrder = [];
-                for (const slide of parsed) {
-                    const groupKey = slide?.slideGroup || "main";
-                    if (!groupMap.has(groupKey)) {
-                        groupMap.set(groupKey, []);
-                        groupOrder.push(groupKey);
-                    }
-                    groupMap.get(groupKey).push(slide);
-                }
-
-                const playerAnswers = campaignTrail_temp?.player_answers || [];
-                const selectedSlides = [];
-
-                for (const groupKey of groupOrder) {
-                    const groupSlides = groupMap.get(groupKey) || [];
-                    let selected = groupSlides.find((slide) => {
-                        return _tctMatchesPrimaryCondition(slide, quickstats, finalOutcome)
-                            && _tctCheckExtraConditions(slide, playerAnswers);
-                    });
-                    if (!selected) selected = groupSlides[0];
-                    if (selected) selectedSlides.push(normalizeSlide(selected));
-                }
-
-                return selectedSlides;
-            }
-        } catch (err) {
-            console.warn("Invalid endingSlidesJson for ending", entry?.id, err);
-        }
-    }
-
-    const fallbackSlide = {
-        title: entry?.endingTitle || "",
-        subtitle: entry?.endingSubtitle || "",
-        content: entry?.endingText || "",
-        image: entry?.endingHideImage ? false : (entry?.endingImage || undefined)
-    };
-
-    if (entry?.audioUrl) {
-        fallbackSlide.audio = {
-            title: entry.audioTitle || "",
-            artist: entry.audioArtist || "",
-            cover: entry.audioCover || "",
-            url: entry.audioUrl || ""
-        };
-    }
-
-    return [fallbackSlide];
-};
-
-const _tctConstructSlide = (direction = 1) => {
-    const e = campaignTrail_temp;
-    if (!Array.isArray(e.endingSlides) || e.endingSlides.length === 0) return "";
-
-    e.page += direction;
-    if (e.page < 0) e.page = 0;
-    if (e.page >= e.endingSlides.length) e.page = e.endingSlides.length - 1;
-
-    const currentSlide = e.endingSlides[e.page];
-    if (!currentSlide) return "";
-
-    let html = "";
-    if (currentSlide.title) html += "<h3>" + currentSlide.title + "</h3>";
-    if (currentSlide.subtitle) html += "<h4>" + currentSlide.subtitle + "</h4>";
-    html += (currentSlide.content || "") + "<br><br>";
-    return html;
-};
-
-endingConstructor = (direction = 1) => {
-    const desc = document.querySelector("#final_results_description");
-    if (!desc) return;
-    desc.innerHTML = _tctConstructSlide(direction);
-    syncEndingSlideDomDeferred();
-};
-
-endingPicker = (out, totv, aa, quickstats) => {
-    const playerAnswers = campaignTrail_temp?.player_answers || [];
-    for (const entry of _tctEndingDefs) {
-        let isMatch = false;
-
-        try {
-            const parsed = entry.endingSlidesJson ? JSON.parse(entry.endingSlidesJson) : [];
-            if (Array.isArray(parsed) && parsed.length > 0) {
-                const groupMap = new Map();
-                for (const slide of parsed) {
-                    const groupKey = slide?.slideGroup || "main";
-                    if (!groupMap.has(groupKey)) {
-                        groupMap.set(groupKey, []);
-                    }
-                    groupMap.get(groupKey).push(slide);
-                }
-                
-                const mainSlides = groupMap.get("main") || parsed;
-                let validMain = mainSlides.find((slide) => {
-                    return _tctMatchesPrimaryCondition(slide, quickstats, out)
-                        && _tctCheckExtraConditions(slide, playerAnswers);
-                });
-                
-                if (validMain) isMatch = true;
-            } else {
-                // legacy format without json slides
-                if (_tctMatchesPrimaryCondition(entry, quickstats, out) && _tctCheckExtraConditions(entry, playerAnswers)) {
-                    isMatch = true;
-                }
-            }
-        } catch(e) {
-            // legacy format without json slides
-            if (_tctMatchesPrimaryCondition(entry, quickstats, out) && _tctCheckExtraConditions(entry, playerAnswers)) {
-                isMatch = true;
-            }
-        }
-
-        if (isMatch) {
-            const e = campaignTrail_temp;
-            e.multiple_endings = true;
-            e.page = -1;
-            e._endingTheme = {
-                accentColor: entry?.endingAccentColor || "#11299e",
-                backgroundColor: entry?.endingBackgroundColor || "#ffffff",
-                textColor: entry?.endingTextColor || "#000000"
-            };
-            e.endingSlides = _tctBuildSlides(entry, quickstats, out);
-            e._endingAudioPlayedKey = (typeof window !== "undefined" && window.__tctLastEndingAudioKey) || "";
-
-            const html = _tctConstructSlide(1);
-            syncEndingSlideDomDeferred();
-            return html;
-        }
-    }
-
-    return "";
-};
-
-// [JETS_ENDINGS_END]
 
 //#startcode
 campaignTrail_temp.multiple_endings = true;
@@ -11313,6 +10811,7 @@ cyoAdventure = function (a) {
     if (campaignTrail_temp.question_number == 11 && JalanKayu > 0) {
         questionSwapper(12192, 1219);
         questionSwapper(12222, 1222);
+        questionSwapper(12112, 1211);
     }
 
 }
@@ -12369,149 +11868,8 @@ campaignTrail_temp.jet_data = [{
     },
     "banner_enabled": true,
     "mapping_enabled": true,
-    "endings_enabled": true,
-    "ending_data": {
-        "1777658984834": {
-            "id": 1777658984834,
-            "variable": 1,
-            "operator": ">",
-            "amount": 90,
-            "endingTitle": "Tharman Shanmugaratnam's New Obsession With An Anime Horse Game",
-            "endingSubtitle": "Straits Times, May 12 2026",
-            "endingHideImage": false,
-            "endingImage": "https://file.garden/aftBfT23iVucvcGE/tharmanwithumas.png",
-            "endingText": "<p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>\n\n<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>\n\n<p>When asked for comments, Tharman himself appeared in a press conference.</p>\n\n<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>\n\n<p>After the PAP’s Popular Vote dominance, with almost every citizen voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>\n\n<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run in the race.”</p>\n\n<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>\n",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 1,\n    \"operator\": \">\",\n    \"amount\": 90,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Tharman Shanmugaratnam's New Obsession With An Anime Horse Game\",\n    \"subtitle\": \"Straits Times, May 12 2026\",\n    \"content\": \"<p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>\\n\\n<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>\\n\\n<p>When asked for comments, Tharman himself appeared in a press conference.</p>\\n\\n<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>\\n\\n<p>After the PAP’s Popular Vote dominance, with almost every citizen voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>\\n\\n<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run in the race.”</p>\\n\\n<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/tharmanwithumas.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Umapyoi Legend\",\n      \"artist\": \"Cast of Umamusume\",\n      \"cover\": \"https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest?cb=20220415204908\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569\"\n    }\n  }\n]",
-            "audioTitle": "Umapyoi Legend",
-            "audioArtist": "Cast of Umamusume",
-            "audioCover": "https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest?cb=20220415204908",
-            "audioUrl": "https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569",
-            "endingAccentColor": "#000000",
-            "endingBackgroundColor": "#ffffff",
-            "endingTextColor": "#000000",
-            "variableConditions": [],
-            "variableConditionOperator": "AND",
-            "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
-            "variableConditionEnabled": false,
-            "variableConditionName": "",
-            "variableConditionValue": ""
-        },
-        "1778168484186": {
-            "id": 1778168484186,
-            "variable": 1,
-            "operator": "<=",
-            "amount": 5,
-            "endingTitle": "Sorrow",
-            "endingSubtitle": "",
-            "endingHideImage": false,
-            "endingImage": "https://file.garden/aftBfT23iVucvcGE/younglwong.png",
-            "endingText": "<p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?<p/>\n\n<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.<p/>\n\n<p>He used to play the guitar. That was his passion. Music. Not this.<p/>\n\n<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. <p/>\n\n<p>Well, whatever's left of it.<p/>\n\n<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls.<p/>\n\n<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”<p/>\n\n<p>Lee Kuan Yew.<p/>\n",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 1,\n    \"operator\": \"<=\",\n    \"amount\": 5,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Sorrow\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?<p/>\\n\\n<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.<p/>\\n\\n<p>He used to play the guitar. That was his passion. Music. Not this.<p/>\\n\\n<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. <p/>\\n\\n<p>Well, whatever's left of it.<p/>\\n\\n<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls.<p/>\\n\\n<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”<p/>\\n\\n<p>Lee Kuan Yew.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/younglwong.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Like Him\",\n      \"artist\": \"Tyler, The Creator\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Chromakopia_CD_cover.jpg/250px-Chromakopia_CD_cover.jpg\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3\"\n    }\n  }\n]",
-            "audioTitle": "Like Him",
-            "audioArtist": "Tyler, The Creator",
-            "audioCover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Chromakopia_CD_cover.jpg/250px-Chromakopia_CD_cover.jpg",
-            "audioUrl": "https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3",
-            "endingAccentColor": "#ffffff",
-            "endingBackgroundColor": "#ffffff",
-            "endingTextColor": "#000000",
-            "variableConditions": [],
-            "variableConditionOperator": "AND",
-            "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
-            "variableConditionEnabled": false,
-            "variableConditionName": "",
-            "variableConditionValue": ""
-        },
-        "1778174392582": {
-            "id": 1778174392582,
-            "variable": 0,
-            "operator": "==",
-            "amount": 87,
-            "endingTitle": "The Line is Held",
-            "endingSubtitle": "",
-            "endingHideImage": false,
-            "endingImage": "https://file.garden/aftBfT23iVucvcGE/pap87.png",
-            "endingText": "<p>The meme “nothing ever happens” can be best used to describe this situation. Nothing ever does happen in Singaporean politics, does it? The WP have held on to their seats and the PAP have held on to theirs. A surprisingly good result for you, you can celebrate the result as a significant mandate for your leadership of Singapore. The vote of confidence means that most opposition parties other than the Workers’ Party are weakened significantly, while Singapore becomes effectively between two parties (albeit, one much stronger than the other).<p/>\n\n<p>As for you, you and your ministers can celebrate holding onto your seats, of course to the disgruntlement of many opposition figures who had hoped to take their seats. The PAP, under you, can govern as you wish, and you can decide the next 5 years of Singaporean policy without any hesitation.<p/>\n",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \"==\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"The Line is Held\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The meme “nothing ever happens” can be best used to describe this situation. Nothing ever does happen in Singaporean politics, does it? The WP have held on to their seats and the PAP have held on to theirs. A surprisingly good result for you, you can celebrate the result as a significant mandate for your leadership of Singapore. The vote of confidence means that most opposition parties other than the Workers’ Party are weakened significantly, while Singapore becomes effectively between two parties (albeit, one much stronger than the other).<p/>\\n\\n<p>As for you, you and your ministers can celebrate holding onto your seats, of course to the disgruntlement of many opposition figures who had hoped to take their seats. The PAP, under you, can govern as you wish, and you can decide the next 5 years of Singaporean policy without any hesitation.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Music for a Sushi Restaurant\",\n      \"artist\": \"Harry Styles\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/4/4e/Harry_Styles_-_Music_for_a_Sushi_Restaurant.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a\"\n    }\n  }\n]",
-            "audioTitle": "Music for a Sushi Restaurant",
-            "audioArtist": "Harry Styles",
-            "audioCover": "https://upload.wikimedia.org/wikipedia/en/4/4e/Harry_Styles_-_Music_for_a_Sushi_Restaurant.png",
-            "audioUrl": "https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a",
-            "endingAccentColor": "#ffffff",
-            "endingBackgroundColor": "#ffffff",
-            "endingTextColor": "#000000",
-            "variableConditions": [],
-            "variableConditionOperator": "AND",
-            "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
-            "variableConditionEnabled": false,
-            "variableConditionName": "",
-            "variableConditionValue": ""
-        },
-        "1778174553743": {
-            "id": 1778174553743,
-            "variable": 0,
-            "operator": ">",
-            "amount": 91,
-            "endingTitle": "Opposition Crushed!",
-            "endingSubtitle": "",
-            "endingHideImage": false,
-            "endingImage": "https://file.garden/aftBfT23iVucvcGE/pap87.png",
-            "endingText": "<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP likely over 2015 levels in the vote share and seat count. Pritam Singh has lost his seat, and perhaps along with Dennis Tan. The opposition has been relegated to either 1 seat or nothing. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\n",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 91,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Opposition Crushed!\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP likely over 2015 levels in the vote share and seat count. Pritam Singh has lost his seat, and perhaps along with Dennis Tan. The opposition has been relegated to either 1 seat or nothing. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Rich Flex\",\n      \"artist\": \"Drake, 21 Savage\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \">\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Opposition Wrecked!\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>A horrific result for the WP, and needless to say all the other opposition parties too. An incredibly good night for the PAP, you have managed to push the PAP to 2015 levels in the vote share and seat count. The opposition is weakened and confused about how this result happened. Some fringe corners of the internet claim election fraud, while anger and fury spreads on Reddit. But that’s not your problem, is it?<p/>\\n\\n<p>You meet the former Prime Minister, Lee Hsien Loong, at an undisclosed location. “Lawrence,” he begins, “I’m impressed. I did make the right choice.”<p/>\\n\\n<p>You smile to yourself as you turn to look at the television, showing various minor opposition parties losing their deposits.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pap87.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Golden\",\n      \"artist\": \"HUNTR/X\",\n      \"cover\": \"https://upload.wikimedia.org/wikipedia/en/6/6f/Huntr-x_-_Golden.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8963-73cc-bafd-be5c2236bc12\"\n    }\n  }\n]",
-            "audioTitle": "Rich Flex",
-            "audioArtist": "Drake, 21 Savage",
-            "audioCover": "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png",
-            "audioUrl": "https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2",
-            "endingAccentColor": "#ffffff",
-            "endingBackgroundColor": "#ffffff",
-            "endingTextColor": "#000000",
-            "variableConditions": [],
-            "variableConditionOperator": "AND",
-            "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
-            "variableConditionEnabled": false,
-            "variableConditionName": "",
-            "variableConditionValue": ""
-        },
-        "1778257319579": {
-            "id": 1778257319579,
-            "variable": 0,
-            "operator": "<",
-            "amount": 49,
-            "endingTitle": "Grand Opposition Coalition incoming…",
-            "endingSubtitle": "",
-            "endingHideImage": false,
-            "endingImage": "https://file.garden/aftBfT23iVucvcGE/lawtear.png",
-            "endingText": "<p>After decades of PAP rule, it has all somehow ended with you! Since 1959, Singapore has been governed by one party and you somehow failed to even maintain this. With seats everywhere in the country lost to random opposition candidates you never even recognized, the scene at the PAP headquarters is shock, then horror. Whether you choose to resign or not, it is certain that people behind the scenes will remove you from your role.<p/>\n\n<p>At 10am in the morning following the election, Pritam Singh, Leong Mun Wai and Chee Soon Juan sit down at a press conference, announcing a coalition government. With Pritam Singh set to be the next Prime Minister, and many opposition politicians you consider antithetical to your views in the next cabinet, Singapore is set to move in a completely different direction. A WP-SDP-PSP cabinet means Singapore is set to move to the left and change much policy.<p/>\n",
-            "endingSlidesJson": "[\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 49,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Grand Opposition Coalition incoming…\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>After decades of PAP rule, it has all somehow ended with you! Since 1959, Singapore has been governed by one party and you somehow failed to even maintain this. With seats everywhere in the country lost to random opposition candidates you never even recognized, the scene at the PAP headquarters is shock, then horror. Whether you choose to resign or not, it is certain that people behind the scenes will remove you from your role.<p/>\\n\\n<p>At 10am in the morning following the election, Pritam Singh, Leong Mun Wai and Chee Soon Juan sit down at a press conference, announcing a coalition government. With Pritam Singh set to be the next Prime Minister, and many opposition politicians you consider antithetical to your views in the next cabinet, Singapore is set to move in a completely different direction. A WP-SDP-PSP cabinet means Singapore is set to move to the left and change much policy.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawtear.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Gnarly\",\n      \"artist\": \"KATSEYE\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fd6f747e5db2b162f04ae7962e91b96a1.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 65,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Shock and Horror\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>As the first sample counts come in, the results are clearly disappointing. First Potong Pasir seems in the mix, which is reasonable considering its history. Then Bukit Panjang looks worse, but perhaps this was expected of a good opposition candidate there. Then the GRCs start coming in. While it is clear the PAP has retained a majority, the opposition has managed to break the ⅔ supermajority for the first time in Singapore’s history. Pritam’s broad smile is broadcasted on CNA.<p/>\\n\\n<p>As for you, you will likely remain as Prime Minister of Singapore, albeit with a significantly weaker parliamentary delegation. Of course, similarly poor results (though not as bad as this one) did happen in 1991, and a few opposition missteps gave half their seats back to the PAP. You will need to tread carefully and deal with an inability to amend the constitution.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawtear.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Sour Grapes\",\n      \"artist\": \"LE SSERAFIM\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F7e689fff3801bce5fc185bbd7dc353f4.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 75,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"Improved Result for Opposition\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The opposition flipping a few seats here and there means decent gains for them, and that’s nothing unexpected. Going into this election, many expected the enthusiasm among opposition voters and the cost-of-living crisis to take a few seats out of the PAP’s column, and that has certainly happened here. Of course, you didn’t think you would lose so many seats, but based on the issues Singaporeans faced, it could never have been ruled out.<p/>\\n\\n<p>The PAP, of course, retains its ⅔ supermajority and will be able to push through your agenda, despite a noisy opposition bench. You can hope for opposition infighting and poor opposition town council management, but the truth is that losing a few ministers and potential ministers is a harsh hit to your government. There are of course, grumblings among several ministers you sent out to competitive GRCs and lost their seats.<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/pritcinema.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"number one girl\",\n      \"artist\": \"ROSÉ\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842\"\n    }\n  },\n  {\n    \"variable\": 0,\n    \"operator\": \"<\",\n    \"amount\": 87,\n    \"outcomeCondition\": \"ignore\",\n    \"title\": \"As Expected\",\n    \"subtitle\": \"\",\n    \"content\": \"<p>The opposition flipping a few seats here and there means decent gains for them, and that’s nothing unexpected. Going into this election, many expected the enthusiasm among opposition voters and the cost-of-living crisis to take a few seats out of the PAP’s column, and that has certainly happened here. While not an entirely horrific result, one or two ministers gone will decrease your options.<p/>\\n\\n<p>The PAP, of course, retains its ⅔ supermajority and will be able to push through your agenda, despite a noisy opposition bench. You can hope for opposition infighting and disagreements, but not much change has occurred. The WP has probably captured one more GRC, or maybe the PSP, or maybe the SDP has taken an SMC or two. But nothing much ever happens in Singapore, does it?<p/>\\n\",\n    \"image\": \"https://file.garden/aftBfT23iVucvcGE/lawprit.png\",\n    \"slideGroup\": \"main\",\n    \"variableConditions\": [],\n    \"variableConditionOperator\": \"AND\",\n    \"answerConditionType\": \"ignore\",\n    \"answerConditionAnswer\": \"\",\n    \"answerConditionAnswers\": \"\",\n    \"audio\": {\n      \"title\": \"Mr Perfectly Fine\",\n      \"artist\": \"Taylor Swift\",\n      \"cover\": \"https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg\",\n      \"url\": \"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5\"\n    }\n  }\n]",
-            "audioTitle": "Gnarly",
-            "audioArtist": "KATSEYE",
-            "audioCover": "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fd6f747e5db2b162f04ae7962e91b96a1.1000x1000x1.png",
-            "audioUrl": "https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93",
-            "endingAccentColor": "#ffffff",
-            "endingBackgroundColor": "#ffffff",
-            "endingTextColor": "#000000",
-            "variableConditions": [],
-            "variableConditionOperator": "AND",
-            "outcomeCondition": "ignore",
-            "answerConditionType": "ignore",
-            "answerConditionAnswer": "",
-            "answerConditionAnswers": "",
-            "variableConditionEnabled": false,
-            "variableConditionName": "",
-            "variableConditionValue": ""
-        }
-    },
+    "endings_enabled": false,
+    "ending_data": {},
     "cyoa_enabled": true,
     "cyoa_data": {},
     "cyoa_variables": {
@@ -12657,4 +12015,394 @@ campaignTrail_temp.jet_data = [{
     "player_candidate": 300
 }
 ]
+
+// ENDINGS -- this is slightly more reliable than the ending code method
+// figuring this out was such a pain lmao
+
+e.multiple_endings = true;
+var used = false;
+
+endingPicker = (out, totv, aa, quickstats) => {
+  //out = "win", "loss", or "tie" for your candidate
+  //totv = total votes in entire election
+  //aa = all final overall results data
+  //quickstat = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+
+  /*
+  e.header = "<h2></h2>"
+  e.pages = ["<p></p>",
+             "<p></p>"]
+  */
+
+construct = (a = 1) => {
+  e.page = e.page + a < e.pages.length ? e.page + a : 0
+  let html = e.header;
+  html += e.pages[e.page] + "<br>";
+  if (e.page > 0) {
+    html += `<button onclick='endingConstructor(a = -1)'>Back</button>`
+  }
+  if (e.page < e.pages.length - 1) {
+    html += `<button onclick='endingConstructor(a = 1)'>Next</button>`
+  }
+
+  if (e.image == true)
+    setTimeout(()=>{
+      candImg = $(".person_image")[0]
+      if (candImg) {
+        candImg.remove()
+        $("#final_results_description")[0].style = `
+          text-align:left;
+          width: 70%;
+          text-overflow: ellipsis;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        `
+      }
+    }, 10)
+  else if (e.image)
+  setTimeout(()=>{
+      candImg = $(".person_image")[0];
+      if (candImg)
+        candImg.src = e.image;
+    }, 10)
+
+  return html;
+}
+
+endingConstructor = (a = 1) => {
+  $("#final_results_description")[0].innerHTML = construct(a);
+}
+  if (quickstats[0] == 87) // Nothing Ever Happens
+  { 
+    e.header = "<h2>Relief</h2>"
+    e.pages = [`<p><div style='overflow-y:scroll;height:200px;'>That was the feeling in the air of the Star Theatre as the PAP under Lawrence Wong’s leadership achieved the expected vote share as the night went on.</p>
+
+<p>The first indicators that nothing was out of the ordinary were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which while the PAP has extended their lead in, were well within the internal polling that Lawrence has been reading non-stop before polling day.</p>
+
+<p>Then the mood in the Star Theatre erupted as sample counts showed the PAP consistently beating the opposition in almost every competitive constituency. Suddenly for the Prime Minister, it was as if the world gave him a moment of clarity. Perhaps now, his leadership within the party would be cemented, much like his predecessors before him.</p>
+
+<p>As Channel News Asia announced the results, much to the expectations to him, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how he was able to successfully manage to keep the party steady amid a passing of the torch to the new generation of leadership within the PAP.</p>
+
+<p>Though Aljunied and Sengkang remained lost for now, these results weren’t unexpected. At least with the skeletons coming out of Pritam’s closet now, it theoretically shouldn't be that challenging to maintain and even extend the PAP’s lead in the next election</p>
+
+<p>As the respective elected MPs make their way to the STAR Theatre stage, all ensuring to sing praises about the next generation of PAP leadership under Lawrence, Lee Hsien Loong pulls him aside.</p>
+
+<p>‘Lawrence,’ he begins</p>
+
+<p>‘I’m impressed, It seems I have made the right choice’</p></div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Music For A Sushi Restaurant",
+            "Harry Styles",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F655c6d50af205c6a383a7cae473c8bd3.675x675x1.png",
+"https://audio.jukehost.co.uk/019e0d9c-a6a3-7258-a2df-c858dc1f604a"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+     else if (quickstats[1] > 95.0) // Tharman UMA!
+  { 
+    e.header = `
+  <div style="text-align: left;">
+    <h2 style="margin-bottom: 2px;">Tharman Shanmugaratnam's New Obsession With An Anime Horse Game</h2>
+    <p style="font-size: 0.9em; color: black; margin-top: 0;">Straits Times, May 12 2026</p>
+  </div>
+`
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>SINGAPORE - Reports say that President Tharman Shanmugaratnam, after meeting several cosplayers earlier this year,, has gotten into the mobile game “Umamusume: Pretty Derby”. </p>
+
+<p>Since the PAP’s overwhelming victory, The President has spent most of his time in his home, playing the 2025 Mobile Game of the Year winner on his devices instead of working and attending to his ceremonial duties.</p>
+
+<p>When asked for comments, Tharman himself appeared in a press conference.</p>
+
+<p>“I need to train for the next CM.” The President said, “I’m planning on running a front runner strategy. I am quite fond of Haru Urara. Her hardworking values in the face of repeated failures reflects values every Singaporean should strive towards. I would run her for this CM, but I don’t have enough dirt sparks.”</p>
+
+<p>After the PAP’s Popular Vote dominance, with almost everyone voting for them, the President has appeared rather disengaged. When questioned, Tharman remained unconcerned.</p>
+
+<p>“The PAP is the country.” He said “What am I needed for? Lawrence is sort of like TM Opera O. Dominant. Why should I be an Admire Vega? Or Narita Top Road? Even a Belno Light in CinGrey to his Oguri? Better to be a spectator. No need for me to run.”</p>
+
+<p>The President then reportedly muttered “Suzuka isn't going to train herself.” before walking out of the press conference.</p>
+
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Umapyoi Legend",
+            "Cast of Umamusume",
+            "https://static.wikia.nocookie.net/umamusume/images/5/5e/Umapyoi_densetsugame.jpg/revision/latest/scale-to-width-down/268?cb=20220415204908",
+"https://audio.jukehost.co.uk/019e0372-8c4e-7086-a968-18763c9e8569"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[1] < 5.0) // Iron Man
+  { 
+    e.header = "<h2>Despair.</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'>
+    <p>Lawrence Wong sits alone in his office. How could this happen? Barely anyone voted for him… why? Is this a divine intervention by God? What did he do to deserve this?</p>
+
+<p>He opens a drawer and finds a photo of him when he was younger. In his Tanjong Katong Secondary School uniform. A boy from a neighbourhood school. Unremarkable, quiet, ordinary. He never planned to be Prime Minister. To face this failure.</p>
+
+<p>He used to play the guitar. That was his passion. Music. Not this.</p>
+
+<p>Maybe… he could become a busker. Go back to guitar and actually enjoy his life. </p>
+
+<p>Well, whatever's left of it.</p>
+
+<p>Suddenly the lights flicker, the ground shakes beneath him, darkness clouds his vision and a shadow appears rising from the ground. Lawrence takes a step back. He falls</p>
+
+<p>“It seems the leaders of today do not have the iron in them. Give it up! This is not a game of cards! This is your life and mine.” The shadow steps forward. “Even though you’ve lowered me into the grave, I have felt that something has gone wrong. And I have gotten up.”</p>
+
+<b><p>Lee Kuan Yew.</p></b>
+
+
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Like Him",
+            "Tyler, The Creator",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F206f16145c6ad42142656b0a53a0638f.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0372-8d6f-73f2-990b-b9f4dff2f6b3"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+    else if (quickstats[0] > 87 && quickstats[0] < 92) // Win Sengkang (by right)
+  { 
+    e.header = "<h2>Triumphant</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air of the STAR Theatre as the PAP under Lawrence Wong’s leadership saw landslides in most constituencies as the night went on.</p>
+
+<p>The first indications were in the usual suspects. Radin Mas, Marymount, Jurong Central. All constituencies which have comfortably voted for the continuation of the status quo. One that is under Lawrence’s leadership that was inherited from the giants before him</p>
+
+<p>Then, the mood in the Theatre erupted as Liang Eng Hwa was elected with a much larger than expected percentage vote as in 2020. Suddenly, for the Prime Minister, it was as if the world had become much less complicated. Perhaps now he can confidently secure his leadership in the PAP, like his predecessors before him had.</p>
+
+<p>As Channel News Asia continued to announce the landslides in every constituency, both expected and unexpected, Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory </p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all you could think about was how you did what your predecessor failed to do in 2020. And of course, how you would ensure that the rest of them gets voted out by the next election.</p>
+
+<p>The Worker’s Party and the opposition in general has lost in much larger margins compared to 2020 and has even lost seats. </p>
+
+<p>As the respective elected MPs make their way to the stage of the Star Theatre, all of them singing praises of Lawrence’s leadership during their speeches, Lee Hsien Loong pulls him aside.</p>
+
+<p>‘Lawrence,’ he begins</p>
+
+<p>‘I’m impressed, It seems I have made the right choice’</p></div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Golden",
+            "HUNTR/X",
+            "https://upload.wikimedia.org/wikipedia/en/6/6f/Huntr-x_-_Golden.png",
+"https://audio.jukehost.co.uk/019e0372-8963-73cc-bafd-be5c2236bc12"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[0] > 91) // PAP Wins Aljunied
+  { 
+    e.header = "<h2>Jubilance</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw record voting numbers as the night went on.</p>
+
+<p>At first it was the expected landslides. Radin Mas, Marymount, Jurong Central. All constituencies which comfortably wanted to continue the status quo and the legacy that you had inherited from the giants before.</p>
+
+<p>Then the mood in the stadium erupted as Liang Eng Hwa was elected in an unexpected landslide against Paul Tambayah in Bukit Panjang. Suddenly, for the Prime Minister, it was as though a light was shining on him and the party as a whole. Perhaps tonight was the night that history would be made.</p>
+
+<p>As Channel News Asia continued to announce the landslides in almost every constituency,  Lawrence awaited for the big result to be called, even after he had long proclaimed PAP’s victory.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, Lawrence couldn’t believe it at first. There was no way they did THIS poorly right? Then as the final result was announced by Han Kok Juan, the vote would immediately become headline news, and spread like a wildfire online.</p>
+
+<p>Aljunied was white again.</p>
+
+<p>Immediately he felt as though the world had brought him and Singapore justice for the past few years. Finally, Pritam Singh as a threat to PAP rule was no more and now, more than ever, can the PAP bring Singapore to heights never seen before. Some part of Lawrence’s heart aches as Pritam distraughtly announces his loss to the grieving crowd at Serangoon Stadium </p>
+
+<p>As the PAP Aljunied team goes onto the stage, even as Lee Hsien Loong all he could think about was what future history books will call him for this moment.</p>
+
+<p>Amongst the names of Stamford Raffles, David Marshal, Yusof Ishak and Lee Kuan Yew.</p>
+
+<p>There would be you.</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Rich Flex",
+            "Drake and 21 Savage",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F31496d46a302dd9b55416525688ac9d9.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0372-8ae6-72d3-bc01-18e52eda1fd2"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+        else if (quickstats[0] <87 && quickstats[0] > 75) // lose a few seats
+  { 
+    e.header = "<h2>placeholder</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Mr Perfectly Fine",
+            "Taylor Swift",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
+"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+          else if (quickstats[0] <76 && quickstats[0] > 64) // lose 2/3
+  { 
+    e.header = "<h2>Anxiety</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p><p>That was the feeling in the air in Yio Chu Kang Stadium as the PAP under Lawrence Wong’s leadership saw many districts go to the opposition as the night went on.</p>
+
+<p>The first signs of trouble were the usual suspects.  Radin Mas, Marymount, Jurong Central. All constituencies which saw the PAP’s lead decrease notably. If these ‘safe’ regions saw an increasing number of voters rejecting the party and Lawrence’s leadership, then what else could happen?</p>
+
+<p>The mood in the stadium soured as more and more constituencies chose the opposition over the PAP. Suddenly for Prime Minister at least, it was as if the floodgates that were once holding his opponents back, began to show cracks that were leaking to the rest of the country</p>
+
+<p>As Channel News Asia announced the results, much to the dismay of him and his supporters in Yio Chu Kang, Bukit Gombak and Bedok,  Lawrence anxiously awaited for further results, even after he had declared victory, though much later than what he expected.</p>
+
+<p>And then it happened.</p>
+
+<p>When the sample counts first appeared, and then the final results were announced some moments later by Han Kok Juan, all Lawrence could think about was how much he failed himself, his colleagues, the party and most importantly of all, Singapore.</p>
+
+<p>In a nightmarish version of the 2011 election, multiple incumbent ministers were booted out in an instant. But the most impactful casualty of the opposition landslides was none other than the very person he installed to ensure such a possibility would never become reality.</p>
+
+<p>Deputy Prime Minister Gan Kim Yong.</p>
+
+<p>As clips of celebrations at Serangoon Stadium contrasted with those of grief in the PAP assembly sites, all Lawrence could think of was the future. Like it or not, even though the ⅔ majority has (thankfully) been kept, the PAP will have to thread carefully as an opposition sweep preventing the ⅔ threashold to be reached is looking like a major concern at the next elections.</p>
+
+<p>For now, as Lawrence looked around him for a way out, he caught a glimpse of Lee Hsien Loong, looking dejectedly at the unfolding tragedy. With a sigh he turned away from the Prime Minister leaving him alone with his thoughts</p>
+</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "number one girl",
+            "Rosé",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+      else if (quickstats[0] <65 && quickstats[0] > 48) // bad keep maj
+  { 
+    e.header = "<h2>Shock</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Sour Grapes",
+            "LE SSERAFIM",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F7e689fff3801bce5fc185bbd7dc353f4.1000x1000x1.png",
+"https://audio.jukehost.co.uk/019e0db9-ab12-71a7-8e5d-930b6dfe280c"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+        else if (aa[0].candidate === 303) // lose a few seats
+  { 
+    e.header = "<h2>test</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "PSP WIN SONG",
+            "Taylor Swift",
+            "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6cd0ab9299beabca6c26f6543614811f.533x534x1.jpg",
+"https://audio.jukehost.co.uk/019e0372-8c9e-729b-9bdc-2eace5604af5"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+       else if (quickstats[0] <49) // lose majority
+  { 
+    e.header = "<h2>Crisis</h2>"
+    e.pages = [`<div style='overflow-y:scroll;height:200px;'><p>placeholder</p>
+</div>
+`]
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "evermore",
+            "Taylor Swift",
+            "https://upload.wikimedia.org/wikipedia/en/0/0a/Taylor_Swift_-_Evermore.png",
+"https://audio.jukehost.co.uk/019e4d4d-c116-72d1-b001-c97e60975581"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+
+  return construct(0);
+  }
+  else //Failsafe ending 
+  { 
+    e.header = "<h2>something broke</h2>"
+    e.pages = [`<p>what the shucks</p>`]
+    e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Loony%20Win.png";
+        if (used != true) {
+    const playlist = new Playlist();
+    const song = new Song(
+            "Gnarly",
+            "KATSEYE",
+            "https://upload.wikimedia.org/wikipedia/en/c/ce/Katseye_-_Gnarly.jpg",
+            "https://audio.jukehost.co.uk/019e0dfe-8d00-7050-b281-83e235bd0f93"
+        );
+        playlist.addSong(song);
+        changePlaylist(playlist);
+        used = true;
+  }
+  return construct(0);
+  }
+}
+e.multiple_endings = true;
+
+
 
