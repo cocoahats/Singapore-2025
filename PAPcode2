@@ -857,7 +857,7 @@ campaignTrail_temp.answers_json = [
         "pk": 50687,
         "fields": {
             "question": 1204,
-            "description": "This all boils down to the WP’s own problem in candidate selection, when they chose Raessah Khan. And this isn’t the only time: they’ve chosen Leon Perera, they’ve chosen Yaw Shin Leong, they don’t have a proper vetting process for their candidates."
+            "description": "This all boils down to the WP’s own problem in candidate selection, when they chose Raeesah Khan. And this isn’t the only time: they’ve chosen Leon Perera, they’ve chosen Yaw Shin Leong, they don’t have a proper vetting process for their candidates."
         }
     },
     {
@@ -12540,7 +12540,11 @@ campaignTrail_temp.jet_data = [{
                 {
                     "pk1": 12222,
                     "pk2": 1222
-                }
+                },
+                {
+                    "pk1": 12112,
+                    "pk2": 1211
+                },
             ]
         }
     },
