@@ -855,13 +855,16 @@ tooltipList = [
     {searchString: "an interesting man who likes Bitcoin", explanationText: "<img src=https://jeremytan.sg/_nuxt/jeremy-tan-crop.0fd34n8_.jpg>"},
     {searchString: "Leong Mun Wai", explanationText: "<img src=https://psp.org.sg/wp-content/uploads/2024/10/MunWai1-768x487.png> PSP non-constituency Member of Parliament who narrowly missed out on winning last election. Now the PSP leader. Very aggressive."},
     {searchString: "Ravi Philemon", explanationText: "<img src=https://cassette.sphdigital.com.sg/image/businesstimes/83026f9ec7287ade3a78c97fa367ece8aa4f3fead2ae4c3b186789be448b50fd?w=960&dpr=1&f=webp> RDU founder and leader, formerly a NSP, SPP and PSP member. Very passionate, very ambitious, and often criticized for using ChatGPT."},
-    {searchString: "Andre Low", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-8oZ2z9SfuOPSO-gVvYorEByePSk47aH1aeE7pWSY0Bk82ApN0XfXyPA_rucpG2cGvu1LHzZYnQmlP4RYAFmlxPmK9efard5IemqAg&s=10> Young WP candidate slated to run in Tampines, but fate may have other plans for him..."},
     {searchString: "SkillsFuture", explanationText: "<img src=https://www.myskillsfuture.gov.sg/content/dam/portal/social/skillsfuture_fb_1200by630_w.jpg> A government initiative designed to help citizens develop industry-related skills throughout their careers for constant upskilling. Quite popular."},
     {searchString: "It Is Time", explanationText: "<img src=https://singaporepeoplesparty.org/wp-content/uploads/2025/04/Facebook-Cover-1-1080x675.png> Maybe the worst slogan this election, and the official slogan of the SPP. Quite uninspired."},
     {searchString: "Gerald Giam", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--hVNGMn7d--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/tdy-migration/20150826_gerald_giam_ee_016_read-only.jpg?itok=KfasGIel> WP NCMP from 2011 to 2015 and MP since 2020 for Aljunied GRC. Notably voted against repealing Singapore’s ban on homosexual relations."},
     {searchString: "Jamus Lim", explanationText: "<img src=https://media.theindependent.sg/wp-content/uploads/2025/11/Screenshot-2025-11-17-at-9.06.59%E2%80%AFAM-e1763373078976.jpg> Charming superstar in the last election and MP for Sengkang GRC since 2020. Disliked by many older conservatives."},
     {searchString: "He Ting Ru", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/07/19/hzhetingru0719.jpg?VersionId=liF8cPC3M3ynMPUz6fjn2XzQKr9YhJMH> Surprisingly talented and passionate MP for Sengkang GRC since 2020. Running in elections since 2015."},
     {searchString: "three core constituencies", explanationText: "Aljunied GRC, Sengkang GRC, and Hougang SMC. The 3 constituencies (and 10 seats) held by the Workers’ Party."},
+    {searchString: "Goh Meng Seng", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/07/08/hzgoh0708.jpg?VersionId=2JgHK6yQVq2sraKw7O3nft1Xx.zrLMi7> Where do we even begin? Anti-LGBT, anti-vaccine, and leader of the PPP."},
+    {searchString: "not gay", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/notgay> ???"},
+    {searchString: "Bukit Batok SMC", explanationText: "Chee Soon Juan has been trying his best here for the last 9 years, but it was dissolved in 2025’s EBRC report and merged into the heavily pro-PAP Jurong East-Bukit Batok GRC."},
+
 
 ]; 
 
