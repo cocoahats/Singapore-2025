@@ -636,9 +636,22 @@ const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 theme.coloring_title     = "#700016";
 theme.coloring_window    = "#ffffff";
 theme.coloring_container = "#ff8080";
-theme.header_image = "https://file.garden/aftBfT23iVucvcGE/4lang.png";
 theme.body_background = "https://file.garden/aftBfT23iVucvcGE/merli.png";
+const headerImages = [
+  "https://i.imgur.com/Il8cbJe.png",
+  "https://i.imgur.com/e1PZxBU.png",
+  "https://i.imgur.com/Z3HH8gN.png",
+  "https://i.imgur.com/d30V5c2.png"
+];
 
+let queue = JSON.parse(sessionStorage.getItem("imgQueue") || "[]");
+
+if (queue.length === 0) {
+  queue = [...headerImages].sort(() => Math.random() - 0.5);
+}
+
+theme.header_image = queue.pop();
+sessionStorage.setItem("imgQueue", JSON.stringify(queue));
 applyTheme(theme);
 
 e=campaignTrail_temp
