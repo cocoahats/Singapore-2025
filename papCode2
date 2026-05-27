@@ -12669,20 +12669,22 @@ function switcheroo() {
         },
     {
             getValue: () => Tariff,
-            label: `Trump Tariffs`,
+            label: `Fear Over International Instability is`,
             tiers: [
-                [0, `Tariff is struggling.`, "#ff4d4d"],
-                [2, `Tariff is steady.`, "#e6e6e6"],
-                [Infinity, `Tariff is surging.`, "#4dff4d"],
+                [0, `Low`, "#ffffff"],
+                [1, `Medium.`, "#f08e8e"],
+                [2, `High.`, "#f31010"],
+                [Infinity, `Extremely High.`, "#4d0303"],
             ],
         },
     {
             getValue: () => OppoDistrust,
-            label: `Trust Of Opposition`,
+            label: `The Opposition's Overall Reputation Among Singaporeans is`,
             tiers: [
-                [0, `OppoDistrust is struggling.`, "#ff4d4d"],
-                [2, `OppoDistrust is steady.`, "#e6e6e6"],
-                [Infinity, `OppoDistrust is surging.`, "#4dff4d"],
+                [0, `High.`, "#ff4d4d"],
+                [1, `Medium`, "#e7dd4f"],
+                [2, `Low`, "#4434db"],
+                [Infinity, `Very Low`, "#4dff4d"],
             ],
         }
     ];
