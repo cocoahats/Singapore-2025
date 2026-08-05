@@ -11439,11 +11439,11 @@ function setupMusicPlayer() {
 
   const defaultSongs = [
   ["APT.", "Rosé and Bruno Mars", "https://upload.wikimedia.org/wikipedia/en/5/52/Ros%C3%A9_and_Bruno_Mars_-_Apt..png", "https://audio.jukehost.co.uk/019ddc73-28c8-7147-bca0-810951061df5"],
+  ["Tomorrow’s Here Today", "53A", "https://file.garden/aftBfT23iVucvcGE/tmrhtday", "https://audio.jukehost.co.uk/019de4a3-8c38-7038-819d-a0b6d09fbf08"],
   ["As It Was", "Harry Styles", "https://upload.wikimedia.org/wikipedia/en/f/ff/Harry_Styles_-_As_It_Was.png", "https://audio.jukehost.co.uk/019ddc84-3c98-7212-a8a0-bc0bfb983b8f"],
   ["ANTIFRAGILE", "LE SSERAFIM", "https://upload.wikimedia.org/wikipedia/en/e/e6/Le_Sserafim_-_Antifragile.png", "https://audio.jukehost.co.uk/019de4a0-9f52-728c-aab5-388f962d0ec3"],
   ["Champagne Poetry", "Drake", "https://upload.wikimedia.org/wikipedia/en/7/79/Drake_-_Certified_Lover_Boy.png", "https://audio.jukehost.co.uk/019de4a1-ab76-7322-986a-b262adf54ce2"],
   ["Mastermind", "Taylor Swift", "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png", "https://audio.jukehost.co.uk/019de4a2-b036-7153-96e6-30263df4c2e4"],
-  ["Tomorrow’s Here Today", "53A", "https://file.garden/aftBfT23iVucvcGE/tmrhtday", "https://audio.jukehost.co.uk/019de4a3-8c38-7038-819d-a0b6d09fbf08"],
   ["Like You Do", "JJ Lin", "https://upload.wikimedia.org/wikipedia/en/c/ca/Drifter_JJ_Lin_cover.jpg", "https://audio.jukehost.co.uk/019de4a4-19b7-73cb-935c-90f9f8734e66"],
   ["Sunset", "Stefanie Sun", "https://i.scdn.co/image/ab67616d0000b2732ea3dee246bfed0152d198f2", "https://audio.jukehost.co.uk/019de4a5-106f-71b5-a1d2-79001ecdbefc"],
   ["Thunderstruck", "ACDC", "https://upload.wikimedia.org/wikipedia/en/e/e4/ACDC-Thunderstruck.png", "https://audio.jukehost.co.uk/019de4a5-11c8-72d4-ace7-3b0e0140ec2e"]
@@ -12162,7 +12162,10 @@ e.WinPopup = "As expected."
 e.LosePopup = "What the fuck."
 e.SelAnsContText = "Um Lawrence? You need to pick an answer...."
 
+
+
 // ENDINGS -- this is slightly more reliable than the ending code method 
+// i code very unoptimally if youre trying to copy, use another ending code, from W. or smth. 
 
 e.multiple_endings = true; 
 var used = false; 
@@ -12197,7 +12200,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         </style>
         `;
         
-        // Wrap the entire output in a left-aligned div
+
         html += `<div style="text-align: left;">`;
         html += e.pages[e.page] + "<br><br>";   
         
@@ -12208,8 +12211,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         html += `<button onclick='endingConstructor(a = 1)'>Next</button>` 
         } 
         
-        html += `</div>`; // Close the left-aligned wrapper
-
+        html += `</div>`; 
         if (e.image == true) 
         setTimeout(()=>{ 
             candImg = $(".person_image")[0] 
@@ -12232,17 +12234,7 @@ endingPicker = (out, totv, aa, quickstats) => {
             candImg.src = e.image; 
         }, 10) 
 
-        // ALWAYS reset scroll position of any scrollable ending content,
-        // regardless of whether it's a fresh play, a page nav, or a replay.
-        setTimeout(()=>{ 
-            const container = $("#final_results_description")[0]; 
-            if (container) { 
-                container.scrollTop = 0; 
-                container.querySelectorAll("div[style*='overflow-y:scroll']").forEach(el => { 
-                    el.scrollTop = 0; 
-                }); 
-            } 
-        }, 10); 
+
 
         return html; 
     }
