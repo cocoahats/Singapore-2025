@@ -13944,6 +13944,10 @@ endingPicker = (out, totv, aa, quickstats) => {
         ctsAchievement("True Woke");
     }
 
+    if (campaignTrail_temp.player_answers?.includes(6051)) {
+        ctsAchievement("Singapore’s PAS");
+    }
+
     if (ManpowerStrain > 3) {
         ctsAchievement("Mr Islandwide");
     }
@@ -15198,8 +15202,6 @@ cyoAdventure = function (a) {
         amk -= 1;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
-
-
     
         const walkoverCodes = [6079, 50749, 50754, 7012, 7014];
 
@@ -15207,9 +15209,7 @@ cyoAdventure = function (a) {
             console.log("done");
             switcheroo();
             }
-          if(ans == 6051) {
-            ctsAchievement("Singapore’s PAS");
-        }
+
     // question swap CYOA here
     if (campaignTrail_temp.question_number == 13 && JKayu == 0) {
         questionSwapper(12142, 1214);
