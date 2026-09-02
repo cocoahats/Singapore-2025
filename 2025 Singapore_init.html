@@ -1283,11 +1283,13 @@ var changeGameDisp = (hide) => {
 
 e.creditsPage = () => {
   credits_html = `
-    <h3>Coding and Co-Creator</h3>
-    <p><img src="https://i.imgur.com/UDRmsvT.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:5px;"><font color='#800080'>CoconutHats<img src="https://i.imgur.com/UDRmsvT.png" alt="Icon" style="width:40px; vertical-align:middle; margin-right:5px;"></font></p>
-    <h3>Head Writer and Co-Creator</h3>
+    <h2>Coding and Co-Creator</h2>
+    <img src="https://file.garden/aftBfT23iVucvcGE/misc/bchisq.png" width="60px">
+    <h4><font color="#800080">coconuthats</font></h4>
+    <h2>Head Writer and Co-Creator</h2>
+    <img src="https://file.garden/aftBfT23iVucvcGE/misc/szobo.png" width="60px">
     <p><font color='#0044ff'>aidanpolitics</font></p>
-    <h3>Team</h3>
+    <h2>Team</h2>
     <p><font color='#afbbff'>skartchian</font></p>
     <p><font color='#ec1414'>hychael2020 </font></p>
     <p><font color='#14ec43'>joshausolvesbadly</font></p>   
@@ -1296,7 +1298,7 @@ e.creditsPage = () => {
 
 
 
-    <h3>Code Credits</h3>
+    <h2>Code Credits</h2>
     <p><font color='#b665bc'>Map By UnpledgedElector</font></p>
     <p><font color='#264294'>Music Player from 2028 AOC</font></p>
     <p><font color='#FF0000'>Credits Code by DecstarG</font></p>
@@ -1305,6 +1307,7 @@ e.creditsPage = () => {
     <p><font color='#FDB913'>Election Briefing </font><font color='#006A44'>from </font><font color='#C1272D'>2024 Lithuania</font></p>
     <p><font color='#26c7f8'>Map Hover and Other Code From 2025NJ</font></p>
     <p><font color='#00c220'>Variety of code from LBM and StrawberryMaster's resources and help in general</font></p>
+    <p><font color='#129a888'>Banner by E</font></p>
    
 
     <h1><font color='gold'>Final Note</font></h1>
@@ -1422,7 +1425,6 @@ campaignTrail_temp.modBoxTheme = {
 
 addDynamicCSS();
 
-
 tooltipList = [
     {searchString: "Lee Kuan Yew", explanationText: "<img src=https://media.theindependent.sg/wp-content/uploads/2014/02/LKY.jpg> The Founder. Prime Minister of Singapore from 1959 to 1990."},
     {searchString: "Goh Chok Tong", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/12/18/af_esm_181220.jpg?VersionId=_2psEIquYv8j6C8FmMsQHeC5bW.xQmDM> 2nd Prime Minister of Singapore from 1990 to 2004."},
@@ -1447,6 +1449,7 @@ tooltipList = [
     {searchString: "PSP", explanationText: "<img src=https://psp.org.sg/wp-content/uploads/2020/04/psp-logo2-600.png> An opposition party formed in 2019 by former PAP MP Tan Cheng Bock. It has 2 NCMPs in parliament and is generally more conservative compared to other opposition parties."},
     {searchString: "PAR", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPezHCcicD6uDDliaLFJxkKCyH7HctidAJfw&s> An opposition alliance formed in 2023 and led by political personality Lim Tean. Anti-immigration and very under-resourced."},
     {searchString: "SDA", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/f/f0/Red_star%2C_4x_blue_overlapping_rings.svg> An opposition alliance formed by Chiam See Tong before he left the alliance. Now operated exclusively in Pasir Ris and led by Desmond Lim. Quite wealthy but simply not popular enough."},
+    {searchString: "NSP", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj3JbdlDJRjS-WVS7W0Vhh7ecD_4wLw7cD7w&s> Used to be one of the larger opposition parties. Now bickers with the larger opposition parties over contesting the same constituencies."},
     {searchString: "RDU", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM_ZlaS-579tvTna2zTr5l2_-5OwkFE61HIw&s> A new opposition party formed in 2020 by Ravi Philemon, it has grown substantially in membership and now wants to run around 15 candidates this election. It still lacks resources and significant name recognition."},
     {searchString: "PPP", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/6/65/People%27s_Power_Party_%28Singapore%29.png> Opposition party founded in 2015. Hates the WP, hates the PAP, hates vaccines and hates LGBT. Also quite unpopular."},
     {searchString: "SUP", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/en/8/8b/Singapore_United_Party_logo.png> Very irrelevant and minor opposition party. Doesn’t have a functioning website."},
@@ -1456,7 +1459,7 @@ tooltipList = [
     {searchString: "Bishan-Toa Payoh GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/6/64/Bishan%E2%80%93Toa_Payoh_Group_Representation_Constituency%2C_2025.svg> Right next to former opposition seat Potong Pasir, the SPP now spends all their time trying to take both these now safe PAP constituencies. They haven’t succeeded."},
     {searchString: "Chua Chu Kang GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/e/e4/Chua_Chu_Kang_Group_Representation_Constituency%2C_2025.svg> A safe PAP constituency that was surprisingly close in 2020. The PSP is here because they need somewhere to field their B team."},
     {searchString: "East Coast GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/5/5c/East_Coast_Group_Representation_Constituency%2C_2025.svg> This constituency used to look competitive, but it has been redrawn so many times until its barely a battleground. The PAP holds a slight edge over the WP here."},
-    {searchString: "Holland-Bukit Timah GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/3/3b/Holland%E2%80%93Bukit_Timah_Group_Representation_Constituency%2C_2025.svg> Wealthy constituency filled with mansions and condominiums. The SDP decided to abandon this place, giving it for free to PAP Minister Vivian Balakrishnan."},
+    {searchString: "Holland-Bukit Timah GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/3/3b/Holland%E2%80%93Bukit_Timah_Group_Representation_Constituency%2C_2025.svg> Wealthy constituency filled with mansions and condominiums. Doesn’t look too good for the opposition, and looks quite good for PAP minister Vivian Balakrishnan."},
     {searchString: "Jalan Besar GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/2/25/Jalan_Besar_Group_Representation_Constituency%2C_2025.svg> Somehow the worst of the opposition always ends up here, even though the PAP Minister, Josephine Teo, is very unpopular here. Interesting mix of historic Singapore city centre and old voters."},
     {searchString: "Jurong East-Bukit Batok GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/e/e8/Jurong_East%E2%80%93Bukit_Batok_Group_Representation_Constituency%2C_2025.svg> This GRC was drawn and magically absorbed the once competitive Bukit Batok. Now helmed by Minister Grace Fu."},
     {searchString: "Marine Parade-Braddell Heights GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/4/4f/Marine_Parade%E2%80%93Braddell_Heights_Group_Representation_Constituency%2C_2025.svg> Used to be Marine Parade GRC and stretched from Braddell Heights to the shore. It got renamed and absorbed the extremely pro-PAP area MacPherson. Also redrawn many, many times."},
@@ -1464,7 +1467,7 @@ tooltipList = [
     {searchString: "Nee Soon GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/5/5e/Nee_Soon_Group_Representation_Constituency%2C_2025.svg> All the crazy stuff in Singapore happens here. Helmed by the fearsome PAP Minister K. Shanmugam, and has a rotating set of opposition parties contesting."},
     {searchString: "Pasir Ris-Changi GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/0/0a/Pasir_Ris-Changi_Group_Representation_Constituency%2C_2025.svg> The world famous Changi Airport is here, but most residents don’t go on regular trips there. The SDA has been here for decades and will be here forever to contest against the PAP and distribute supplies."},
     {searchString: "Punggol GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/f/f9/Punggol_Group_Representation_Constituency%2C_2025.svg> An incredibly young estate that could be a major election battleground, Punggol is filled with many young families. The WP has set its sights on winning here."},
-    {searchString: "Sembawang GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/6/6f/Sembawang_Group_Representation_Constituency%2C_2025.svg> The constituency at the Malaysian border. Helmed by Minister Ong Ye Kung, and often contested by the inactive NSP. The SDP has decided to run here this time, though."},
+    {searchString: "Sembawang GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/6/6f/Sembawang_Group_Representation_Constituency%2C_2025.svg> The constituency at the Malaysian border. Helmed by Minister Ong Ye Kung, and often contested by the inactive NSP. The SDP could run here this time, though."},
     {searchString: "Sengkang GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/0/03/Sengkang_Group_Representation_Constituency%2C_2025.svg> The second, and to date latest GRC to fall to the WP, Sengkang is filled with young families and is a new estate. Now has 1 MP less after Raeesah Khan was caught lying."},
     {searchString: "Tampines GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/f/f1/Tampines_Group_Representation_Constituency%2C_2025.svg> An older estate in Singapore. Formerly contested every election by the NSP, the WP now thinks that it has a shot at winning here. The constituency is also helmed by a relatively weak Minister, Masagos Zulkifli."},
     {searchString: "West Coast-Jurong West GRC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/f/fe/West_Coast%E2%80%93Jurong_West_Group_Representation_Constituency%2C_2025.svg> Formerly West Coast GRC and now with parts of Jurong added. Was the closest constituency in the last election and may well be headed for a tight battle between the PAP and PSP."},
@@ -1476,7 +1479,8 @@ tooltipList = [
     {searchString: "Chee Soon Juan", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--uYwBVEWb--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/tdy/image/2024/02/23/20190804_raj_chee_soon_juan7.jpg?itok=9MQYjp5G> The longtime leader of the SDP and opposition stalwart. Really doesn’t like anyone from the PAP. Western liberal."},
     {searchString: "Paul Tambyah", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/06/17/yq-paultambyah-17062021.jpg?VersionId=82NME4867n508_kgUyaRIFIddkM60EJH> Infectious diseases expert and a key asset to the opposition. President of the International Society of Infectious Diseases Executive Committee from 2022 to 2025."},
     {searchString: "Jeremy Tan", explanationText: "<img src=https://jeremytan.sg/_nuxt/jeremy-tan-crop.0fd34n8_.jpg> Bitcoin entrepreneur and tech libertarian. Very casual and a force to be reckoned with in the opposition."},
-    {searchString: "Voucher Wong", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/budget-2025-v0-8ngwg4ics1ke1.webp>"},
+    {searchString: "Spencer Ng", explanationText: "<img src=https://images.squarespace-cdn.com/content/v1/67f760c77913bd6c5be0b80c/13793784-f98c-481e-857e-7307f94f1cb2/Spencer.jpg> Secretary-General of the NSP, and not the most charismatic man."},
+    {searchString: "Voucher Wong", explanationText: "<img src=https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fbudget-2025-v0-8ngwg4ics1ke1.jpeg%3Fauto%3Dwebp%26s%3D01ff6773b605fa6496d7185943751608c3356b5b>"},
     {searchString: "Lying under oath to a parliamentary committee", explanationText: "<img src=https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20250222_ASP001.jpg> While defending his part in the Raeesah Khan scandal that enveloped the WP, party leader Pritam Singh was ruled to have lied under oath to a parliamentary committee."},   
     {searchString: "Raeesah Khan", explanationText: "<img src=https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2024/10/15/11285f5d-f53a-4ce2-a322-eb32fc656ca6_5042625c.jpg?itok=x6V4VvIs&v=1728976501> Young former WP MP elected in 2020. Resigned in 2021 over lying about a constituent’s sexual assault case. Caused major headaches for WP leadership for the next few years."},   
     {searchString: "Leon Perera", explanationText: "<img src=https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2023/07/19/bb2c309c-0724-4369-9c7a-3696418af1b7_7ca491f8.jpg> WP MP elected in 2020 after years as a WP candidate and NCMP. Resigned in 2023 over an extramarital affair with fellow WP candidate Nicole Seah."},   
@@ -1498,12 +1502,45 @@ tooltipList = [
     {searchString: "three core constituencies", explanationText: "Aljunied GRC, Sengkang GRC, and Hougang SMC. The 3 constituencies (and 10 seats) held by the Workers’ Party."},
     {searchString: "Goh Meng Seng", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2020/07/08/hzgoh0708.jpg?VersionId=2JgHK6yQVq2sraKw7O3nft1Xx.zrLMi7> Where do we even begin? Anti-LGBT, anti-vaccine, and leader of the PPP."},
     {searchString: "not gay", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/notgay> ???"},
+    {searchString: "not interested in you", explanationText: "<img src=https://file.garden/aftBfT23iVucvcGE/notlikeilikeyouoranything> ?"},
     {searchString: "Bukit Batok SMC", explanationText: "Chee Soon Juan has been trying his best here for the last 9 years, but it was dissolved in 2025’s EBRC report and merged into the heavily pro-PAP Jurong East-Bukit Batok GRC."},
-    {searchString: "Andre Low", explanationText: "<img src=https://www.parliament.gov.sg/api/media/217836db-cb5f-64e2-b198-ff00006af031/andre-low.jpg> WP candidate who enjoys using strong language and passionately hates the NTUC-Allianz deal. Very strong language."},
+    {searchString: "r/SingaporeRaw", explanationText: "Singaporean subreddit with less censorship than r/Singapore. Heavily anti-immigration and generally anti-PAP, but also quite socially right-wing and anti-Palestine."},
+    {searchString: "Mountbatten SMC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/2/20/Mountbatten_Single_Member_Constituency%2C_2025.svg> A safe PAP area filled with new citizens, especially from Northern India. Relatively wealthy place."},
+    {searchString: "Nomination Day", explanationText: "The day during which parties finalize their candidates, and the start of the campaign period. A lot of drama can happen here. 23 April, 2025."},
+    {searchString: "cooling-off day", explanationText: "This signifies the end of the campaign period, as campaigning may not occur on cooling-off day. The day before the election - the calm before the storm. 2 May, 2025."},
+    {searchString: "Polling Day", explanationText: "Election day. 3 May, 2025."},
+    {searchString: "3 May", explanationText: "Election day."},
+    {searchString: "Poh Li San", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JpE6Z0fhyf114LP7rk8A4LH7xQ8ZqtJMiriRhI8qNAJl7Zxar3v6glDB&s=10> PAP MP for Sembawang West. Backbencher is the best description. Also thinks passion doesn’t build playgrounds."},
+    {searchString: "EBRC", explanationText: "Electoral Boundaries Review Committee. Redraws electoral boundaries every 5 years, and often the subject of controversy for its perceived bias towards the incumbent PAP."},
+    {searchString: "Andre Low", explanationText: "<img src=https://cassette.sphdigital.com.sg/image/straitstimes/7a8fa255ffa3a0bab3e1cc72e351c50133576041b60f562cb4ae7543dda3f5c2> WP candidate who enjoys using strong language and passionately hates the NTUC-Allianz deal. Very strong language."},
+    {searchString: "2001", explanationText: "<img src=https://i.ibb.co/fYx98t1y/Screenshot-2026-08-17-213454.png> In 2001, Chee used a microphone from a campaign vehicle and shouted at then Prime Minister Goh Chok Tong (PAP), accusing him of taking Singaporeans’ money in relation to Indonesian President Suharto. This incident led to Chee’s bankruptcy after a defamation lawsuit and weakened Chee’s reputation among much of the public."},
+    {searchString: "Young Democrats", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC0eFYEH1nNuR2JU8Oi_KcSLY6l582ojIQiRHjtzzSievCxTsOu5l6Wxxx&s=10> The SDP’s youth wing, very energetic and active but also on the fringes of Singaporean politics with extremely progressive views for Singapore’s context."},
+    {searchString: "American influence", explanationText: "It is often rumored that Chee Soon Juan has sourced funding or backing in some form from foreign backers such as the United States, but this has not been fully proven."},
+    {searchString: "GST", explanationText: "Goods and Services Tax. Similar to a Value-Added Tax in other countries."},
+    {searchString: "yes-men", explanationText: "A negative term used to describe PAP MPs who agree mindlessly with the PAP leadership."},
+    {searchString: "PSLE", explanationText: "Primary School Leaving Examination. Mandatory examination for all 12 year olds in Singapore to take, which will determine their secondary school."},
+    {searchString: "sheltered walkways", explanationText: "<img src=https://d3uwoey2rd901c.cloudfront.net/wp-content/uploads/2020/08/rice-media-covered-walkway-21.jpg> In a country that is hot and humid, many voters are suckers for these sheltered walkways which the PAP cleverly promotes as part of their estate development agenda."},
+    {searchString: "Ong Ye Kung", explanationText: "<img src=https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2019/10/07/c45bff9a-e8e4-11e9-9e8e-4022fb9638c4_image_hires_190629.JPG?itok=Ph9J2ahq&v=1570446395> Singapore’s Minister for Health since 2021, and Sembawang MP since 2015. Lost in his first electoral contest in 2011 at Aljunied GRC with the PAP team, and the son of a late opposition politician."},
+    {searchString: "Nicole Seah", explanationText: "<img src=https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2023/07/19/bb2c309c-0724-4369-9c7a-3696418af1b7_7ca491f8.jpg> NSP candidate in 2011, turned WP candidate in 2020. Resigned from the WP in 2023 over an alleged extramarital affair with WP MP Leon Perera."},   
+    {searchString: "Tak Boleh Tahan", explanationText: "<img src=https://pbs.twimg.com/media/FmKWdpJaEAEeQeW.png> In 2008, Chee Soon Juan led SDP volunteers to hold the “Tak Boleh Tahan” protest, translated to English as “Can’t Stand It”. The protest was disrupted by the Singapore Police Force, and the t-shirts the volunteers wore were mostly seized."},   
+    {searchString: "MRT", explanationText: "<img src=https://static.thehoneycombers.com/wp-content/uploads/sites/2/2024/09/rating-mrt-train-lines-singapore-north-south-line-woodlands-mrt-station-static-sufyan-saad.png> Singapore’s extensive metro system."},
+    {searchString: "mosquito parties", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRKLRqsvuORDdO9DPGtyZmqMsV4OuO2nIfXfSNGePzXhCZvPSuziEuVQ&s=10> Minor and underfunded opposition parties, typically with underqualified candidates who make viral and funny gaffes at election rallies."},
+    {searchString: "Chiam See Tong", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2019/10/17/file6ts4hpieacx1aulhvjgf.jpg?VersionId=vFWDJpkGmm_1OK2qCPJ7QMCxpEYVZarr> Veteran opposition politician, and the only non PAP MP in parliament from 1986 to 1991. Member of Parliament for Potong Pasir SMC from 1984 to 2011, founder and leader of the SDP from 1980 to 1993 (until a party leadership coup by Chee Soon Juan), and leader of the SPP from 1996 to 2019."},
+    {searchString: "Gho Sze Kee", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--7tQre1kp--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_center,h_598,w_747/v1/mediacorp/cna/image/2025/04/30/ABK_1093.jpg?itok=cyjdB6cS> Shipping lawyer and longtime PAP volunteer, recently deployed to Mountbatten SMC as the PAP’s candidate to succeed Lim Biow Chuan. Not the most charismatic speaker."},
+    {searchString: "Lim Biow Chuan", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0GVegOco9v-SuiU1qU8zeb5dcbBRconoutPP0h7NFr_CszY3Aqh_vqk&s=10> PAP MP for Mountbatten SMC since 2011, and representing the same area since 2006. Now retiring to take care of his aging mother."},
+    {searchString: "Kamala", explanationText: "<img src=https://static1.straitstimes.com.sg/s3fs-public/articles/2021/08/23/ychappy230821.jpg?VersionId=LWQqBk1aI4cnzzoUX4j.7c4saktyOQHH> Unburdened by What Has Been"},
+    {searchString: "Gigene Wong", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--_oKhSsPp--/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/tdy/image/2022/07/27/20220727_bk_psp_gigene_wong_walkabout_6.jpg?itok=IomjW993> Not the most polished speaker, and certainly not considered an intellectual, but still a rather accomplished lady who speaks bluntly."},
+    {searchString: "poor reputation of independent candidates", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--_Ay2FNKf--/c_lfill,dpr_2.0,g_face:auto,h_800/f_auto,q_auto/v1/mediacorp/8days/image/2025/09/29/teo_en_ming_main.jpg?itok=vki6e4MH> Singapore has had its fair share of silly independent prospective candidates, including Turritopsis Dohrnii Teo En Ming, a self-identifying schizophrenic immortal jellyfish who aspires to be a Japanese adult video actress. Teo attempted to run for office in the 2025 election as an independent."},
+    {searchString: "Teh Tarik with Walid", explanationText: "<img src=https://pbs.twimg.com/profile_images/723834368674897920/uaE59g1D_400x400.jpg> Podcast hosted by Professor Walid J. Abdullah, who is slightly centre-left, pro-Palestine and pro-opposition. But the podcast isn’t too ideological overall."},
+    {searchString: "Lim Tean", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg6FV_MGuzTvJcLhMQQJzSnA2VfVAygCqxOVKDFZtL7ZfGCGuZMXqzDpO3&s=10> Where do we begin? Flashy and controversial personality, criticized for xenophobia, nativism, and his overall arrogance. Leader of the PAR."},
+    {searchString: "heckle", explanationText: "In 2015, a young Jeremy Tan went to a rally of then independent candidate Han Hui Hui (now a PAR candidate) to heckle her, mocking her campaign’s unseriousness."},
+    {searchString: "jeremytan.sg", explanationText: "bitcoin bitcoin bitcoin bitcoin something."},
+    {searchString: "Darryl Lo", explanationText: "<img src=https://static.mothership.sg/1/2025/04/DSCF7881.jpg> Independent and more soft-spoken than Jeremy. Apparently the male thirst trap candidate of the election."},
+    {searchString: "Radin Mas SMC", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/4/40/Radin_Mas_SMC_locator_map.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original> A safe PAP area, one of the most pro-PAP in fact. Though this may be due to not just the elderly population but also the poor opposition candidates in recent years."},
+    {searchString: "Turritopsis Dohrnii Teo En Ming", explanationText: "<img src=https://dam.mediacorp.sg/image/upload/s--_Ay2FNKf--/c_lfill,dpr_2.0,g_face:auto,h_800/f_auto,q_auto/v1/mediacorp/8days/image/2025/09/29/teo_en_ming_main.jpg?itok=vki6e4MH> Turritopsis Dohrnii Teo En Ming is a self-identifying schizophrenic immortal jellyfish who aspires to be a Japanese adult video actress. Teo attempted to run for office in the 2025 election as an independent, and previously attempted to run for President in 2023."},
+    {searchString: "Sentosa", explanationText: "<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Wp9pH1ff_VVjV_WtkgjLhrftVDzQF3nptwv3wHTIpg&s=10> Singapore’s resort wonderland, with Universal Studios Singapore here. Sentosa is an island off Singapore’s coast connected by bridge, and part of Radin Mas SMC as well."},
+    ]; 
 
-
-
-]; 
 
 
 
