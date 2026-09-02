@@ -4878,7 +4878,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 42701,
-            "state_multiplier": 1.3
+            "state_multiplier": 1.43
         }
     },
     {
@@ -4896,7 +4896,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 302,
             "state": 42701,
-            "state_multiplier": 0.75
+            "state_multiplier": 0.72
         }
     },
     {
@@ -4950,7 +4950,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 42721,
-            "state_multiplier": 1.3
+            "state_multiplier": 1.5
         }
     },
     {
@@ -4968,7 +4968,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 302,
             "state": 42721,
-            "state_multiplier": 0.9
+            "state_multiplier": 0.75
         }
     },
     {
@@ -7699,7 +7699,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6013,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7709,7 +7709,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6020,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.03
         }
     },
     {
@@ -7719,7 +7719,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6022,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.12
         }
     },
     {
@@ -7729,7 +7729,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6076,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.17
+            "global_multiplier": -0.2
         }
     },
     {
@@ -7749,7 +7749,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6006,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7779,7 +7779,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6060,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.07
         }
     },
     {
@@ -7789,7 +7789,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6062,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.03
         }
     },
     {
@@ -7799,7 +7799,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6038,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.12
         }
     },
     {
@@ -7809,7 +7809,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6039,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.03
         }
     },
     {
@@ -7829,7 +7829,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6070,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.12
         }
     },
     {
@@ -7839,7 +7839,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50832,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7849,7 +7849,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6075,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.135
+            "global_multiplier": -0.15
         }
     },
     {
@@ -7929,7 +7929,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6065,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.025
         }
     },
     {
@@ -7949,7 +7949,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6058,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7969,7 +7969,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50899,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.03
         }
     },
     {
@@ -7979,7 +7979,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6048,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.1
+            "global_multiplier": -0.12
         }
     },
     {
@@ -7989,7 +7989,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6042,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.035
+            "global_multiplier": 0.02
         }
     },
     {
@@ -8009,7 +8009,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6044,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.06
         }
     },
     {
@@ -8029,7 +8029,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6055,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.085
+            "global_multiplier": 0.05
         }
     },
     {
@@ -8039,7 +8039,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6056,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.025
         }
     },
     {
@@ -8049,7 +8049,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50369,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.08
+            "global_multiplier": 0.065
         }
     },
     {
@@ -8059,7 +8059,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6082,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.06
         }
     },
     {
@@ -8069,7 +8069,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6083,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.065
+            "global_multiplier": 0.03
         }
     },
     {
@@ -8079,7 +8079,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50940,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.015
         }
     },
     {
@@ -8089,7 +8089,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50941,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.06
         }
     },
     {
@@ -8119,7 +8119,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 50957,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.035
         }
     },
     {
@@ -8149,7 +8149,27 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6066,
             "candidate": 302,
             "affected_candidate": 302,
-            "global_multiplier": 0.0003
+            "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 50986,
+        "fields": {
+            "answer": 6021,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 50987,
+        "fields": {
+            "answer": 6061,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "global_multiplier": 0.01
         }
     }
 ];
@@ -8354,7 +8374,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8365,7 +8385,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.07
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8398,7 +8418,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.025
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8431,7 +8451,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.165
+            "state_multiplier": 0.115
         }
     },
     {
@@ -8442,7 +8462,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.2
+            "state_multiplier": 0.165
         }
     },
     {
@@ -8453,7 +8473,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.17
+            "state_multiplier": 0.135
         }
     },
     {
@@ -8519,7 +8539,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8530,7 +8550,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.03
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8541,7 +8561,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.07
+            "state_multiplier": 0.035
         }
     },
     {
@@ -8552,7 +8572,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.02777
         }
     },
     {
@@ -8563,7 +8583,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.035
         }
     },
     {
@@ -8585,7 +8605,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.075
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8596,7 +8616,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.075
+            "state_multiplier": 0.05
         }
     },
     {
@@ -8607,7 +8627,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.01
         }
     },
     {
@@ -8618,7 +8638,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.01
         }
     },
     {
@@ -8629,7 +8649,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8640,7 +8660,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.125
+            "state_multiplier": 0.07
         }
     },
     {
@@ -8662,7 +8682,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.025
+            "state_multiplier": 0.022
         }
     },
     {
@@ -8673,7 +8693,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8684,7 +8704,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8695,7 +8715,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.12
+            "state_multiplier": -0.13
         }
     },
     {
@@ -8717,7 +8737,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8728,7 +8748,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.12
+            "state_multiplier": 0.1
         }
     },
     {
@@ -8805,7 +8825,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.067
+            "state_multiplier": 0.05
         }
     },
     {
@@ -8816,7 +8836,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.065
+            "state_multiplier": -0.1
         }
     },
     {
@@ -8827,7 +8847,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.065
+            "state_multiplier": -0.07
         }
     },
     {
@@ -8838,7 +8858,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8849,7 +8869,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.03
         }
     },
     {
@@ -8860,7 +8880,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8871,7 +8891,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8893,7 +8913,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8904,7 +8924,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.035
+            "state_multiplier": 0.02
         }
     },
     {
@@ -8937,7 +8957,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.035
         }
     },
     {
@@ -8981,7 +9001,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": 0.05
+            "state_multiplier": 0.02
         }
     },
     {
@@ -9003,7 +9023,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42681,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.05
+            "state_multiplier": -0.065
         }
     },
     {
@@ -9014,7 +9034,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42711,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.05
+            "state_multiplier": -0.065
         }
     },
     {
@@ -9025,7 +9045,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42701,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.05
+            "state_multiplier": -0.07
         }
     },
     {
@@ -9036,40 +9056,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 42721,
             "candidate": 302,
             "affected_candidate": 302,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50963,
-        "fields": {
-            "answer": 50858,
-            "state": 42681,
-            "candidate": 302,
-            "affected_candidate": 302,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50964,
-        "fields": {
-            "answer": 50858,
-            "state": 42701,
-            "candidate": 302,
-            "affected_candidate": 302,
-            "state_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 50965,
-        "fields": {
-            "answer": 50858,
-            "state": 42711,
-            "candidate": 302,
-            "affected_candidate": 302,
-            "state_multiplier": -0.1
+            "state_multiplier": -0.07
         }
     },
     {
@@ -9125,6 +9112,204 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 302,
             "affected_candidate": 302,
             "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50973,
+        "fields": {
+            "answer": 6058,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.07
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50974,
+        "fields": {
+            "answer": 6082,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50975,
+        "fields": {
+            "answer": 6083,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50976,
+        "fields": {
+            "answer": 50934,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50977,
+        "fields": {
+            "answer": 6083,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50978,
+        "fields": {
+            "answer": 6082,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50979,
+        "fields": {
+            "answer": 50934,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50980,
+        "fields": {
+            "answer": 50858,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 300,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50981,
+        "fields": {
+            "answer": 50858,
+            "state": 42701,
+            "candidate": 302,
+            "affected_candidate": 300,
+            "state_multiplier": -0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50982,
+        "fields": {
+            "answer": 50858,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 300,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50983,
+        "fields": {
+            "answer": 50898,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50984,
+        "fields": {
+            "answer": 50899,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.045
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50988,
+        "fields": {
+            "answer": 6086,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50989,
+        "fields": {
+            "answer": 6086,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50990,
+        "fields": {
+            "answer": 50953,
+            "state": 42721,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50991,
+        "fields": {
+            "answer": 50953,
+            "state": 42681,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50992,
+        "fields": {
+            "answer": 50953,
+            "state": 42711,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 50993,
+        "fields": {
+            "answer": 6034,
+            "state": 42721,
+            "candidate": 302,
+            "affected_candidate": 302,
+            "state_multiplier": 0.01
         }
     }
 ];
@@ -10110,7 +10295,7 @@ cyoAdventure = function (a) {
     }
 
     // +1 SDPHealth 
-    if ([50772, 6064].includes(ans)) {
+    if ([50772, 50832, 6064].includes(ans)) {
         SDPHealth  += 1;
     }
 
@@ -10130,7 +10315,7 @@ cyoAdventure = function (a) {
     }
 
     // +1 SDPEcon 
-    if ([6060, 6062, 6069, 50832, 50848].includes(ans)) {
+    if ([6060, 6062, 6069, 50848].includes(ans)) {
         SDPEcon  += 1;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
@@ -10138,7 +10323,7 @@ cyoAdventure = function (a) {
           if(ans == 6071) {
               switcheroo();
         }
-        // question swap CYOA here
+     // question swap CYOA here
     if (campaignTrail_temp.question_number == 15 && Gigene < 1) {
         questionSwapper(12202, 1220);
     }
@@ -11170,11 +11355,19 @@ var used = false;
 
 endingPicker = (out, totv, aa, quickstats) => {
     const finalStates = Array.isArray(campaignTrail_temp.final_state_results) ? campaignTrail_temp.final_state_results : [];
-    const stateWinnersByAbbr = new Map(
-        finalStates.map(st => [st.abbr, st.result?.candidate])
-    );
-    const playerWonStates = (...abbrs) => abbrs.every(abbr => stateWinnersByAbbr.get(abbr) === campaignTrail_temp.candidate_id);
-    window.SG_ENDING_ARGS = { out, totv, aa, quickstats };
+    const getCandRes = (id) => aa.find(r => r.candidate === id) || { electoral_votes: 0, popular_votes: 0 };
+    const getCandStatePct = (statePk, candPk) => {
+        const stateObj = finalStates.find(s => s.state === statePk);
+        const candObj = stateObj?.result?.find(c => c.candidate === candPk);
+        return candObj ? (candObj.percent * 100) : 0;
+    };
+    const isStateWinner = (statePk, candPk) => {
+        const stateObj = finalStates.find(s => s.state === statePk);
+        return stateObj?.result?.[0]?.candidate === candPk;
+    };
+    
+    const TambyahResult = getCandStatePct(42681, 302);
+    const CSJResult = getCandStatePct(42711, 302);
 
     construct = (a = 1) => {
         e.page = e.page + a < e.pages.length ? e.page + a : 0
@@ -11527,174 +11720,222 @@ endingPicker = (out, totv, aa, quickstats) => {
         return construct(0);
     }
 
-    else if (quickstats[0] < 49) {
+    else if (CSJResult < 45.0 && TambyahResult < 45.0) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Disappointment </h3> 
 
-        const getCandRes = (id) => aa.find(r => r.candidate === id) || { electoral_votes: 0, popular_votes: 0 };
-        const papEV = getCandRes(300).electoral_votes;
-        const wpEV = getCandRes(301).electoral_votes;
-        const combinedEV = papEV + wpEV;
-        const canCoalition = combinedEV > 49;
+<p> As election night began, first came the irrelevant results. Whatever happened in Marymount, Radin Mas and Jurong Central wouldn’t affect your night. After all, it was just a case of these mosquito parties getting swatted by the PAP. You knew that once the results in Sembawang West and Bukit Panjang came in, the SDP would be doing well. 
 
-        e.page = 0;
+<p> But Bukit Panjang came in, and the result was far from what had been hoped. The SDP had not improved on its result or won Bukit Panjang, but in fact faced yet another setback, losing ground in Bukit Panjang. Perhaps Liang Eng Hwa had simply done such a good job on the ground that it would be hard to win here. 
 
-        if (!window.SG_DEADLOCK_CHOICE) {
+<p> Then minutes later came Sembawang West. Another agonizing defeat, not by slim margins but rather by a considerable one. Had the SDP’s entire strategy been miscalculated? Was Sembawang West the wrong place to deploy you? 
 
-            if (canCoalition) {
+<p> It didn’t particularly matter how the rest of the country was feeling. All that mattered was the direction of the SDP. This wasn’t really the result that signalled rebuild and rework for 2030. This was the result that asked deep questions for you and Paul Tambyah. Was retirement on the cards? 
 
-                e.pages = [`<div style='overflow-y:scroll;height:250px;'>
-                    <h3> Failure </h3>
+<p> You sighed, took a seat on the plastic chair at the election night watch party, and rubbed your eyes with a tissue next to volunteers who were weeping. You raised your spectacles to rub your eyes, and in that moment, all you could see was how you had been soundly defeated by the PAP’s targeted strategy against you. 
 
-<p> The first signs that things were going horribly wrong were all the vibes. Yio Chu Kang Stadium was much emptier than expected, while even Red Dot United’s watch party for the election had a larger crowd than the PAP. You knew it would not be a good night, and had your letter of resignation from the party leadership ready.
 
-<p> But as the television stations continued to announce the results, suddenly the attention of the rest of the world turned to Singapore. From the New York Times to the BBC, countless articles were already coming out about your fate. The first calls did not help with this, with the results showing heavy swings away from the PAP everywhere.
-
-<p> As Chee Soon Juan beamed on the television, you were somehow surprised that this was nowhere near the worst part of the night. Chee probably wouldn’t be the only one in his party to reach parliament, and the WP probably would have an incredibly large delegation. Maybe the PSP would be having a great night too, and perhaps even the RDU and some independents.
-
-<p> It suddenly dawned on you, that you were the <b>only</b> party leader who would be having a bad night. It wasn’t just the supermajority gone, it was the majority gone. The PAP would no longer have a majority of parliament for the first time since independence. All hope is lost.
-
-<p> But suddenly, a call came in. Not from any of your PAP colleagues, of course. They would try to dissociate themselves from you given the circumstances. But from Pritam.
-
-<p>“Look, the Workers Party cannot run Singapore alone. I didn’t expect to win this much and the PAP is definitely the most experienced in governing this country, with all the infrastructure. So what do you think if we do an alliance?”
-
-<p>Pritam, of all people, offering you an alliance? How bad must the result be to enter this alternate reality?</p>
-
-<p>“Lawrence? I still need an answer…”</p>
-
-                    <br>
-                    <button onclick="window.SG_DEADLOCK_CHOICE='yes'; const a=window.SG_ENDING_ARGS; $('#final_results_description')[0].innerHTML = endingPicker(a.out, a.totv, a.aa, a.quickstats);">Yes</button>
-                    <button onclick="window.SG_DEADLOCK_CHOICE='no'; const a=window.SG_ENDING_ARGS; $('#final_results_description')[0].innerHTML = endingPicker(a.out, a.totv, a.aa, a.quickstats);" style="margin-left:0.5em;">No</button>
-                    </div>`];
-                e.image = "https://file.garden/aftBfT23iVucvcGE/almostloseg.png";
-
-                // Play song 1 exactly once
-                if (window.SG_DEADLOCK_SONG_PLAYED !== "initial") {
-                    const playlist1 = new Playlist();
-                    const song1 = new Song("number one girl", "Rosé", "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F6c514764a1b2337ee2510fdf468c9226.1000x1000x1.png", "https://audio.jukehost.co.uk/019e0daf-50f4-7082-90af-bfe5d9b17842");
-                    playlist1.addSong(song1);
-                    changePlaylist(playlist1);
-                    window.SG_DEADLOCK_SONG_PLAYED = "initial";
-                }
-
-            } else {
-                e.pages = [`<div style='overflow-y:scroll;height:250px;'><h3>Ozymandias</h3><p><b> Perry Shelley</b><p>I met a traveller from an antique land
-<p>Who said: Two vast and trunkless legs of stone
-<p>Stand in the desart. Near them, on the sand,
-<p>Half sunk, a shattered visage lies, whose frown,
-<p>And wrinkled lip, and sneer of cold command,
-<p>Tell that its sculptor well those passions read
-<p>Which yet survive, stamped on these lifeless things,
-<p>The hand that mocked them and the heart that fed:
-<p>And on the pedestal these words appear:
-<p>"My name is Ozymandias, king of kings:
-<p>Look on my works, ye Mighty, and despair!"
-<p>Nothing beside remains. Round the decay
-<p>Of that colossal wreck, boundless and bare
-<p>The lone and level sands stretch far away.
-                    </div>`];
-                e.image = "https://hi-life.hongleong.com.sg/April2019/images/live-article4-img5.jpg";
-                if (window.SG_DEADLOCK_SONG_PLAYED !== "catastrophic") {
-                    const playlistC = new Playlist();
-                    const songC = new Song(
-                        "Who Lives, Who Dies, Who Tells Your Story",
-                        "Cast of Hamilton",
-                        "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F3d49fcb34aa21fccd06f2b3c818146fd.1000x1000x1.png",
-                        "https://audio.jukehost.co.uk/019fe090-f685-7093-9285-b31f3cdc45bf"
-                    );
-                    playlistC.addSong(songC);
-                    changePlaylist(playlistC);
-                    window.SG_DEADLOCK_SONG_PLAYED = "catastrophic";
-                }
-            }
-
-        } else if (window.SG_DEADLOCK_CHOICE === "yes") {
-
-            e.pages = [
-                `<div style='overflow-y:scroll;height:250px;'><p>‘Fine, Pritam you got yourself a deal.’</p>
-
-    <p>A part of you feels disgusted the moment his reply was said. Are you really going to work with the devil in order to keep the PAP’s grip on Singapore?</p>
-
-    <p>The rest of the night was filled with calls and negotiations with the Workers Party, deciding the first multi-party cabinet in Singapore’s history. By the next day, the coalition cabinet had been decided. While you remain as Prime Minister, the rest of the cabinet would have to be divided between the PAP and Worker’s Party.</p>
-
-    <p>As both you and Pritam announced the coalition together, you undeniably felt conflicted. Even just a few weeks prior, both you and the rest of the PAP spent most of their campaign trying to defame both Pritam and the Workers Party as a whole, confident of their ensured victory. But now here you are, standing side by side with him.</p>
-
-    <p>As colleagues. As partners.</p>
-
-    <p>And perhaps one day, friends.</p>
-                    </div>`,
-                `<div style='overflow-y:scroll;height:250px;'><p><h3> Opinion: The “Coalition” Games </h3>
-
-<p> <b> Wake Up Singapore </b>
-<p> <b> 17 May 2025 </b>
-
-<p> Just 2 weeks ago, Singaporeans rejected the PAP clearly and starkly. The PAP fell below 49 seats and lost its majority. But why is the PAP being considered to return to government?
-
-<p> The WP’s extension of an olive branch to the PAP raises questions for many Singaporeans, and only validates the accusations of the WP being “PAP-lite”. Why would the WP pick a coalition with the PAP over a grand opposition coalition? Are Chee Soon Juan, Leong Mun Wai, and Jeremy Tan really so unworkable?
-
-<p> I was in Hougang, the fortress and stronghold of the WP since 1991. The WP did exceptionally well here, and I interviewed the WP’s loyal voters. Many criticized the idea of a “coalition” which WP leader Pritam Singh had openly proposed, and the amount of leeway given in leaked copies of this potential agreement look incredibly bad. After all, it would be unacceptable not to punish the PAP like the Singaporean voters punished the PAP.
-
-<p> Anyway, these decisions hopefully won’t be purely up to Pritam. Email your WP MPs TODAY and tell them to oppose Pritam Singh and Lawrence Wong’s costly coalition that will continue to push Singapore in the direction Singaporeans have rejected.
-
-                    </div>`
-            ];
-
-            e.image = ["https://file.garden/aftBfT23iVucvcGE/oigdsa.png", "https://file.garden/aftBfT23iVucvcGE/kjbsdjksbdjbsd.png"];
-
-            if (window.SG_DEADLOCK_SONG_PLAYED !== "yes") {
-                const playlist2 = new Playlist();
-                const song2 = new Song("drinks or coffee", "Rosé", "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F13d6f3de8d6ecf1a87f8aeb029c36d58.1000x1000x1.png", "https://audio.jukehost.co.uk/019f4ff1-5268-7107-a23b-3bd9e571f105");
-                playlist2.addSong(song2);
-                changePlaylist(playlist2);
-                window.SG_DEADLOCK_SONG_PLAYED = "yes";
-            }
-
-        } else if (window.SG_DEADLOCK_CHOICE === "no") {
-
-            e.pages = [
-                `<div style='overflow-y:scroll;height:250px;'><p>You hang up the phone. If you had to bend over backwards to Pritam and the Workers Party to form a government, then there was no government worth the PAP to join.</p>
-
-    <p>The rest of the night was silent. No loud celebrations from any of the PAP’s rallies. No calls from those in party leadership congratulating you for your leadership. Instead all the news and everyone could talk about were the talks for a coalition government. The first in Singapore’s history.</p>
-
-    <p>Inevitably, Pritam Singh would be announced as Singapore’s next Prime Minister after a coalition with the rest of the opposition was agreed upon.</p>
-
-    <p>You can't believe it. The liar did it.</p>
-
-    <p>Even as he was removed from party leadership in the following weeks, You and the PAP as a whole felt directionless. What is there to do after oblivion?</p>
-
-    <p>No matter if the PAP made its way back into power in the preceding elections, there was no way that it would be as dominant or powerful as before.</p>
-
-    <p>And it was all because of Lawrence Wong. </p>
-                    </div>`,
-                `<div style='overflow-y:scroll;height:250px;'>
-    <p><h3> Opinion: The PAP’s spectacular self-sabotage: is an UMNO-like collapse possible? </h3>
-
-<p> <b> Wake Up Singapore </b>
-<p> <b> 17 May 2025 </b>
-
-<p> Just 2 weeks ago, Singaporeans rejected the PAP clearly and starkly. The PAP fell below 49 seats and lost its majority. Now, the PAP may be permanently out of power.
-
-<p> The PAP was given the opportunity by the WP (which we feel was unacceptable) to form a coalition. Yet the PAP leadership, of course, couldn’t control themselves. They wanted too much power, it appears. So the PAP didn’t join any coalition, and they only have themselves to blame for the consequences that are coming.
-
-<p> When Pritam finally figures out the coalition deal with the SDP, PSP, and perhaps other involved parties/independents, we can see how much we have gotten out of this election. But an abolition of the GRC and the destruction of the PAP’s propaganda machine should be enough to kick them out of politics forever.
-
-<p> The fact is, many voters who voted PAP this round are dying out and hopefully won’t be a problem soon. And if we can successfully stop the indoctrination of new citizens into the PAP, perhaps we are building the next opposition generation.
-</p>
-                    </div>`
-            ];
-
-            e.image = ["https://file.garden/aftBfT23iVucvcGE/oppogng.png", "https://file.garden/aftBfT23iVucvcGE/oppogbg.png"];
-
-            if (window.SG_DEADLOCK_SONG_PLAYED !== "no") {
-                const playlist3 = new Playlist();
-                const song3 = new Song("toxic till the end", "Rosé", "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F13d6f3de8d6ecf1a87f8aeb029c36d58.1000x1000x1.png", "https://audio.jukehost.co.uk/019f4ff1-52a3-707b-9f3d-0dcd1cb3b7a8");
-                playlist3.addSong(song3);
-                changePlaylist(playlist3);
-                window.SG_DEADLOCK_SONG_PLAYED = "no";
-            }
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
         }
-
         return construct(0);
     }
 
+    else if (CSJResult < 45.0 && TambyahResult > 45.0 && !isStateWinner(42681, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Defeat </h3>
+
+<p> The early results came and went without much consequence. Marymount, Yio Chu Kang, Potong Pasir, really just the collection of mosquito-party defeats that would inflate the PAP’s vote share but really nothing else. All you waited for was Bukit Panjang and Sembawang West. Those were supposed to tell you whether the SDP had finally found a viable path forward.
+
+<p> Then Bukit Panjang came in, so close to victory. For a brief moment the room was filled with scattered applause. But soon the room returned to disappointment after realising that Dr Paul Tambyah did not make it into parliament, once again. “Almost” was enough to celebrate; but not enough to get a seat in Parliament. A wonderfully convenient number, high enough to prove the SDP was finally “growing”, yet low enough to ensure nobody actually had to govern.
+<p> Then Sembawang West arrived.
+<p> Nowhere close to winning. So much for the breakthrough.
+<p> The strategy had been built around two constituencies. One had produced an encouraging defeat. The other had produced an ordinary one. Neither had produced an MP.
+<p> You stared at the results and wondered what exactly you were supposed to tell the party. You looked around at the volunteers. You had, after all, performed significantly worse than Dr Paul Tambyah in his seat.
+
+<p> You removed your spectacles and rubbed your eyes.
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (CSJResult > 45.0 && TambyahResult > 45.0 && !isStateWinner(42681, 302) && !isStateWinner(42711, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Agonizing Defeat </h3>
+<p> The early results were mostly irrelevant. Marymount, Radin Mas, Jurong Central — none of them were where you had placed your hopes. You were waiting for Bukit Panjang and Sembawang West.
+<p> Then Bukit Panjang came in, so close to victory. For a brief moment the room was filled with scattered applause. But soon the room returned to disappointment after realising that Dr Paul Tambyah did not make it into parliament, once again. “Almost” was enough to celebrate; but not enough to get a seat in Parliament. A wonderfully convenient number, high enough to prove the SDP was finally “growing”, but still not enough for real victory.
+<p> But perhaps Sembawang West would be better. So you took a seat and braced yourself for what could be.
+<p> Oh my. You were just so close, but yet so far from the target. For the last twenty years, you talked about progress, progress, progress. Four, five, six times - you’ve been rejected time and again by the voters, and now by the most painful margin possible.
+<p> You took off your spectacles and rubbed your eyes. Because after all you’ve done, your life’s work, you still fell just short.
+
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (CSJResult > 45.0 && TambyahResult > 45.0 && !isStateWinner(42681, 302) && isStateWinner(42711, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Celebratory </h3>
+
+<p> The early results barely registered with you. Marymount, Radin Mas, Jurong Central, none of them were where the SDP had placed its hopes. You had spent months telling yourself that the night would be decided by two constituencies: Bukit Panjang and Sembawang West.
+<p> Then Bukit Panjang came in. Liang Eng Hwa had successfully defeated Paul Tambyah.
+<p> Still, Sembawang West was yet to be called. But there was little optimism left in the party headquarters.
+
+<p> Minutes later, Returning Han Kok Juan stepped up onto the rostrum, and declared: “I declare Chee Soon Juan the winner of Sembawang West.”
+
+<p> After 30 years of hurt, waiting, suffering and constant beat-downs from the PAP, you finally won one seat into Parliament. Since 1992, the SDP had been the subject of ridicule, clowning by the PAP. And since 1997, the SDP had been completely devoid of any Parliamentary representation, and had been in the doldrums since then. 
+
+<p> It was finally over.
+<p> But as the celebrations continued, you found yourself thinking about the other half of the result. Bukit Panjang was still a loss. The PAP had held on, and the SDP's failure there meant that the breakthrough was not as comprehensive as you had hoped.
+<p> You looked around the room at the volunteers who had spent years being told that the SDP was irrelevant, unelectable, or destined to remain outside Parliament. Tonight, they had been proven wrong.
+<p> The victory would bring new questions. Could the SDP hold Sembawang West? Could it expand beyond it? Could one victory become two, then five, then something larger?
+<p> Those questions could wait until tomorrow. Tonight, you simply sat back and allowed yourself to smile.
+
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (CSJResult > 45.0 && TambyahResult > 45.0 && isStateWinner(42681, 302) && !isStateWinner(42711, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Awkward </h3>
+<p> The early results passed without much interest. Marymount, Radin Mas, Jurong Central…  none of them mattered tonight. Your eyes remained fixed on the two constituencies the SDP had spent so much time fighting for: Bukit Panjang and Sembawang West.
+<p> Then, at around midnight, Returning Officer Han Kok Juan announced, “I hereby declare Paul Tambyah the winner of Bukit Panjang.”
+<p> For a moment, the room exploded. Volunteers shouted, hugged each other and broke into applause. You smiled for the cameras, shook hands and congratulated the team. After all, this was what you had wanted. The SDP had finally taken Bukit Panjang from the PAP.
+<p> But now that it had happened, your thoughts had already moved elsewhere. Sembawang West.
+<p> But alas, Sembawang West was not destined to go the same way. Poh Li San had held onto her seat.
+<p> Of course, Bukit Panjang was a victory. A historic one, even. But Sembawang West had been where you thought the party could make its statement. It was the constituency you had poured resources into, the one you had spoken about repeatedly, the one that was supposed to demonstrate that the SDP's appeal extended beyond a single breakthrough.
+<p> The SDP will have one seat in parliament tomorrow. But its leader, you, wouldn’t be in Parliament. The next 5 years would be awkward.
+
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (CSJResult > 45.0 && TambyahResult > 45.0 && isStateWinner(42681, 302) && isStateWinner(42711, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Victory </h3>
+<p> The early results barely registered. Marymount, Radin Mas, Jurong Central were all noise compared to the two constituencies you had been waiting for. Bukit Panjang and Sembawang West were the ones that would decide whether the SDP had finally broken through.
+<p> Then the screen changed. Returning Officer Han Kok Juan said a little something in a blur; and suddenly, it was known that the SDP had won Bukit Panjang.
+<p> You heard cheers from every corner. Volunteers hugged each other, some crying, others simply staring at the result as if they were afraid it might disappear. After years of defeats, excuses and promises to "do better next time", the SDP had finally won.
+<p> You smiled. This was it. Before you could fully process it, another constituency flashed across the screen.
+<p> Sembawang West to the SDP. It was announced by the returning officer.
+<p> As you saw your own face flashing across the CNA screen, you knew you had done it. After countless years, hours, minutes of toil and pain, you had finally clawed your way into Parliament. After your lawsuit, your jail time, your bankruptcy, it all didn’t matter in that one fleeting moment. It was cathartic, really. All that pain let go in one fell swoop, as you return with Paul into the chambers of Parliament.
+<p> The wait was finally over. And it’s time for political revolution. Our revolution.
+
+
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (quickstats[0] > 6) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Victory </h3>
+<p> The early results barely registered. Marymount, Radin Mas, Jurong Central were all noise compared to the two constituencies you had been waiting for. Bukit Panjang and Sembawang West were the ones that would decide whether the SDP had finally broken through.
+<p> Then the screen changed. Returning Officer Han Kok Juan said a little something in a blur; and suddenly, it was known that the SDP had won Bukit Panjang.
+<p> You heard cheers from every corner. Volunteers hugged each other, some crying, others simply staring at the result as if they were afraid it might disappear. After years of defeats, excuses and promises to "do better next time", the SDP had finally won.
+<p> You smiled. This was it. Before you could fully process it, another constituency flashed across the screen.
+<p> Sembawang West to the SDP. It was announced by the returning officer.
+<p> As you saw your own face flashing across the CNA screen, you knew you had done it. After countless years, hours, minutes of toil and pain, you had finally clawed your way into Parliament. After your lawsuit, your jail time, your bankruptcy, it all didn’t matter in that one fleeting moment. It was cathartic, really. All that pain let go in one fell swoop, as you return with Paul into the chambers of Parliament.
+<p> The wait was finally over. And it’s time for political revolution. Our revolution.
+
+
+
+</div>
+`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
     else {
 
         e.pages = [`<p>what the shucks. contact coconuthats on discord</p>`]
@@ -14043,7 +14284,7 @@ function switcheroo() {
         return out;
     }
 
-    const STATS = [
+     const STATS = [
     {
             getValue: () => SDPEcon,
             label: `The SDP's economic policy is`,
@@ -14348,7 +14589,7 @@ campaignTrail_temp.jet_data = [{
         "50838": {
             "id": 50838,
             "answer": 50832,
-            "variable": "SDPEcon ",
+            "variable": "SDPHealth ",
             "operation": "add",
             "amount": 1
         },
