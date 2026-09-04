@@ -10319,6 +10319,25 @@ cyoAdventure = function (a) {
         SDPEcon  += 1;
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
+
+    if (SDPEcon > 3) {
+        ctsAchievement("Barisan SDP");
+    }
+
+    if (SDPHealth > 3) {
+        ctsAchievement("Tambyahcare");
+    }
+
+    if (SDPSocial > 3) {
+        ctsAchievement("Singapore Demisexual Party");
+    }
+    if (campaignTrail_temp.player_answers?.includes(6048)) {
+        ctsAchievement("Where is our money?");
+    }
+    if (campaignTrail_temp.player_answers?.includes(50686) && campaignTrail_temp.player_answers?.includes(6044)) {
+        ctsAchievement("Knife In The Back");
+    }
+
             //Walkover
           if(ans == 6071) {
               switcheroo();
@@ -11368,6 +11387,21 @@ endingPicker = (out, totv, aa, quickstats) => {
     
     const TambyahResult = getCandStatePct(42681, 302);
     const CSJResult = getCandStatePct(42711, 302);
+    const MYTResult = getCandStatePct(42721, 302);
+
+    //achievements
+
+    if (Gigene > 0 && isStateWinner(42681, 302) && isStateWinner(42711, 302)){
+        ctsAchievement("Elephant");
+    }
+    if (isStateWinner(42681, 302) && !isStateWinner(42711, 302)){
+        ctsAchievement("Awkward");
+    }
+    if (MYTResult < 12.5){
+        ctsAchievement("Bankrupted Again");
+    }
+
+
 
     construct = (a = 1) => {
         e.page = e.page + a < e.pages.length ? e.page + a : 0
@@ -11737,7 +11771,76 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 </div>
-`]
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> STATEMENT FROM THE CENTRAL EXECUTIVE COMMITTEE OF THE SINGAPORE DEMOCRATIC PARTY</h3>
+
+<p> <b> yoursdp.org </b>
+<p> <b> 24 May 2025 </b>
+
+<p> 3 weeks ago, we received the results of the 2025 Singaporean General Election. The results were unfortunately highly disappointing, and we have therefore decided that the party requires significant re-evaluation.
+
+<p> In particular, the party’s results in Sembawang West SMC and Bukit Panjang SMC were subpar, with SDP Secretary-General Dr Chee Soon Juan and SDP Chairman Dr Paul Tambyah being defeated in their respective races by a significant margin. This thus shows the irreconcilable differences between the electorate and the party, and the party refuses to back down in spite of this. The SDP must not stand for values it disagrees with for the sake of electoral triumph.
+
+<p> Therefore, the SDP has made the painful and tough decision to dissolve as a political party. Our final day of party operations will be 30 June, 2025. We will be permanently closing our office at the WCEGA Tower, and we will be unfortunately cancelling the memberships of all party members. The membership fees will be refunded.
+
+<p> The SDP will also be progressively closing down volunteer-related networks, group chats, Facebook and Telegram groups and other online groups. The SDP CEC thanks all volunteers, counting agents, election agents, members, candidates, CEC members, and all voters past-and-present for their support.
+
+<p> In solidarity, forever, the SDP CEC. Until we meet again in a freer Singapore.</div>`
+]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "House Tour",
+                "Sabrina Carpenter",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fafdd19d6e8940c99417ca2942d9ea779.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/019fe2e2-4e0a-726f-812f-c5ac78acdc00"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+
+    else if (CSJResult > 45.0 && TambyahResult < 45.0 && !isStateWinner(42711, 302)) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> Defeat </h3>
+
+<p> As election night began, the early numbers did little to concern you. Those in Marymount, Tampines Changkat, Kebun Baru – none of them were areas SDP had even contested in. Those could be dismissed as battles fought by the smaller parties, while your attention remained firmly fixed on Sembawang West and Bukit Panjang.
+
+<p> Then, much earlier than expected, Returning Officer Han Kok Juan went onto the podium, and declared Liang Eng Hua re-elected with a resounding mandate, far from what you or most pundits had expected. The result was not what you had hoped for. 
+
+<p> The SDP had failed to make the breakthrough you had spent months campaigning for, and worse, support had slipped from the previous election - but there was still one more constituency left. Sembawang West.
+
+<p> Then, much later in the night, Han came back and announced, “I hereby declare Poh Li San the winner of Sembawang West.” Another defeat, this one much closer and more agonising.
+
+<p> Your entire campaign had been built around the belief that Sembawang West could provide the SDP with the breakthrough it desperately needed. Instead, the voters had delivered a rejection to your policies, your ideas, your style.
+
+<p> You eventually lowered yourself into a plastic chair beside the volunteers. Around you, some were crying quietly while others sat in silence, staring at their phones. You reached for a tissue and removed your spectacles, rubbing your tired eyes.
+
+<p> Who knows where you’ll go next?
+
+
+</div>
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> Orange and Teal Closure Announcement </h3>
+
+<p> <b> Orange and Teal Facebook Page </b>
+<p> <b> 21 November 2025 </b>
+
+<p> Dear friends, we have decided to conclude our journey with Orange & Teal.
+
+<p> While this chapter comes to a close, we do so with gratitude and optimism. We are happy that we started Orange & Teal, and just as happy to leave it on our own terms - knowing that its spirit of courage, warmth and connection will live on.
+
+<p> This is not goodbye, only <i>until next time</i>. As they say, epilogue is prologue. We look forward to picking up where we left off one day.
+
+<p> Thanks, everyone, we had lots of fun doing it.
+
+<p> Dr Chee Soon Juan and the Orange & Teal team
+
+</div>`
+]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -11768,8 +11871,21 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 <p> You removed your spectacles and rubbed your eyes.
 
-</div>
-`]
+</div>`,
+`<div style='overflow-y:scroll;height:300px;'><h3> Commentary: After yet another electoral setback, has Chee Soon Juan’s strategy run its course? </h3>
+<p> <b> Channel News Asia </b>
+<p> <b> 8 May 2025 </b>
+
+<p> SINGAPORE: For many years the Singapore Democratic Party has almost-reliably seen stronger support in constituencies where the party’s Secretary-General, Chee Soon Juan, has stood. However, as the final ballots were tallied on Election Day, it seems increasingly unclear whether the Chee factor still carries the electoral weight it once did.
+
+<p> Paul Tambyah’s stronger showing in Bukit Panjang compared to Chee’s has posed an uncomfortable question for many in the party’s headquarters at Bukit Batok Crescent. Much of the post-mortem analysis of the SDP’s campaign in the election by pundits has pointed to Tambyah’s healthcare policy-focused campaign resonating more with voters than Chee’s broader attacks on the PAP government. Despite that, whether Tambyah’s result in Bukit Panjang represents a genuine shift in the SDP’s electoral fortunes remains to be seen. After all, Bukit Panjang is only one constituency, and a strong personal campaign does not necessarily translate to party-wide appeal.
+
+<p> Within the party, however, the results will likely prompt a much more uncomfortable conversation. With the SDP once again returning from an election empty-handed, questions over whether Chee is the best person to lead the party into the next election are unlikely to be dispelled quietly. Of course, there is little reason to suggest that an immediate leadership challenge or an emergency party conference will be called. Chee remains the most recognisable figure within the party, having spent decades rebuilding his own political standing and the SDP after the setbacks of the 1990s, with the SDP becoming one of Singapore’s more established opposition parties. 
+
+<p> But for the first time in years, the argument that he is one of the party’s most valuable election assets has become considerably harder to make. The question now is whether Chee’s long established strategy for the SDP has finally run its course, and that the party should run a more policy-focused campaign in the next election, or whether Tambyah’s result in Bukit Panjang is an exception, and that the party should stick to its basic strategy. However, it is unlikely a satisfactory answer to this question will appear until the next election cycle.
+
+</div>`
+]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -11795,8 +11911,23 @@ endingPicker = (out, totv, aa, quickstats) => {
 <p> You took off your spectacles and rubbed your eyes. Because after all you’ve done, your life’s work, you still fell just short.
 
 
-</div>
-`]
+</div>`,
+`<div style='overflow-y:scroll;height:300px;'><h3> STATEMENT FROM THE CENTRAL EXECUTIVE COMMITTEE OF THE SINGAPORE DEMOCRATIC PARTY</h3>
+
+<p> <b> yoursdp.org </b>
+<p> <b> 24 May 2025 </b>
+
+<p> The Singapore Democratic Party condemns the undemocratic practices which may have taken place in the counting centres of the 2025 Singaporean general election. Polling and counting agents affiliated to our party reported multiple instances of miscounted votes, the wrongful decision to consider votes void, and other undemocratic practices which cast doubt on the democracy of our country.
+
+<p> The Singapore Democratic Party calls upon all relevant authorities to conduct a review of the methods in which the election results were counted, and any and all discrepancies to be reported. Furthermore, the Singapore Democratic Party requests a recount in the constituencies of Sembawang West and Bukit Panjang.
+
+<p> The Singapore Democratic Party, while disappointed by the current results, is hopeful that the relevant authorities will do the right thing and ensure all future elections are fairly held.
+
+<p> The Singapore Democratic Party Central Executive Committee
+
+<p> Secretary-General Chee Soon Juan
+</div>`
+]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -11811,7 +11942,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
         return construct(0);
     }
-    else if (CSJResult > 45.0 && TambyahResult > 45.0 && !isStateWinner(42681, 302) && isStateWinner(42711, 302)) {
+    else if (!isStateWinner(42681, 302) && isStateWinner(42711, 302)) {
         e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
         e.pages = [`<div style='overflow-y:scroll;height:300px;'>
 <h3> Celebratory </h3>
@@ -11832,7 +11963,23 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 </div>
-`]
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> Sembawang West Town Council </h3>
+<p> <b> A Town Council That Listens. A Community That Decides. </b>
+<p> <b> Dr Chee Soon Juan, MP for Sembawang West </b>
+
+<p> Sembawang West belongs to all of us. 
+
+<p> Our elected representatives are here to listen to residents, respond, and work with fellow residents to build a town that serves everyone. At Sembawang West Town Council (SWTC), we believe that good town management begins with listening to the people who live here. Residents should not just be simply recipients of town services, but have a meaningful voice in shaping the community they call home. 
+
+<p> Our Member of Parliament (MP) and town council team are committed to being accessible, transparent and accountable to residents. We will work to ensure that concerns are heard, decisions are explained, and the interests of our community remain at the heart of how our town is managed. Whether it is through improving local estates, enhancing social support networks for vulnerable groups, or fighting for your municipal interests, we believe residents should have a town council that truly answers to you. 
+
+<p> Your views matter. Your participation matters. Together we can build a better Sembawang West. Get to know your elected representative and find out how you can reach out, raise your concerns and take part in your community. 
+
+<p> Meet-The People sessions are held weekly as a way for residents to have their grievances heard, seek assistance or share ideas with their elected representative. Town Hall sessions are also held monthly as a way for residents to provide feedback or opinions on public policy.
+
+</div>`
+]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -11847,7 +11994,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
         return construct(0);
     }
-    else if (CSJResult > 45.0 && TambyahResult > 45.0 && isStateWinner(42681, 302) && !isStateWinner(42711, 302)) {
+    else if (isStateWinner(42681, 302) && !isStateWinner(42711, 302)) {
         e.image = "https://file.garden/aftBfT23iVucvcGE/cendings/darryl.png"
         e.pages = [`<div style='overflow-y:scroll;height:300px;'>
 <h3> Awkward </h3>
@@ -11861,7 +12008,17 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 </div>
-`]
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> Official SDP Statement About Party Fragmentation by Secretary-General, Chee Soon Juan </h3>
+<p> <b> Singapore Democratic Party </b>
+<p> <b> 20 October 2026 </b>
+<p> As reported in many news sites following a SDP leadership conference last week, there have been rumours circling around that the SDP has been going through leadership turmoil following the General Election last year. This especially comes after the SDP won the constituency of Bukit Panjang last year, and lost the contest of Sembawang West to the PAP.
+<p> I would like to say that these rumours have been confirmed.
+<p> Following a meeting in the CEC last week, I have unfortunately made the hard decision to step down from leadership after 3 decades in charge of the party. The SDP CEC has elected Dr Paul Tambyah to replace me as Secretary-General, and I will respect the decisions of the CEC and the cadre.
+<p> I wish Dr Tambyah and the SDP all the best in future political endeavours, and to continue to fight to move Singapore forward.
+
+</div>`
+]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -11891,7 +12048,16 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 </div>
-`]
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> What is Paul Tambayah’s healthcare proposal and why is the PAP opposed to it? </h3>
+<p> <b> @mothershipsg </b>
+<p> <b> 8 January 2026 </b>
+<p> You’ve probably been seeing the term ‘Tambyahcare’ being shared around online after the last session of Parliament. But what does it mean? 
+<p> Well, Tambyahcare is just the nickname for SDP MP Paul Tambyah’s healthcare plan, which proposes the implementation of universal healthcare within Singapore’s healthcare system. Under his plan, the current 3M framework of Medishield Life, Medisave and Medifund medical treatments would become totally free for all Singaporeans. Sounds nice, right? Well it is unlikely to pass in parliament given the mounting opposition that PAP MPs have been putting up to discussion on Tambyahcare since its first mention in parliament last week. In particular, Minister of Health Ong Ye Kung dubbed the plan as ‘unfitting for Singapore’s context’. Tambyah’s party Secretary-General and MP for Sembawang West Chee Soon Juan also added to the parliamentary debate, criticizing the PAP for “pricing people out of healthcare”.
+<p> Despite Tambyahcare likely not making it into law, netizens and SDP supporters are expressing their support en masse for the policy. Forums like r/Singapore have been making posts and comments in solidarity with the SDP’s proposal. In particular, a post detailing a user’s struggle on affording the healthcare bills for their mother going through chemotherapy have gone viral. 
+<p> Though Tambyahcare’s implementation is unlikely, it has undeniably started a debate on how effective Singapore’s current healthcare system really is.
+
+</div>`]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -14317,16 +14483,6 @@ function switcheroo() {
                 [1, `Liberal.`, "#ff8f8f"],
                 [2, `Very Liberal.`, "#f74141"],
                 [Infinity, `Wake Up Singapore.`, "#00ff5e"],
-            ],
-        },
-    {
-            getValue: () => Gigene,
-            label: `placeholder for testing`,
-            showLabel: true,
-            tiers: [
-                [0, `Gigene  is struggling.`, "#ef4444"],
-                [2, `Gigene  is steady.`, "#525252"],
-                [Infinity, `Gigene  is surging.`, "#22c55e"],
             ],
         },
     {
