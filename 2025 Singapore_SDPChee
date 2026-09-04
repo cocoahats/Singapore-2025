@@ -10320,15 +10320,15 @@ cyoAdventure = function (a) {
     }
     // [JETS_CYOA_VARIABLE_EFFECTS_END]
 
-    if (SDPEcon > 3) {
+    if (SDPEcon > 2) {
         ctsAchievement("Barisan SDP");
     }
 
-    if (SDPHealth > 3) {
+    if (SDPHealth > 2) {
         ctsAchievement("Tambyahcare");
     }
 
-    if (SDPSocial > 3) {
+    if (SDPSocial > 2) {
         ctsAchievement("Singapore Demisexual Party");
     }
     if (campaignTrail_temp.player_answers?.includes(6048)) {
