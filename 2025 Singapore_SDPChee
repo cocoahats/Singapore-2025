@@ -10358,7 +10358,7 @@ cyoAdventure = function (a) {
     if (campaignTrail_temp.question_number == 23 && SDPHealth + SDPEcon + SDPSocial < 2) {
         questionSwapper(12232, 12234);
     }
-    if (campaignTrail_temp.question_number == 20 && Gigene > 0) {
+    if (campaignTrail_temp.question_number == 23 && Gigene > 0) {
         questionSwapper(12233, 12234);
     }
 }
