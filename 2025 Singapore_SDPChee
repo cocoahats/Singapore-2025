@@ -11935,7 +11935,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         return construct(0);
     }
     else if (CSJResult > 45.0 && TambyahResult > 45.0 && !isStateWinner(42681, 302) && !isStateWinner(42711, 302)) {
-        e.image = ["hhttps://file.garden/aftBfT23iVucvcGE/sdpendings/csjend111.png","https://file.garden/aftBfT23iVucvcGE/sdpendings/RECOUNT.png"]
+        e.image = ["https://file.garden/aftBfT23iVucvcGE/sdpendings/csjend111.png","https://file.garden/aftBfT23iVucvcGE/sdpendings/RECOUNT.png"]
         e.pages = [`<div style='overflow-y:scroll;height:300px;'>
 <h3> Agonizing Defeat </h3>
 <p> The early results were mostly irrelevant. Marymount, Radin Mas, Jurong Central — none of them were where you had placed your hopes. You were waiting for Bukit Panjang and Sembawang West.
@@ -11965,10 +11965,10 @@ endingPicker = (out, totv, aa, quickstats) => {
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
-                "Manchild",
+                "Please Please Please",
                 "Sabrina Carpenter",
-                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2F5b099a4fe7bc649900fd54fd4dd747f9.1000x1000x1.png",
-                "https://audio.jukehost.co.uk/01a0874d-26b7-71d7-b4b4-6b7df158e4a1"
+                "https://upload.wikimedia.org/wikipedia/en/5/55/Sabrina_Carpenter_-_Please_Please_Please.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+                "https://audio.jukehost.co.uk/01a0954c-29a6-733d-9a11-5272b215ce62"
             );
             playlist.addSong(song);
             changePlaylist(playlist);
