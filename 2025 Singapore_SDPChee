@@ -12107,7 +12107,7 @@ endingPicker = (out, totv, aa, quickstats) => {
         return construct(0);
     }
     else if (quickstats[0] > 6 && quickstats[0]<11) {
-        e.image = "https://file.garden/aftBfT23iVucvcGE/sdpendings/csjend9.png"
+        e.image = ["https://file.garden/aftBfT23iVucvcGE/sdpendings/csjend9.png","https://file.garden/aftBfT23iVucvcGE/sdpendings/interview.png"]
         e.pages = [`<div style='overflow-y:scroll;height:300px;'>
 <h3>Democracy</h3>
 <p>At the start of the night, you had not been certain about whether you’d win. You sat in a plastic chair in the Evans Road stadium, simply praying that you’d get into Parliament. That Paul would get into Parliament. That someone, for the first time since 1997, would represent the SDP.
@@ -12123,7 +12123,18 @@ endingPicker = (out, totv, aa, quickstats) => {
 
 
 </div>
-`]
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3>STATEMENT FROM THE SDP CEC ON MINISTERIAL SALARIES</h3>
+<p><b>yoursdp.org</b>
+<p>8 September 2026
+<p>Once again, the topic of ministerial salaries has dominated political debate in Singapore. The PAP, under Mr Lawrence Wong, has continued to push for profligate spending. This spending now extends to their own salaries. It appears that Mr Lawrence Wong and his Ridout Road mansion ministers have not been earning enough, and now they request for more.
+<p>This money is the money of Singaporean taxpayers, which should be spent on Singaporeans in need, not Singaporeans with greed. The PAP ministers are by no means unable to put food on their table; their exorbitant salaries outdo almost every country in the world, and Mr Lawrence Wong is the highest paid democratically elected head-of-state in the world.
+<p>Thankfully, the SDP has saved Singaporean taxpayers some money, by preventing Mr Ong Ye Kung from getting his salary increment as we sent him to the unemployment line about 16 months ago.
+<p>The SDP stands in solidarity, with you, for you, so you can thrive, not just survive.
+<p>The SDP parliamentary delegation (Dr CHEE Soon Juan, Dr Paul TAMBYAH, Dr James GOMEZ, Alfred TAN, Surayah AKBAR, Damanhuri bin ABAS and Bryan LIM).
+
+
+</div>`]
         if (used != true) {
             const playlist = new Playlist();
             const song = new Song(
@@ -12138,8 +12149,54 @@ endingPicker = (out, totv, aa, quickstats) => {
         }
         return construct(0);
     }
-    else if (quickstats[0] > 10) {
-        e.image = "https://file.garden/aftBfT23iVucvcGE/sdpendings/csjend10.png"
+    else if (quickstats[0] == 11) {
+        e.image = ["https://file.garden/aftBfT23iVucvcGE/sdpendings/csjend10.png","https://file.garden/aftBfT23iVucvcGE/sdpendings/ccshegseth.png"]
+        e.pages = [`<div style='overflow-y:scroll;height:300px;'>
+<h3> King Of The North </h3>
+<p>At the start of the night, you had not been certain about whether you’d win. You sat in a plastic chair in the Evans Road stadium, simply praying that you’d get into Parliament. That Paul would get into Parliament. That someone, for the first time since 1997, would represent the SDP.
+
+<p>Then, the results for the northern constituencies came in, way earlier than you expected. Bukit Panjang, SDP gain. The stadium erupted once. Sembawang West, SDP gain. The stadium erupted again. But, Sembawang and Marsiling-Yew Tee sample count warned that the race was still too close to call. So you waited. You tried to remain composed, surrounded by volunteers who were doing a much worse job of hiding their nerves.
+
+<p> As you watched the results pour in, you were shocked to the core. The SDP, which had contested seats against notable Ministers and the Prime Minister, had won them all. The dark magic that made this possible was unexplainable, but you didn’t need an explanation. 
+
+<p>“I hereby declare the team of candidates fielded by the SDP elected into Parliament…”
+
+
+<p> Amid the outpour of congratulations from your supporters, all you could think about was how you had finally pulled it off. From 1992, when you lost the by-election to that horrible Prime Minister. In 2001, when you got in trouble for shouting at that same man with a loudspeaker. In 2006, when you were imprisoned. In 2015, when you returned to contesting elections. And now in 2025, you have taken down a Prime Minister.
+
+<p> Congratulations, Dr Chee. You’ve done it.
+
+
+
+</div>
+`,
+`<div style='overflow-y:scroll;height:300px;'><h3> CNA: PRIME MINISTER CHAN SPEAKS AT SHANGRI-LA DIALOGUE, ADVOCATES FOR A BETTER ASEAN, BETTER SINGAPORE</h3>
+<p>Speaking at the annual Shangri-La Dialogue on the 23rd of May, 2026, Prime Minister Chan Chun Sing advocated for a better, more stable South-East Asia following the Myanmar refugee crisis.
+<p>“We should know best what political stability looks like. Since last year, when Prime Minister Wong was voted out of office, I was immediately shifted up to power. We must stay in power and live up to our ideals in Singapore as a political and economic haven. We must also help our regional neighbours in their pursuit for national and collective security,” he said during the dialogue.
+<p>This comes after former Prime Minister Wong was voted out of office in the GE2025, which was perceived to be an “electoral shock” to many political analysts. Not less than three days later, the PAP had elected its new Secretary-General and Prime Minister of Singapore, Chan Chun Sing. At the same time, Chan gave himself the Minister of Defence portfolio.
+<p>The Prime Minister's remarks centred heavily on the importance of political continuity, warning that instability in one ASEAN member state could quickly have consequences for the wider region.
+<p>“ASEAN's strength has never been that we all agree,” Chan said. “Our strength is that we continue talking even when we disagree. And if we cannot agree, we at least agree to continue talking about why we disagree.”
+<p>He added that Singapore would continue to work with its ASEAN partners to promote regional stability, economic resilience and humanitarian cooperation.
+<p>“A better ASEAN begins with better neighbours. A better Singapore begins with a Singapore that is ready to do its part.”
+<p>The Shangri-La Dialogue concluded with regional leaders reaffirming their commitment to maintaining peace and stability in the Indo-Pacific.
+
+</div>`]
+        if (used != true) {
+            const playlist = new Playlist();
+            const song = new Song(
+                "Sunshine",
+                "Steve Lacy, Fousheé",
+                "https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Ff9df34a71e0b3e7adaaf07a8052b8260.1000x1000x1.png",
+                "https://audio.jukehost.co.uk/01a0952d-f7cc-71a9-965b-f97560e90ee4"
+            );
+            playlist.addSong(song);
+            changePlaylist(playlist);
+            used = true;
+        }
+        return construct(0);
+    }
+    else if (quickstats[1] > 90) {
+        e.image = "https://file.garden/aftBfT23iVucvcGE/sdpendings/absolutecheenema.png"
         e.pages = [`<div style='overflow-y:scroll;height:300px;'>
 <h3> True Democracy </h3>
 
